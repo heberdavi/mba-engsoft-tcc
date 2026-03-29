@@ -31,6 +31,10 @@ Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relaci
 ## 📂 Estrutura do Repositório
 
 ```text
+├── data/                            # Banco de dados .db (git-ignored).
+│   ├── base-dados-final.db          # Versão final da base de dados, completa.
+├── docs/
+│   ├── database.md                  # Documentação técnica e diagrama do modelo de dados.
 ├── notebooks/
 │   ├── 01-processamento_pln.ipynb   # Pipeline de limpeza, BERTopic e Sentimento.
 │   └── 02-visualizacao_resultados.ipynb # Extração de insights e visualização de dados.
@@ -38,10 +42,6 @@ Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relaci
 │   ├── 01-schema.sql                # Definição de todas as tabelas e índices.
 │   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
 │   └── queries/
-│       └── validacoes.sql           # Consultas SQL para auditoria dos resultados.
-│       └── dados-graficos.sql       # Consultas SQL para geração dos gráficos.
-├── docs/
-│   ├── database.md                  # Documentação técnica e diagrama do modelo de dados.
-├── data/                            # Banco de dados .db (git-ignored).
-│   ├── base-dados-final.db          # Versão final da base de dados, completa.
+│       └── 01-dados-graficos.sql    # Consultas SQL para geração dos gráficos.
+│       └── 02-validacoes.sql        # Consultas SQL para auditoria dos resultados.
 └── README.md                        # Documentação do projeto.
