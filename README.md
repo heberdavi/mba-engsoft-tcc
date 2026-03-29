@@ -11,7 +11,7 @@ O objetivo é identificar "antídotos" nas escrituras para as angústias descrit
 
 ## 🛠️ Arquitetura de Dados e Tecnologias
 
-O projeto separa a estrutura de dados, o armazenamento e a lógica de processamento.
+O projeto separa a estrutura de dados, o armazenamento e a lógica de processamento para garantir a integridade e escalabilidade da análise.
 
 * **Banco de Dados:** SQLite (Relacional)
 * **Linguagem:** Python 3.x
@@ -19,6 +19,12 @@ O projeto separa a estrutura de dados, o armazenamento e a lógica de processame
     * `BERTopic`: Para classificação Zero-Shot de eixos existenciais.
     * `BERTimbau (pysentimiento)`: Para análise de sentimento contextualizado em PT-BR.
     * `spaCy (pt_core_news_lg)`: Para limpeza estrutural e filtragem gramatical.
+
+### 🗄️ Modelagem do Banco de Dados
+A estrutura do banco de dados foi desenhada para suportar quatro camadas lógicas: Domínio Bíblico, Texto, Processamento PLN e Inteligência (Inference).
+
+Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relacionamento (ER)** renderizado via Mermaid, acesse:
+👉 **[Documentação da Arquitetura de Dados (DATABASE.md)](./DATABASE.md)**
 
 ---
 
@@ -33,5 +39,6 @@ O projeto separa a estrutura de dados, o armazenamento e a lógica de processame
 │   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
 │   └── queries/
 │       └── validacoes.sql           # Consultas SQL para auditoria dos resultados.
+├── DATABASE.md                      # Documentação técnica e diagrama do modelo de dados.
 ├── data/                            # Local sugerido para o banco .db (git-ignored).
 └── README.md                        # Documentação do projeto.
