@@ -24,7 +24,7 @@ O projeto separa a estrutura de dados, o armazenamento e a lógica de processame
 A estrutura do banco de dados foi desenhada para suportar quatro camadas lógicas: Domínio Bíblico, Texto, Processamento PLN e Inteligência (Inference).
 
 Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relacionamento (ER)** renderizado via Mermaid, acesse:
-👉 **[Documentação da Arquitetura de Dados (DATABASE.md)](./docs/DATABASE.md)**
+👉 **[Documentação da Arquitetura de Dados (DATABASE.md)](.docs/DATABASE.md)**
 
 ---
 
