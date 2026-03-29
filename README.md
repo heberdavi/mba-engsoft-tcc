@@ -1,6 +1,6 @@
-# 📖 NLP Bíblia: Antídotos à Ansiedade Contemporânea
+# 📖 PLN Bíblia: Antídotos à Ansiedade Contemporânea
 
-Este projeto de Trabalho de Conclusão de Curso (MBA em Engenharia de Software) utiliza técnicas de **Processamento de Linguagem Natural (NLP)** para analisar o texto bíblico (NVI) sob a ótica da psicologia existencial e sociologia contemporânea.
+Este projeto de Trabalho de Conclusão de Curso (MBA em Engenharia de Software) utiliza técnicas de **Processamento de Linguagem Natural (PLN)** para analisar o texto bíblico (NVI) sob a ótica da psicologia existencial e sociologia contemporânea.
 
 O objetivo é identificar "antídotos" nas escrituras para as angústias descritas por:
 * **Viktor Frankl:** O vazio existencial e a busca de sentido.
@@ -11,7 +11,7 @@ O objetivo é identificar "antídotos" nas escrituras para as angústias descrit
 
 ## 🛠️ Arquitetura de Dados e Tecnologias
 
-O projeto segue princípios de **Gestão de Configuração**, separando estritamente a estrutura de dados, o armazenamento e a lógica de processamento.
+O projeto separa a estrutura de dados, o armazenamento e a lógica de processamento.
 
 * **Banco de Dados:** SQLite (Relacional)
 * **Linguagem:** Python 3.x
@@ -26,8 +26,8 @@ O projeto segue princípios de **Gestão de Configuração**, separando estritam
 
 ```text
 ├── notebooks/
-│   ├── 01_processamento_nlp.ipynb   # Pipeline de limpeza, BERTopic e Sentimento.
-│   └── 02_visualizacao_graficos.ipynb # Extração de insights e visualização de dados.
+│   ├── 01-processamento_pln.ipynb   # Pipeline de limpeza, BERTopic e Sentimento.
+│   └── 02-visualizacao_resultados.ipynb # Extração de insights e visualização de dados.
 ├── sql/
 │   ├── 01-schema.sql                # Definição de todas as tabelas e índices.
 │   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
