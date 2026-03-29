@@ -24,7 +24,7 @@ O projeto separa a estrutura de dados, o armazenamento e a lógica de processame
 A estrutura do banco de dados foi desenhada para suportar quatro camadas lógicas: Domínio Bíblico, Texto, Processamento PLN e Inteligência (Inference).
 
 Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relacionamento (ER)** renderizado via Mermaid, acesse:
-👉 **[Documentação da Arquitetura de Dados (DATABASE.md)](./DATABASE.md)**
+👉 **[Documentação da Arquitetura de Dados (DATABASE.md)](./docs/DATABASE.md)**
 
 ---
 
@@ -39,6 +39,8 @@ Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relaci
 │   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
 │   └── queries/
 │       └── validacoes.sql           # Consultas SQL para auditoria dos resultados.
-├── DATABASE.md                      # Documentação técnica e diagrama do modelo de dados.
-├── data/                            # Local sugerido para o banco .db (git-ignored).
+├── docs/
+│   ├── DATABASE.md                  # Documentação técnica e diagrama do modelo de dados.
+├── data/                            # Banco de dados .db (git-ignored).
+│   ├── base-dados-final.db          # Versão final da base de dados.
 └── README.md                        # Documentação do projeto.
