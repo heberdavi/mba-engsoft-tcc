@@ -152,3 +152,25 @@ WHERE (l.abreviacao = 'Jo' AND v.numero_capitulo = 3 AND v.numero_verso = 16)
    OR (l.abreviacao = 'Ec' AND v.numero_capitulo = 1 AND v.numero_verso = 2)
    OR (l.abreviacao = 'Fp' AND v.numero_capitulo = 4 AND v.numero_verso = 13)
    OR (l.abreviacao = 'Lm' AND v.numero_capitulo = 3 AND v.numero_verso = 22);
+   
+   
+-- célula 6: em qual gênero, a cura é mais forte/presente 
+SELECT 
+    t.antidoto_referencia as Eixo,
+    g.nome as Genero,
+    COUNT(*) as Total_Versos,
+    -- Percentual de versículos que são efetivamente "Antídotos" (Positivos)
+    ROUND(SUM(CASE WHEN vs.sentimento_num = 1 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) as Percentual_Cura,
+    -- Percentual de versículos que expõem a "Crise" (Negativos)
+    ROUND(SUM(CASE WHEN vs.sentimento_num = -1 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) as Percentual_Crise,
+    ROUND(AVG(vs.sentimento_num), 3) as Saldo_Emocional
+FROM verso_topico vt
+JOIN topico t ON vt.topico_id = t.id
+JOIN verso_sentimento vs ON vt.verso_id = vs.verso_id
+JOIN verso v ON v.id = vt.verso_id
+JOIN livro l ON l.id = v.livro_id
+JOIN genero_literario g ON g.id = l.genero_id
+WHERE t.id != 3
+GROUP BY t.antidoto_referencia, g.nome
+HAVING Total_Versos > 50 -- Filtro para evitar distorções estatísticas em amostras pequenas
+ORDER BY Eixo, Saldo_Emocional DESC;   

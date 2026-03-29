@@ -39,8 +39,9 @@ Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relaci
 │   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
 │   └── queries/
 │       └── validacoes.sql           # Consultas SQL para auditoria dos resultados.
+│       └── dados-graficos.sql       # Consultas SQL para geração dos gráficos.
 ├── docs/
-│   ├── DATABASE.md                  # Documentação técnica e diagrama do modelo de dados.
+│   ├── database.md                  # Documentação técnica e diagrama do modelo de dados.
 ├── data/                            # Banco de dados .db (git-ignored).
-│   ├── base-dados-final.db          # Versão final da base de dados.
+│   ├── base-dados-final.db          # Versão final da base de dados, completa.
 └── README.md                        # Documentação do projeto.
