@@ -52,8 +52,7 @@ CREATE TABLE "verso"(
 -- 2. CAMADA DE PROCESSAMENTO PLN (Célula 4)
 -- -----------------------------------------------------------------------------
 
-DROP TABLE IF EXISTS "verso_limpo";
-CREATE TABLE "verso_limpo"(
+CREATE TABLE IF NOT EXISTS "verso_limpo"(
     "verso_id" INTEGER PRIMARY KEY,
     "texto_limpo" TEXT NOT NULL,
     FOREIGN KEY (verso_id) REFERENCES verso(id)
@@ -62,15 +61,12 @@ CREATE TABLE "verso_limpo"(
 -- 3. CAMADA DE CLASSIFICAÇÃO EXISTENCIAL (Célula 5 - BERTopic)
 -- -----------------------------------------------------------------------------
 
-DROP TABLE IF EXISTS "verso_topico";
-DROP TABLE IF EXISTS "topico";
-
-CREATE TABLE "topico"(
+CREATE TABLE IF NOT EXISTS "topico"(
     "id" INTEGER PRIMARY KEY,
     "antidoto_referencia" VARCHAR(100) NOT NULL -- Ex: Esgotamento (Han)
 );
 
-CREATE TABLE "verso_topico"(
+CREATE TABLE IF NOT EXISTS "verso_topico"(
     "verso_id" INTEGER PRIMARY KEY,
     "topico_id" INTEGER NOT NULL,
     "similaridade" FLOAT,
@@ -81,8 +77,7 @@ CREATE TABLE "verso_topico"(
 -- 4. CAMADA DE ANÁLISE DE SENTIMENTO (Célula 6 - BERTimbau)
 -- -----------------------------------------------------------------------------
 
-DROP TABLE IF EXISTS "verso_sentimento";
-CREATE TABLE "verso_sentimento"(
+CREATE TABLE IF NOT EXISTS "verso_sentimento"(
     "verso_id" INTEGER PRIMARY KEY,
     "label" VARCHAR(10) NOT NULL,       -- POS, NEU, NEG
     "sentimento_num" INTEGER NOT NULL, -- 1, 0, -1
