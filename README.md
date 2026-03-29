@@ -1,0 +1,37 @@
+# 📖 NLP Bíblia: Antídotos à Ansiedade Contemporânea
+
+Este projeto de Trabalho de Conclusão de Curso (MBA em Engenharia de Software) utiliza técnicas de **Processamento de Linguagem Natural (NLP)** para analisar o texto bíblico (NVI) sob a ótica da psicologia existencial e sociologia contemporânea.
+
+O objetivo é identificar "antídotos" nas escrituras para as angústias descritas por:
+* **Viktor Frankl:** O vazio existencial e a busca de sentido.
+* **Zygmunt Bauman:** A fragilidade dos laços e a incerteza da modernidade líquida.
+* **Byung-Chul Han:** A exaustão e a fadiga na sociedade do desempenho.
+
+---
+
+## 🛠️ Arquitetura de Dados e Tecnologias
+
+O projeto segue princípios de **Gestão de Configuração**, separando estritamente a estrutura de dados, o armazenamento e a lógica de processamento.
+
+* **Banco de Dados:** SQLite (Relacional)
+* **Linguagem:** Python 3.x
+* **Modelos de IA:**
+    * `BERTopic`: Para classificação Zero-Shot de eixos existenciais.
+    * `BERTimbau (pysentimiento)`: Para análise de sentimento contextualizado em PT-BR.
+    * `spaCy (pt_core_news_lg)`: Para limpeza estrutural e filtragem gramatical.
+
+---
+
+## 📂 Estrutura do Repositório
+
+```text
+├── notebooks/
+│   ├── 01_processamento_nlp.ipynb   # Pipeline de limpeza, BERTopic e Sentimento.
+│   └── 02_visualizacao_graficos.ipynb # Extração de insights e visualização de dados.
+├── sql/
+│   ├── 01-schema.sql                # Definição de todas as tabelas e índices.
+│   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
+│   └── queries/
+│       └── validacoes.sql           # Consultas SQL para auditoria dos resultados.
+├── data/                            # Local sugerido para o banco .db (git-ignored).
+└── README.md                        # Documentação do projeto.
