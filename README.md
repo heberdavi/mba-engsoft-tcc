@@ -39,9 +39,9 @@ Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relaci
 │   ├── 01-processamento_pln.ipynb   # Pipeline de limpeza, BERTopic e Sentimento.
 │   └── 02-visualizacao_resultados.ipynb # Extração de insights e visualização de dados.
 ├── sql/
-│   ├── 01-schema.sql                # Definição de todas as tabelas e índices.
-│   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
 │   └── queries/
 │       └── 01-dados-graficos.sql    # Consultas SQL para geração dos gráficos.
 │       └── 02-validacoes.sql        # Consultas SQL para auditoria dos resultados.
+│   ├── 01-schema.sql                # Definição de todas as tabelas e índices.
+│   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
 └── README.md                        # Documentação do projeto.
