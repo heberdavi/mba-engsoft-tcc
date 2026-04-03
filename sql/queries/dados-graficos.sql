@@ -1,3 +1,20 @@
+-- total de versos por eixo filosófico
+-- total de versos com sentimento positivo, considerados como "Antidotos_Cura" 
+-- total de versos com sentimento negativo, considerados como "Problematica_Crise"
+-- polaridade média
+SELECT
+	t.antidoto_referencia as Eixo_Filosofico,
+	COUNT(*) as Total_Versos,
+	SUM(CASE WHEN vs.sentimento_num = 1 THEN 1 ELSE 0 END) as Antidotos_Cura,
+	SUM(CASE WHEN vs.sentimento_num = -1 THEN 1 ELSE 0 END) as Problematica_Crise,
+	ROUND(AVG(vs.sentimento_num), 3) as Polaridade_Media
+FROM verso_topico vt
+JOIN topico t ON vt.topico_id = t.id
+JOIN verso_sentimento vs ON vt.verso_id = vs.verso_id
+WHERE t.id != 3 -- Foco nos eixos Han, Bauman e Frankl
+GROUP BY t.antidoto_referencia
+ORDER BY Polaridade_Media DESC;
+
 -- distribuicao de antidotos, por genero literario
 SELECT
 	g.nome as Genero,
