@@ -1,34 +1,28 @@
 -- =============================================================================
 -- ARTEFATO: 01-schema.sql
--- PROJETO: TCC MBA Engenharia de Software - PLN Bíblia vs. Ansiedade Contemporânea
+-- PROJETO: TCC MBA Engenharia de Software
 -- =============================================================================
 
 -- 1. ESTRUTURA BÁSICA (Textos Bíblicos conforme original NVI)
 -- -----------------------------------------------------------------------------
 
-DROP TABLE IF EXISTS "verso";
-DROP TABLE IF EXISTS "livro";
-DROP TABLE IF EXISTS "genero_literario";
-DROP TABLE IF EXISTS "testamento";
-DROP TABLE IF EXISTS "versao";
-
-CREATE TABLE "versao"(
+CREATE TABLE IF NOT EXISTS "versao"(
     "id" INTEGER PRIMARY KEY,
     "sigla" VARCHAR(10) NOT NULL,
     "nome" VARCHAR(50) NOT NULL
 );
 
-CREATE TABLE "testamento"(
+CREATE TABLE IF NOT EXISTS "testamento"(
     "id" INTEGER PRIMARY KEY,
     "nome" VARCHAR(45) NOT NULL
 );
 
-CREATE TABLE "genero_literario"(
+CREATE TABLE IF NOT EXISTS "genero_literario"(
     "id" INTEGER PRIMARY KEY AUTOINCREMENT,
     "nome" VARCHAR(45) NOT NULL
 );
 
-CREATE TABLE "livro"(
+CREATE TABLE IF NOT EXISTS "livro"(
     "id" INTEGER PRIMARY KEY,
     "nome" VARCHAR(45) NOT NULL,
     "abreviacao" VARCHAR(5) NOT NULL,
@@ -38,7 +32,7 @@ CREATE TABLE "livro"(
     FOREIGN KEY (genero_id) REFERENCES genero_literario(id)
 );
 
-CREATE TABLE "verso"(
+CREATE TABLE IF NOT EXISTS "verso"(
     "id" INTEGER PRIMARY KEY AUTOINCREMENT,
     "versao_id" INTEGER NOT NULL,
     "livro_id" INTEGER NOT NULL,

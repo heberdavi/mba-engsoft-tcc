@@ -30,7 +30,14 @@ from genero_literario gl
 join livro l on l.genero_id = gl.id
 join verso v on v.livro_id = l.id
 join versao ver on ver.id = v.versao_id
-join verso_limpo vl on vl.verso_id = v.id;
+join verso_limpo vl on vl.verso_id = v.id
+--where texto_limpo = 'RUIDO_VAZIO'
+;
+
+select texto_limpo tipo_ruido, count(1) qt_versos
+from verso_limpo
+where upper(texto_limpo) like 'RUIDO%'
+group by texto_limpo;
 
 -- célula 5: carga das tabelas verso_topico e topico
 select gl.nome genero_nome, l.nome livro_nome, ver.sigla, 
@@ -174,3 +181,48 @@ WHERE t.id != 3
 GROUP BY t.antidoto_referencia, g.nome
 HAVING Total_Versos > 50 -- Filtro para evitar distorções estatísticas em amostras pequenas
 ORDER BY Eixo, Saldo_Emocional DESC;   
+
+select t.antidoto_referencia, vt.similaridade, v.texto, vl.texto_limpo, vs.label, vs.sentimento_num, vs.score_pos, vs.score_neg, vs.score_neu
+from livro l
+	join verso v
+		on v.livro_id = l.id
+	join verso_limpo vl
+		on vl.verso_id = v.id
+	join verso_sentimento vs
+		on vs.verso_id = v.id
+	join verso_topico vt
+		on vt.verso_id = v.id
+	join topico t
+		on t.id = vt.topico_id
+where l.abreviacao = 'Is'--'Dn'
+and v.numero_capitulo = 40--4
+and v.numero_verso = 29--3
+;
+
+-- 
+-- Query para extração do "Golden Dataset" de validação
+SELECT 
+    v.id as ID,
+    l.abreviacao || ' ' || v.numero_capitulo || ':' || v.numero_verso as Referencia,
+    v.texto as Texto_Original,
+    t.antidoto_referencia as Eixo_Classificado,
+    ROUND(vt.similaridade, 3) as Confianca,
+    vs.label as Sentimento,
+    g.nome as Genero
+FROM verso v
+JOIN verso_topico vt ON v.id = vt.verso_id
+JOIN topico t ON vt.topico_id = t.id
+JOIN verso_sentimento vs ON v.id = vs.verso_id
+JOIN livro l ON v.livro_id = l.id
+JOIN genero_literario g ON l.genero_id = g.id
+WHERE 
+    -- 1. Versos com confiança muito alta (verificar se não há "vício" de palavras-chave)
+    (vt.similaridade > 0.85)
+    OR 
+    -- 2. Versos com confiança limítrofe (onde o modelo quase "vetou")
+    (vt.similaridade BETWEEN 0.15 AND 0.25)
+    OR
+    -- 3. Versos de livros "Críticos" para a sua tese
+    l.abreviacao IN ('Ec', 'Sl', 'Is', 'Rm', '2Co', 'Dn', 'Jó')
+ORDER BY vt.similaridade DESC
+LIMIT 1000;
