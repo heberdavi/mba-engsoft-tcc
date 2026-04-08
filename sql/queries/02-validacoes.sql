@@ -182,7 +182,7 @@ GROUP BY t.antidoto_referencia, g.nome
 HAVING Total_Versos > 50 -- Filtro para evitar distorções estatísticas em amostras pequenas
 ORDER BY Eixo, Saldo_Emocional DESC;   
 
-select t.antidoto_referencia, vt.similaridade, v.texto, vl.texto_limpo, vs.label, vs.sentimento_num, vs.score_pos, vs.score_neg, vs.score_neu
+select l.abreviacao||' '||v.numero_capitulo||':'||v.numero_verso ref, t.antidoto_referencia, vt.similaridade, v.texto, vl.texto_limpo, vs.label, vs.sentimento_num, vs.score_pos, vs.score_neg, vs.score_neu
 from livro l
 	join verso v
 		on v.livro_id = l.id
@@ -194,9 +194,10 @@ from livro l
 		on vt.verso_id = v.id
 	join topico t
 		on t.id = vt.topico_id
-where l.abreviacao = 'Is'--'Dn'
-and v.numero_capitulo = 40--4
-and v.numero_verso = 29--3
+where l.abreviacao = 'Jó'--'Is', 'Dn'
+--and v.numero_capitulo = 1--40, 4
+--and v.numero_verso = 3--29
+and t.antidoto_referencia <> 'Narrativo/Normativo'
 ;
 
 -- 
