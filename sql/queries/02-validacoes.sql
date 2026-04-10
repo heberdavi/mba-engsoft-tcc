@@ -121,8 +121,8 @@ FROM verso_topico vt
 JOIN verso v ON v.id = vt.verso_id
 JOIN livro l ON l.id = v.livro_id
 JOIN topico t ON t.id = vt.topico_id
-WHERE t.id = 1 -- Exemplo: Transitoriedade (Bauman)
-AND l.genero_id = 5 -- No gênero Evangelho
+WHERE t.id = 0 -- Exemplo: Transitoriedade (Bauman)
+AND l.genero_id = 3 -- No gênero Evangelho
 ORDER BY vt.similaridade DESC
 LIMIT 5;
 
@@ -182,8 +182,16 @@ GROUP BY t.antidoto_referencia, g.nome
 HAVING Total_Versos > 50 -- Filtro para evitar distorções estatísticas em amostras pequenas
 ORDER BY Eixo, Saldo_Emocional DESC;   
 
-select l.abreviacao||' '||v.numero_capitulo||':'||v.numero_verso ref, t.antidoto_referencia, vt.similaridade, v.texto, vl.texto_limpo, vs.label, vs.sentimento_num, vs.score_pos, vs.score_neg, vs.score_neu
+select gl.id genero_id, gl.nome genero, 
+	l.abreviacao||' '||v.numero_capitulo||':'||v.numero_verso ref, 
+	t.antidoto_referencia, vt.similaridade_final, vt.p_exaustao, 
+	vt.p_transitoriedade, vt.p_vazio, vt.p_narrativo, vt.margem_dominancia, 
+	vt.entropia, vt.gap_confianca, vt.status_decisao, 
+	v.texto, vl.texto_limpo, vs.label, vs.sentimento_num, 
+	vs.score_pos, vs.score_neg, vs.score_neu
 from livro l
+	join genero_literario gl
+		on gl.id = l.genero_id
 	join verso v
 		on v.livro_id = l.id
 	join verso_limpo vl
@@ -194,11 +202,52 @@ from livro l
 		on vt.verso_id = v.id
 	join topico t
 		on t.id = vt.topico_id
-where l.abreviacao = 'Jó'--'Is', 'Dn'
---and v.numero_capitulo = 1--40, 4
---and v.numero_verso = 3--29
+where (l.abreviacao = 'Rm' and v.numero_capitulo = 8 and v.numero_verso = 28) or
+(l.abreviacao = 'Dn' and v.numero_capitulo = 4 and v.numero_verso = 3) or
+(l.abreviacao = 'Is' and v.numero_capitulo = 40 and v.numero_verso = 29) or
+(l.abreviacao = 'Mt' and v.numero_capitulo = 11 and v.numero_verso = 28) or
+(l.abreviacao = 'Mt' and v.numero_capitulo = 7 and v.numero_verso = 7) or
+(l.abreviacao = 'Fp' and v.numero_capitulo = 4 and v.numero_verso = 13) or
+(l.abreviacao = 'Sl' and v.numero_capitulo = 29 and v.numero_verso = 11) or
+(l.abreviacao = 'Ef' and v.numero_capitulo = 5 and v.numero_verso = 25) or
+(l.abreviacao = 'Sf' and v.numero_capitulo = 3 and v.numero_verso = 17) or
+(l.abreviacao = 'Os' and v.numero_capitulo = 2 and v.numero_verso = 19) or
+(l.abreviacao = 'Is' and v.numero_capitulo = 9 and v.numero_verso = 6) or
+(l.abreviacao = 'Rm' and v.numero_capitulo = 8 and v.numero_verso = 23)
+--and t.antidoto_referencia = 'Narrativo/Normativo'
+order by v.id;
+
+select gl.id genero_id, gl.nome genero, l.abreviacao||' '||v.numero_capitulo||':'||v.numero_verso ref, t.antidoto_referencia, vt.similaridade, length(v.texto) tam_texto, v.texto, vl.texto_limpo, vs.label, vs.sentimento_num, vs.score_pos, vs.score_neg, vs.score_neu
+from livro l
+	join genero_literario gl
+		on gl.id = l.genero_id
+	join verso v
+		on v.livro_id = l.id
+	join verso_limpo vl
+		on vl.verso_id = v.id
+	join verso_sentimento vs
+		on vs.verso_id = v.id
+	join verso_topico vt
+		on vt.verso_id = v.id
+	join topico t
+		on t.id = vt.topico_id
+where gl.id = 3
 and t.antidoto_referencia <> 'Narrativo/Normativo'
-;
+--and vs.sentimento_num <> 0
+--and length(v.texto) < 45
+order by v.id;
+
+-- Jó 19:25 - Eu sei que o meu Redentor vive, e que no fim se levantará sobre a terra.
+select *
+from verso v
+	join livro l
+		on l.id = v.livro_id
+where lower(v.texto) like '%frutos do Espírito%'
+and l.abreviacao = 'Jó';
+
+select *
+from livro l
+where l.abreviacao in ('')
 
 -- 
 -- Query para extração do "Golden Dataset" de validação

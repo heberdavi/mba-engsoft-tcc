@@ -63,7 +63,15 @@ CREATE TABLE IF NOT EXISTS "topico"(
 CREATE TABLE IF NOT EXISTS "verso_topico"(
     "verso_id" INTEGER PRIMARY KEY,
     "topico_id" INTEGER NOT NULL,
-    "similaridade" FLOAT,
+	"p_exaustao" FLOAT,
+	"p_transitoriedade" FLOAT,
+	"p_vazio" FLOAT,
+	"p_narrativo" FLOAT,
+    "similaridade_final" FLOAT,
+	"margem_dominancia" FLOAT,
+	"status_decisao" TEXT,
+	"entropia" FLOAT,
+	"gap_confianca" FLOAT,
     FOREIGN KEY (verso_id) REFERENCES verso(id),
     FOREIGN KEY (topico_id) REFERENCES topico(id)
 );
