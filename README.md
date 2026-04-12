@@ -38,6 +38,7 @@ Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relaci
 ├── notebooks/
 │   ├── 01-processamento_pln.ipynb   # Pipeline de limpeza, BERTopic e Sentimento.
 │   └── 02-visualizacao_resultados.ipynb # Extração de insights e visualização de dados.
+│   └── 03-geracao-fluxos-dados.ipynb # Apoio à geração de imagens 
 ├── sql/
 │   └── queries/
 │       └── 01-dados-graficos.sql    # Consultas SQL para geração dos gráficos.

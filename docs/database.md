@@ -7,7 +7,7 @@ O modelo de dados é dividido em quatro camadas lógicas:
 1. **Camada de Domínio (Base):** Estrutura canônica da Bíblia (Livros, Testamentos e Gêneros).
 2. **Camada de Texto (Versos):** O átomo da análise, preservando a integridade das versões.
 3. **Camada de Processamento (NLP):** Armazenamento de textos limpos (pré-processamento).
-4. **Camada de Inteligência (Inference):** Resultados de classificação de tópicos (Eixos de Han, Bauman e Frankl) e análise de sentimento.
+4. **Camada de Inteligência (Inference):** Resultados de classificação de tópicos (Eixos de Exaustão vs. Refrigério, Transitoriedade vs. Solidez, Vazio vs. Propósito e Narrativo/Normativo) e análise de sentimento.
 
 ## 2. Diagrama de Entidade-Relacionamento
 
@@ -61,7 +61,15 @@ erDiagram
     VERSO_TOPICO {
         int verso_id PK, FK
         int topico_id FK
-        float similaridade
+        float p_exaustao
+        float p_transitoriedade
+        float p_vazio
+        float p_narrativo
+        float similaridade_final
+        float margem_dominancia
+        text status_decisao
+        float entropia
+        float gap_confianca
     }
     VERSO_SENTIMENTO {
         int verso_id PK, FK
