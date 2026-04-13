@@ -1,4 +1,9 @@
-# 📖 PLN Bíblia: Antídotos à Ansiedade Contemporânea
+# 📖 Entre Versos e Algoritmos: O Mapeamento do Bem-Estar no Repositório Bíblico
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow?style=for-the-badge)
 
 Este projeto de Trabalho de Conclusão de Curso (MBA em Engenharia de Software) utiliza técnicas de **Processamento de Linguagem Natural (PLN)** para analisar o texto bíblico (NVI) sob a ótica da psicologia existencial e sociologia contemporânea.
 
@@ -11,17 +16,15 @@ O objetivo é identificar "antídotos" nas escrituras para as angústias descrit
 
 ## 🛠️ Arquitetura de Dados e Tecnologias
 
-O projeto separa a estrutura de dados, o armazenamento e a lógica de processamento para garantir a integridade e escalabilidade da análise.
+Diferente de abordagens puramente estatísticas, este projeto implementa uma arquitetura que integra modelos de linguagem de larga escala com camadas de regras de negócio:
 
-* **Banco de Dados:** SQLite (Relacional)
-* **Linguagem:** Python 3.x
-* **Modelos de IA:**
-    * `BERTopic`: Para classificação Zero-Shot de eixos existenciais.
-    * `BERTimbau (pysentimiento)`: Para análise de sentimento contextualizado em PT-BR.
-    * `spaCy (pt_core_news_lg)`: Para limpeza estrutural e filtragem gramatical.
+* **IA Explicável (XAI):** Auditoria via entropia e similaridade cosseno para validar a confiança das classificações.
+* **Thresholds de Especialista:** Implementação de limiares de decisão para mitigar o ruído em textos de alta concisão ou polissêmicos.
+* **Modelagem Zero-Shot:** Classificação de eixos existenciais sem necessidade de treinamento prévio rotulado, utilizando `BERTopic`.
+* **Análise de Sentimento:** Uso do modelo `BERTimbau` para capturar a polaridade afetiva no português brasileiro.
 
 ### 🗄️ Modelagem do Banco de Dados
-A estrutura do banco de dados foi desenhada para suportar quatro camadas lógicas: Domínio Bíblico, Texto, Processamento PLN e Inteligência (Inference).
+O sistema utiliza **SQLite** para garantir a rastreabilidade total, desde o metadado do versículo até o *gap* de confiança da predição.
 
 Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relacionamento (ER)** renderizado via Mermaid, acesse:
 👉 **[Documentação da Arquitetura de Dados (database.md)](docs/database.md)**
@@ -46,3 +49,10 @@ Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relaci
 │   ├── 01-schema.sql                # Definição de todas as tabelas e índices.
 │   ├── 02-seed_data.sql             # População do texto bíblico e metadados.
 └── README.md                        # Documentação do projeto.
+```
+
+---
+
+## 🎓 Autoria
+* **Heber Davi Salcedo Rodrigues** - *Especialista em Engenharia de Software*
+* **Orientador:** Prof. Dr. Orlando Da Silva Junior
