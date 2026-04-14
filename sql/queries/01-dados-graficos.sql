@@ -203,26 +203,26 @@ JOIN verso_sentimento vs ON vt.verso_id = vs.verso_id
 JOIN verso v ON vt.verso_id = v.id
 JOIN livro l ON v.livro_id = l.id
 JOIN genero_literario g ON l.genero_id = g.id
-WHERE vt.topico_id IN (0, 1, 2)
+WHERE vt.topico_id IN (0, 1, 2);
 
 -- maior scores positivo e negativo
 -- polaridade média
 -- por gênero
 SELECT 
-    gl.nome AS Genero,
-    ROUND(MAX(vs.score_pos), 4) AS "Maior Score Positivo",
-    ROUND(MAX(vs.score_neg), 4) AS "Maior Score Negativo",
+    gl.nome AS genero,
+    ROUND(MAX(vs.score_pos), 4) AS maior_score_positivo,
+    ROUND(MAX(vs.score_neg), 4) AS maior_score_negativo,
     ROUND(AVG(CASE 
         WHEN vs.label = 'POS' THEN vs.score_pos 
         WHEN vs.label = 'NEG' THEN -vs.score_neg 
         ELSE 0 
-    END), 4) AS "Polaridade Média"
+    END), 4) AS polaridade_media
 FROM genero_literario gl
 JOIN livro l ON l.genero_id = gl.id
 JOIN verso v ON v.livro_id = l.id
 JOIN verso_sentimento vs ON vs.verso_id = v.id
 GROUP BY gl.nome
-ORDER BY "Polaridade Média" DESC;
+ORDER BY polaridade_media DESC;
 
 -- média de positividade dos antídotos
 select t.antidoto_referencia, avg(vs.score_pos) media_positividade
