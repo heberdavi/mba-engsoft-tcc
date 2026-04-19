@@ -31,6 +31,71 @@ Para detalhes sobre as tabelas, tipos de dados e o **Diagrama de Entidade-Relaci
 
 ---
 
+## 🎓 Etapas do Processamento
+
+```mermaid
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'fontFamily': 'Segoe UI, Arial',
+    'fontSize': '12px',
+    'clusterBkg': '#ffffff',
+    'clusterBorder': '#cbd5e1',
+    'nodeSpacing': 10,
+    'clusterPadding': 15
+  }
+}}%%
+graph LR
+    %% Direção Geral do Pipeline
+
+    subgraph Camada1 ["1. INFRAESTRUTURA E CARGA"]
+        direction TB
+        E1["<b>Etapa 1: Setup</b><br/>Google Drive e SQLite<br/><i>libs: google.colab, os</i>"]
+        E2["<b>Etapa 2: Ambiente</b><br/>GPU e Scripts DDL<br/><i>libs: transformers, torch, sqlite3</i>"]
+        E3["<b>Etapa 3: Ingestão</b><br/>Consistência do Corpus<br/><i>libs: sqlite3</i>"]
+        %% Forçar verticalidade
+        E1 ~~~ E2 ~~~ E3
+    end
+
+    subgraph Camada2 ["2. PREPARAÇÃO"]
+        direction TB
+        E4["<b>Etapa 4: Filtragem</b><br/>POS Tagging e Limpeza<br/><i>libs: spacy, pandas, re</i>"]
+        P2["<i>Foco: Mitigação de ruído<br/>nominal e genealogias</i>"]
+        %% Forçar verticalidade
+        E4 ~~~ P2
+    end
+
+    subgraph Camada3 ["3. INTELIGÊNCIA (NLP E XAI)"]
+        direction TB
+        E5["<b>Etapa 5: Classificação</b><br/>Zero-Shot (BERTopic)<br/><i>libs: bertopic, sklearn, tqdm</i>"]
+        I2["<b>Auditoria XAI</b><br/>Gap de Confiança e Entropia<br/><i>libs: numpy, pandas</i>"]
+        E6["<b>Etapa 6: Sentimento</b><br/>BERTimbau Contextual<br/><i>libs: pysentimiento, tqdm</i>"]
+        %% Forçar verticalidade
+        E5 ~~~ I2 ~~~ E6
+    end
+
+    subgraph Camada4 ["4. ENTREGA"]
+        direction TB
+        E7["<b>Etapa 7: Resultados</b><br/>Cruzamento Estatístico<br/><i>libs: matplotlib, seaborn, wordcloud</i>"]
+        A2["<i>Foco: Validação de<br/>Antídotos Existenciais</i>"]
+        %% Forçar verticalidade
+        E7 ~~~ A2
+    end
+
+    %% Fluxo de Dados Principal
+    Camada1 ==> Camada2
+    Camada2 ==> Camada3
+    Camada3 ==> Camada4
+
+    %% Estilos
+    style Camada1 fill:#f8fafc,stroke:#475569,stroke-width:2px
+    style Camada2 fill:#fff7ed,stroke:#ea580c,stroke-width:2px
+    style Camada3 fill:#eff6ff,stroke:#2563eb,stroke-width:2px
+    style Camada4 fill:#f0fdf4,stroke:#16a34a,stroke-width:2px
+```
+
+---
+
 ## 📂 Estrutura do Repositório
 
 ```text
