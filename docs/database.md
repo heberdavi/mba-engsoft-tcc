@@ -12,37 +12,52 @@ O modelo de dados é dividido em quatro camadas lógicas:
 ## 2. Diagrama de Entidade-Relacionamento
 
 ```mermaid
+%%{init: {
+  'theme': 'default',
+  'themeVariables': {
+    'fontFamily': 'Arial',
+    'fontSize': '40px',
+    'background': '#ffffff',
+    'mainBkg': '#ffffff',
+    'canvasBackground': '#ffffff'
+  },
+  'themeCSS': ' .entityBox { stroke-width: 2px; fill: white !important; } .entityLabel { font-weight: bold; font-size: 24px !important; } .edgeLabel { font-size: 20px !important; background-color: white !important; padding: 2px; } rect { fill: white !important; } g.classGroup rect { fill: white !important; } .mermaid { background-color: white !important; } '
+}}%%
 erDiagram
-    VERSAO ||--o{ VERSO : "contem"
-    TESTAMENTO ||--o{ LIVRO : "agrupa"
-    GENERO_LITERARIO ||--o{ LIVRO : "classifica"
-    LIVRO ||--o{ VERSO : "contem"
-    VERSO ||--|| VERSO_LIMPO : "pre-processado_em"
-    VERSO ||--|| VERSO_TOPICO : "classificado_em"
-    VERSO ||--|| VERSO_SENTIMENTO : "analisado_por"
-    TOPICO ||--o{ VERSO_TOPICO : "define_eixo"
+    direction LR
+    %% 1. ESTRUTURA BÁSICA
+    testamento ||--o{ livro : "agrupa"
+    genero_literario ||--o{ livro : "define"
+    versao ||--o{ verso : "contém"
+    livro ||--o{ verso : "possui"
 
-    VERSAO {
+    %% 2, 3 e 4. CAMADAS DE PROCESSAMENTO
+    verso ||--|| verso_limpo : "limpeza"
+    verso ||--|| verso_topico : "NLP/XAI"
+    verso ||--|| verso_sentimento : "análise"
+    topico ||--o{ verso_topico : "categoriza"
+
+    versao {
         int id PK
         string sigla
         string nome
     }
-    TESTAMENTO {
+    testamento {
         int id PK
         string nome
     }
-    GENERO_LITERARIO {
+    genero_literario {
         int id PK
         string nome
     }
-    LIVRO {
+    livro {
         int id PK
         string nome
         string abreviacao
         int testamento_id FK
         int genero_id FK
     }
-    VERSO {
+    verso {
         int id PK
         int versao_id FK
         int livro_id FK
@@ -50,15 +65,15 @@ erDiagram
         int numero_verso
         string texto
     }
-    VERSO_LIMPO {
+    verso_limpo {
         int verso_id PK, FK
         string texto_limpo
     }
-    TOPICO {
+    topico {
         int id PK
         string antidoto_referencia
     }
-    VERSO_TOPICO {
+    verso_topico {
         int verso_id PK, FK
         int topico_id FK
         float p_exaustao
@@ -67,11 +82,11 @@ erDiagram
         float p_narrativo
         float similaridade_final
         float margem_dominancia
-        text status_decisao
+        string status_decisao
         float entropia
         float gap_confianca
     }
-    VERSO_SENTIMENTO {
+    verso_sentimento {
         int verso_id PK, FK
         string label
         int sentimento_num
