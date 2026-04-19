@@ -68,6 +68,11 @@ erDiagram
     verso_limpo {
         int verso_id PK, FK
         string texto_limpo
+        real ratio_abstracao
+        int n_conceitual
+        int n_narrativo
+        real propn_ratio
+        string status_filtro 
     }
     topico {
         int id PK
