@@ -103,6 +103,7 @@ graph LR
 │   ├── base-dados-final.db          # Versão final da base de dados, completa.
 ├── docs/
 │   ├── database.md                  # Documentação técnica e diagrama do modelo de dados.
+│   ├── dicionario_dados.md                  # Dicionário do modelo de dados.
 ├── notebooks/
 │   ├── 01-processamento_pln.ipynb   # Pipeline de limpeza, BERTopic e Sentimento.
 │   └── 02-visualizacao_resultados.ipynb # Extração de insights e visualização de dados.
