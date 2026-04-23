@@ -1,3 +1,23 @@
+-- versos com maior potencial de alívio
+select t.antidoto_referencia eixo, g.nome nome_genero, l.nome nome_livro, 
+	((POWER(vs.score_pos, 2) * vt.margem_dominancia) / 
+        ((1 + vt.entropia) * (1 + vt.gap_confianca))
+    ) AS potencial_alivio,
+	l.abreviacao||' '||v.numero_capitulo||':'||v.numero_verso ref, texto,
+	vs.score_pos, vt.margem_dominancia, vt.entropia, vt.gap_confianca
+from verso v
+join verso_sentimento vs on vs.verso_id = v.id
+join verso_topico vt on vt.verso_id = v.id
+join livro l on l.id = v.livro_id
+join genero_literario g on g.id = l.genero_id
+join topico t on t.id = vt.topico_id
+where vs.label = 'POS'
+--and t.id = 2
+and ref in ('Pv 15:23', 'Sl 139:17', 'Sl 119:167',
+			'Rm 11:36', 'Sl 89:5', 'Ef 5:20')
+order by t.id, potencial_alivio desc
+limit 10;
+
 -- inventario
 with corpus as (
 select 

@@ -49,6 +49,10 @@ CREATE TABLE IF NOT EXISTS "verso"(
 CREATE TABLE IF NOT EXISTS "verso_limpo"(
     "verso_id" INTEGER PRIMARY KEY,
     "texto_limpo" TEXT NOT NULL,
+	"score_emocional" FLOAT, -- Densidade de ADJ + ADV (Indica potencial existencial)
+	"score_informativo" FLOAT, -- Densidade de PROPN + NUM (Indica potencial de dados/ruído)
+	"score_acao" FLOAT, -- Densidade de VERB (Indica potencial narrativo)
+	"entropia_gramatical" FLOAT, -- Diversidade de classes gramaticais (Baixa entropia = texto repetitivo/lista)
     FOREIGN KEY (verso_id) REFERENCES verso(id)
 );
 
