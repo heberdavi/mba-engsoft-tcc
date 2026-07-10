@@ -11,14 +11,14 @@ INSERT INTO versao(id, sigla, nome) VALUES (1, 'NVI', 'Nova Versão Internaciona
 
 INSERT INTO testamento(id, nome) VALUES (1, 'Velho Testamento'), (2, 'Novo Testamento');
 
-INSERT INTO genero_literario (id, nome) VALUES 
-(1, 'Pentateuco'),
-(2, 'Histórico'),
-(3, 'Poético/Sapiencial'),
-(4, 'Profético'),
-(5, 'Evangelho'),
-(6, 'Epístola'),
-(7, 'Apocalíptico');
+INSERT INTO genero_literario (id, nome, bonus_narrativo, sensivel_ao_contexto) VALUES 
+(1, 'Pentateuco', 0.25, 0),
+(2, 'Histórico', 0.25, 0),
+(3, 'Poético/Sapiencial', -0.15, 1),
+(4, 'Profético', -0.10, 0),
+(5, 'Evangelho', 0.25, 0),
+(6, 'Epístola', -0.20, 0),
+(7, 'Apocalíptico', -0.10, 0);
 
 -- 2. População da Tabela de Livros
 -- -----------------------------------------------------------------------------
@@ -37,6 +37,34 @@ INSERT INTO livro(id, nome, abreviacao, testamento_id, genero_id) VALUES
 (51,'Colossenses','Cl',2,6), (52,'1 Tessalonicenses','1Ts',2,6), (53,'2 Tessalonicenses','2Ts',2,6), (54,'1 Timóteo','1Tm',2,6), (55,'2 Timóteo','2Tm',2,6),
 (56,'Tito','Tt',2,6), (57,'Filemom','Fm',2,6), (58,'Hebreus','Hb',2,6), (59,'Tiago','Tg',2,6), (60,'1 Pedro','1Pe',2,6),
 (61,'2 Pedro','2Pe',2,6), (62,'1 João','1Jo',2,6), (63,'2 João','2Jo',2,6), (64,'3 João','3Jo',2,6), (65,'Judas','Jd',2,6), (66,'Apocalipse','Ap',2,7);
+
+
+-- 3. População das tabelas de Eixos e Sentenças relacionadas aos eixos
+-- Eixos
+INSERT INTO eixo (id, nome) VALUES (0, 'Exaustão vs. Refrigério');
+INSERT INTO eixo (id, nome) VALUES (1, 'Transitoriedade vs. Solidez');
+INSERT INTO eixo (id, nome) VALUES (2, 'Vazio vs. Propósito');
+INSERT INTO eixo (id, nome) VALUES (3, 'Narrativo/Normativo');
+
+-- Para o Eixo 0 (Exaustão)
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (0, 'Foca no abatimento da alma, na profunda angústia mental e no clamor por alívio.');
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (0, 'Descreve o peso da opressão, o esgotamento das forças e o processo de restauração e refrigério.');
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (0, 'Aborda o cansaço físico real, a fadiga do coração e a busca por descanso em Deus.');
+
+-- Sentenças para o Eixo 1
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (1, 'Foca na brevidade da existência humana, tratando a vida como um sopro ou neblina.');
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (1, 'Aborda o contraste entre o que é passageiro, como a fumaça ou a erva que murcha, e o que é eterno.');
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (1, 'Descreve a fragilidade humana e a precariedade das riquezas vs. a solidez eterna de Deus.');
+
+-- Sentenças para o Eixo 2
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (2, 'Aborda a crise de significado, a inutilidade do esforço "debaixo do sol" e o sentimento de vazio.');
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (2, 'Foca na busca pelo sentido da vida, no temor a Deus como propósito e no destino final do homem.');
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (2, 'Reflete sobre a futilidade das realizações humanas separadas de um plano divino ou eterno.');
+
+-- Para o Eixo 3 (Narrativo)
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (3, 'Textos informativos, listas de nomes e genealogias.');
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (3, 'Medidas técnicas, rituais, censos e ordens administrativas.');
+INSERT INTO eixo_descricao (eixo_id, sentenca) VALUES (3, 'Sucessão de gerações e registros históricos secos.');
 
 -- 3. População da Tabela de Versos (Texto Integral)
 -- -----------------------------------------------------------------------------
