@@ -76,7 +76,23 @@ CREATE TABLE IF NOT EXISTS "verso_topico"(
     FOREIGN KEY (topico_id) REFERENCES topico(id)
 );
 
--- 4. CAMADA DE ANÁLISE DE SENTIMENTO (Célula 6 - BERTimbau)
+-- 4. CAMADA RAG (Célula 5.1)
+-- -----------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS "rag_auditoria"(
+    "verso_id" INTEGER PRIMARY KEY,
+    "topico_id_anterior" INTEGER NOT NULL,
+    "topico_id_novo" INTEGER NOT NULL,
+	"justificativa" TEXT,
+	"chunk_id" TEXT,
+	"score_similaridade" FLOAT,
+    FOREIGN KEY (verso_id) REFERENCES verso(id),
+    FOREIGN KEY (topico_id_anterior) REFERENCES topico(id),
+    FOREIGN KEY (topico_id_novo) REFERENCES topico(id)
+);
+
+
+-- 5. CAMADA DE ANÁLISE DE SENTIMENTO (Célula 6 - BERTimbau)
 -- -----------------------------------------------------------------------------
 
 CREATE TABLE IF NOT EXISTS "verso_sentimento"(
@@ -89,7 +105,7 @@ CREATE TABLE IF NOT EXISTS "verso_sentimento"(
     FOREIGN KEY (verso_id) REFERENCES verso(id)
 );
 
--- 5. ÍNDICES DE PERFORMANCE
+-- 6. ÍNDICES DE PERFORMANCE
 -- -----------------------------------------------------------------------------
 
 CREATE INDEX IF NOT EXISTS "idx_livro_genero" ON "livro" ("genero_id");
@@ -97,3 +113,20 @@ CREATE INDEX IF NOT EXISTS "idx_verso_livro" ON "verso" ("livro_id");
 CREATE INDEX IF NOT EXISTS "idx_verso_limpo_id" ON "verso_limpo" ("verso_id");
 CREATE INDEX IF NOT EXISTS "idx_verso_topico_id" ON "verso_topico" ("topico_id");
 CREATE INDEX IF NOT EXISTS "idx_sentimento_label" ON "verso_sentimento" ("label");
+
+-- 7. APOIO A INGESTAO DOS CHUNKS PARA O PROCESSAMENTO RAG
+CREATE TABLE IF NOT EXISTS "chunks_comentario" (
+	"chunk_id" TEXT PRIMARY KEY,
+	"livro_id" INTEGER,
+	"capitulo_inicio" INTEGER,
+	"verso_inicio" INTEGER,
+	"capitulo_fim" INTEGER,
+	"verso_fim" INTEGER,
+	"secao_n1" TEXT,
+	"secao_n2" TEXT,
+	"secao_n3" TEXT,
+	"secao_n4" TEXT,
+	"texto" TEXT,
+	"pagina_origem" INTEGER,
+	FOREIGN KEY (livro_id) REFERENCES livro(id)
+);
