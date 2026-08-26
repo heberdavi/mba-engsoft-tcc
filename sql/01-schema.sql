@@ -31,15 +31,31 @@ CREATE TABLE IF NOT EXISTS "livro"(
     FOREIGN KEY (genero_id) REFERENCES genero_literario(id)
 );
 
+CREATE TABLE IF NOT EXISTS "unidade_literaria" (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "livro_id" INTEGER NOT NULL,
+    "capitulo_inicio" INTEGER NOT NULL,
+    "verso_inicio" INTEGER NOT NULL,
+    "capitulo_fim" INTEGER NOT NULL,
+    "verso_fim" INTEGER NOT NULL,
+    "tipo" VARCHAR(30),         -- 'narrativa', 'discurso', 'hino', 'epilogo'...
+    "interlocutor" VARCHAR(100), -- 'Jó', 'Elifaz', 'Bildade', 'Zofar', 'Eliú', 'Deus', NULL para narrativa
+    "genero_id" INTEGER,         -- override opcional do gênero do livro para esta unidade
+    FOREIGN KEY (livro_id) REFERENCES livro(id),
+    FOREIGN KEY (genero_id) REFERENCES genero_literario(id)
+);
+
 CREATE TABLE IF NOT EXISTS "verso"(
     "id" INTEGER PRIMARY KEY AUTOINCREMENT,
     "versao_id" INTEGER NOT NULL,
     "livro_id" INTEGER NOT NULL,
+	"unidade_literaria_id" INTEGER,
     "numero_capitulo" INTEGER NOT NULL,
     "numero_verso" INTEGER NOT NULL,
     "texto" TEXT NOT NULL,
     FOREIGN KEY (versao_id) REFERENCES versao(id),
-    FOREIGN KEY (livro_id) REFERENCES livro(id)
+    FOREIGN KEY (livro_id) REFERENCES livro(id),
+    FOREIGN KEY (unidade_literaria_id) REFERENCES unidade_literaria(id)
 );
 
 -- 2. CAMADA DE CLASSIFICAÇÃO EXISTENCIAL (Célula 5 - BERTopic)
@@ -75,8 +91,10 @@ CREATE TABLE IF NOT EXISTS "execucao_pipeline" (
     "modelo_embeddings_rag" VARCHAR(100),
     "modelo_llm_arbitragem" VARCHAR(100),
     "framework_versao_id" INTEGER NOT NULL,
+	"livro_id_alvo" INTEGER,
     "observacoes" TEXT,
-	FOREIGN KEY (framework_versao_id) REFERENCES framework_versao(id)
+	FOREIGN KEY (framework_versao_id) REFERENCES framework_versao(id),
+	FOREIGN KEY (livro_id_alvo) REFERENCES livro(id)
 );
 
 -- 4. CAMADA DE PROCESSAMENTO PLN (Células 4, 5 e 5.1)

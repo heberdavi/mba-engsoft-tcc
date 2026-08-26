@@ -102,6 +102,32 @@ INSERT INTO livro(id, nome, abreviacao, testamento_id, genero_id) VALUES
 (65,'Judas','Jd',2,6), 
 (66,'Apocalipse','Ap',2,7);
 
+INSERT INTO unidade_literaria (livro_id, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim, tipo, interlocutor) VALUES
+(18, 1, 1, 2, 13, 'narrativa', NULL),
+(18, 3, 1, 3, 26, 'discurso', 'Jó'),
+(18, 4, 1, 5, 27, 'discurso', 'Elifaz'),
+(18, 6, 1, 7, 21, 'discurso', 'Jó'),
+(18, 8, 1, 8, 22, 'discurso', 'Bildade'),
+(18, 9, 1, 10, 22, 'discurso', 'Jó'),
+(18, 11, 1, 11, 20, 'discurso', 'Zofar'),
+(18, 12, 1, 14, 22, 'discurso', 'Jó'),
+(18, 15, 1, 15, 35, 'discurso', 'Elifaz'),
+(18, 16, 1, 17, 16, 'discurso', 'Jó'),
+(18, 18, 1, 18, 21, 'discurso', 'Bildade'),
+(18, 19, 1, 19, 29, 'discurso', 'Jó'),
+(18, 20, 1, 20, 29, 'discurso', 'Zofar'),
+(18, 21, 1, 21, 34, 'discurso', 'Jó'),
+(18, 22, 1, 22, 30, 'discurso', 'Elifaz'),
+(18, 23, 1, 24, 25, 'discurso', 'Jó'),
+(18, 25, 1, 25, 6, 'discurso', 'Bildade'),
+(18, 26, 1, 31, 40, 'discurso', 'Jó'),
+(18, 32, 1, 37, 24, 'discurso', 'Eliú'),
+(18, 38, 1, 40, 2, 'discurso', 'Deus'),
+(18, 40, 3, 40, 5, 'discurso', 'Jó'),
+(18, 40, 6, 41, 34, 'discurso', 'Deus'),
+(18, 42, 1, 42, 6, 'discurso', 'Jó'),
+(18, 42, 7, 42, 17, 'narrativa', NULL);
+
 -- 3. População da Tabela de Versos (Texto Integral)
 -- -----------------------------------------------------------------------------
 
