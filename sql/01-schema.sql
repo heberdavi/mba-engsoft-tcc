@@ -58,6 +58,17 @@ CREATE TABLE IF NOT EXISTS "verso"(
     FOREIGN KEY (unidade_literaria_id) REFERENCES unidade_literaria(id)
 );
 
+CREATE UNIQUE INDEX IF NOT EXISTS "idx_verso_referencia_unica"
+ON "verso" ("versao_id", "livro_id", "numero_capitulo", "numero_verso");
+
+CREATE TABLE IF NOT EXISTS "fonte_comentario" (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "titulo_obra" VARCHAR(150) NOT NULL,
+    "autor" VARCHAR(150),
+    "editora" VARCHAR(100),
+    "ano_publicacao" INTEGER
+);
+
 -- 2. CAMADA DE CLASSIFICAÇÃO EXISTENCIAL (Célula 5 - BERTopic)
 -- -----------------------------------------------------------------------------
 
@@ -184,6 +195,7 @@ CREATE INDEX IF NOT EXISTS "idx_sentimento_label" ON "verso_sentimento" ("label"
 -- -----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS "chunks_comentario" (
 	"chunk_id" TEXT PRIMARY KEY,
+	"fonte_comentario_id" INTEGER,
 	"livro_id" INTEGER,
 	"capitulo_inicio" INTEGER,
 	"verso_inicio" INTEGER,
@@ -195,5 +207,6 @@ CREATE TABLE IF NOT EXISTS "chunks_comentario" (
 	"secao_n4" TEXT,
 	"texto" TEXT,
 	"pagina_origem" INTEGER,
+	FOREIGN KEY (fonte_comentario_id) REFERENCES fonte_comentario(id),
 	FOREIGN KEY (livro_id) REFERENCES livro(id)
 );
