@@ -1,0 +1,9 @@
+transformers==5.15.1
+torch==2.11.0+cu128
+pandas==2.2.3
+spacy==3.8.16
+sentence-transformers==5.7.0
+accelerate==1.14.0
+huggingface_hub==1.28.0
+scikit-learn==1.6.1
+numpy==2.1.3
