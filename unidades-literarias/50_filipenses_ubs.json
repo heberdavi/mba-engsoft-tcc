@@ -1,0 +1,53 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 50,
+      "titulo": "Saudação, a Ação de Graças de Paulo pela Comunhão dos Filipenses e a Oração pela Sua Constância",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 50,
+      "titulo": "As Prisões de Paulo Vistas como Avanço do Evangelho e a Disposição para a Vida ou para a Morte",
+      "capitulo_inicio": 1,
+      "verso_inicio": 12,
+      "capitulo_fim": 1,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 50,
+      "titulo": "O Exemplo da Humildade de Cristo (O Hino Kenótico) e a Exortação à Obediência e Brilho no Mundo",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 50,
+      "titulo": "Notícias e Encomenda de Timóteo e Epafrodito",
+      "capitulo_inicio": 2,
+      "verso_inicio": 19,
+      "capitulo_fim": 2,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 50,
+      "titulo": "O Alerta contra os Falsos Mestres, a Conquista da Justiça pela Fé e o Alvo da Vocação Celestial",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 50,
+      "titulo": "Exortações Finais à Concórdia e à Alegria, o Segredo da Contentamento e o Agradecimento pelas Ofertas",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 23
+    }
+  ]
+}

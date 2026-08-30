@@ -1,0 +1,29 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 57,
+      "titulo": "Saudação e Ação de Graças pela Fé e o Amor de Filemom pelos Santos",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 57,
+      "titulo": "O Apelo Intercessor de Paulo em Favor do Escravo Fugitivo Onésimo",
+      "capitulo_inicio": 1,
+      "verso_inicio": 8,
+      "capitulo_fim": 1,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 57,
+      "titulo": "Saudações Finais e a Bênção Apostólica",
+      "capitulo_inicio": 1,
+      "verso_inicio": 23,
+      "capitulo_fim": 1,
+      "verso_fim": 25
+    }
+  ]
+}

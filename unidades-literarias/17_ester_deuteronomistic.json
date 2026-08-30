@@ -1,0 +1,69 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 17,
+      "titulo": "As Festas do Rei Assuero e a Desobediência e Deposição da Rainha Vasti",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 17,
+      "titulo": "A Escolha de Ester como Rainha e a Descoberta da Conspiração por Mardoqueu",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 17,
+      "titulo": "O Decreto de Hamã contra os Judeus devido à Recusa de Mardoqueu em Reverenciá-lo",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 17,
+      "titulo": "O Luto dos Judeus e o Apelo de Mardoqueu a Ester para Interceder",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 17,
+      "titulo": "O Primeiro Banquete de Ester e os Planos de Hamã para Enforcar Mardoqueu",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 17,
+      "titulo": "A Insônia do Rei, a Honra Pública a Mardoqueu e a Queda de Hamã",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 17,
+      "titulo": "O Novo Decreto Real em Favor dos Judeus e a Derrota de Seus Inimigos",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 17,
+      "titulo": "A Instituição da Festa de Purim e a Grandeza de Mardoqueu",
+      "capitulo_inicio": 9,
+      "verso_inicio": 20,
+      "capitulo_fim": 10,
+      "verso_fim": 3
+    }
+  ]
+}

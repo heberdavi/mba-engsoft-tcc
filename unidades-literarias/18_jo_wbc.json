@@ -1,0 +1,93 @@
+{
+  "codigo_padrao": "WBC_COMMENTARY",
+  "unidades": [
+    {
+      "livro_id": 18,
+      "titulo": "A Piedade de Jó e o Primeiro Desafio de Satanás no Céu",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 18,
+      "titulo": "O Segundo Desafio de Satanás e a Enfermidade de Jó",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 18,
+      "titulo": "O Lamento de Jó Amaldiçoando o Dia de seu Nascimento",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 18,
+      "titulo": "Primeiro Ciclo de Discursos: A Discussão entre Jó e seus Amigos (Elifaz, Bildade e Zofar)",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 18,
+      "titulo": "Segundo Ciclo de Discursos: O Aprofundamento da Acusação e o Sofrimento",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 18,
+      "titulo": "Terceiro Ciclo de Discursos: As Últimas Tréplicas e a Defesa de Jó",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 18,
+      "titulo": "O Poema Interlúdio sobre a Sabedoria Inalcançável ao Homem",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 18,
+      "titulo": "O Monólogo Final de Defesa de Jó",
+      "capitulo_inicio": 29,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 18,
+      "titulo": "Os Discursos de Eliú corrigindo Jó e seus Amigos",
+      "capitulo_inicio": 32,
+      "verso_inicio": 1,
+      "capitulo_fim": 37,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 18,
+      "titulo": "As Respostas e Perguntas de Deus a Jó a partir da Tempestade",
+      "capitulo_inicio": 38,
+      "verso_inicio": 1,
+      "capitulo_fim": 41,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 18,
+      "titulo": "A Submissão de Jó, a Repreensão dos Amigos e a Restauração Final",
+      "capitulo_inicio": 42,
+      "verso_inicio": 1,
+      "capitulo_fim": 42,
+      "verso_fim": 17
+    }
+  ]
+}

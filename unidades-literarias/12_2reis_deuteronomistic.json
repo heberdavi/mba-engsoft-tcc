@@ -1,0 +1,149 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 12,
+      "titulo": "O Profeta Elias Arrebatado ao Céu e a Sucessão de Eliseu",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 12,
+      "titulo": "A Campanha de Israel, Judá e Edom contra Moabe",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 12,
+      "titulo": "Os Milagres de Eliseu (Azeite da Viúva, o Sulamita, a Morte na Panela)",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 44
+    },
+    {
+      "livro_id": 12,
+      "titulo": "A Cura da Lepra de Naamã e a Desonestidade de Geazi",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 12,
+      "titulo": "O Machado Flutuante e o Cerco da Síria a Samaria (Visão dos Cavalos de Fogo)",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 12,
+      "titulo": "A Restituição das Terras da Sulamita e as Profecias de Eliseu a Hazael e Jeú",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 12,
+      "titulo": "A Ungidura de Jeú e a Destruição da Casa de Acabe (Morte de Jezabel)",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 12,
+      "titulo": "Atalia usurpa o trono em Judá e a Restauração de Joás pelo Sacerdote Joiada",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 12,
+      "titulo": "Os Reinados de Jeoacaz e Jeoás em Israel, e a Morte de Eliseu",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 12,
+      "titulo": "Os Reinados de Amazias em Judá e Jeroboão II em Israel",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 12,
+      "titulo": "Cronologia dos Últimos Reis de Israel e Judá (Azarias, Jotão, Acaz, Zacarias, etc.)",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 12,
+      "titulo": "A Apostasia do Rei Acaz de Judá e a Aliança com a Assíria",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 12,
+      "titulo": "A Queda do Reino do Norte (Samaria) diante da Assíria e o Cativeiro",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 41
+    },
+    {
+      "livro_id": 12,
+      "titulo": "O Reinado Fiel de Ezequias e a Invasão de Senaqueribe (Ameaça contra Jerusalém)",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 37
+    },
+    {
+      "livro_id": 12,
+      "titulo": "A Doença de Ezequias, a Cura e a Visita dos Embaixadores da Babilônia",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 12,
+      "titulo": "Os Reinados Ímpios de Manassés e Amom em Judá",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 12,
+      "titulo": "A Reforma Religiosa do Rei Josias e a Descoberta do Livro da Lei",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 12,
+      "titulo": "Os Últimos Reis de Judá, o Cerco da Babilônia e a Queda de Jerusalém",
+      "capitulo_inicio": 23,
+      "verso_inicio": 31,
+      "capitulo_fim": 25,
+      "verso_fim": 30
+    }
+  ]
+}

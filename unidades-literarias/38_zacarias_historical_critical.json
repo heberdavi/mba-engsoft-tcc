@@ -1,0 +1,37 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 38,
+      "titulo": "O Chamado inicial ao Arrependimento e as Oito Visões Noturnas de Consolação e Juízo",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 38,
+      "titulo": "A Pergunta sobre o Jejum Ritual e a Resposta com Exortações à Justiça Social e à Verdade",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 38,
+      "titulo": "Oráculos Apocalípticos sobre o Julgamento das Nações Vizinhas e a Vinda do Rei Humilde montado em Jumento",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 38,
+      "titulo": "O Cerco Final a Jerusalém, o Lamento pelo Traspassado, a Purificação do Pecado e o Triunfo Escatológico do Senhor",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 21
+    }
+  ]
+}

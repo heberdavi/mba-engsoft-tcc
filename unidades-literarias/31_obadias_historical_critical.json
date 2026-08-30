@@ -1,0 +1,21 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 31,
+      "titulo": "O Oráculo de Juízo contra o Orgulho e a Traição de Edom",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 31,
+      "titulo": "O Dia do Senhor, a Retribuição às Nações e o Triunfo do Reino de Deus",
+      "capitulo_inicio": 1,
+      "verso_inicio": 15,
+      "capitulo_fim": 1,
+      "verso_fim": 21
+    }
+  ]
+}

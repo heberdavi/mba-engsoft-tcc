@@ -1,0 +1,37 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 30,
+      "titulo": "Oráculos de Juízo contra as Nações Vizinhas e contra Judá e Israel",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 30,
+      "titulo": "Acusações Diretas contra a Injustiça Social, o Luxo e a Corrupção Moral de Samaria",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 30,
+      "titulo": "As Primeiras Visões Simbólicas de Juízo e o Conflito de Amós com o Sacerdote Amias em Betel",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 30,
+      "titulo": "A Visão do Cesto de Frutas Maduras, a Fome da Palavra e a Promessa de Restauração da Tenda de Davi",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 15
+    }
+  ]
+}

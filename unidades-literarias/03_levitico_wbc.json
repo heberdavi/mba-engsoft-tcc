@@ -1,0 +1,197 @@
+{
+  "codigo_padrao": "WBC_COMMENTARY",
+  "unidades": [
+    {
+      "livro_id": 3,
+      "titulo": "A Lei do Holocausto",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 3,
+      "titulo": "A Lei da Oferta de Manjares",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 3,
+      "titulo": "A Lei do Sacrifício de Paz",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 3,
+      "titulo": "A Lei da Oferta pelo Pecado",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 3,
+      "titulo": "A Lei da Oferta pela Culpa",
+      "capitulo_inicio": 5,
+      "verso_inicio": 14,
+      "capitulo_fim": 6,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Instruções Adicionais sobre os Sacrifícios aos Sacerdotes",
+      "capitulo_inicio": 6,
+      "verso_inicio": 8,
+      "capitulo_fim": 7,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 3,
+      "titulo": "A Consagração de Arão e seus Filhos",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 3,
+      "titulo": "O Início do Ministério Sacerdotal e a Morte de Nadabe e Abiú",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Animais Limpos e Imundos para o Consumo",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 47
+    },
+    {
+      "livro_id": 3,
+      "titulo": "A Purificação da Mulher após o Parto",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Leis sobre a Lepra e Doenças de Pele",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 59
+    },
+    {
+      "livro_id": 3,
+      "titulo": "O Rito de Purificação do Leproso",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 57
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Fluxos Corporais e Impurezas Higiênicas",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 3,
+      "titulo": "O Dia da Expiação (Yom Kippur)",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 3,
+      "titulo": "O Local dos Sacrifícios e a Proibição de Comer Sangue",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Relações Sexuais Proibidas e Práticas Abomináveis",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Preceitos de Santidade Moral, Social e Cultual",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 37
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Penalidades para Infrações Graves da Lei",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Regulamentos Especiais para a Conduta dos Sacerdotes",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 3,
+      "titulo": "As Festas Fixas do Senhor e as Soleminidades Litúrgicas",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 44
+    },
+    {
+      "livro_id": 3,
+      "titulo": "O Óleo das Candeeiras, os Pães da Proposição e a Lei de talião",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 3,
+      "titulo": "O Ano sabático e o Ano do Jubileu",
+      "capitulo_inicio": 25,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 55
+    },
+    {
+      "livro_id": 3,
+      "titulo": "Bênçãos para a Obediência e Maldições para a Desobediência",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 46
+    },
+    {
+      "livro_id": 3,
+      "titulo": "As Leis sobre os Votos e as Dízimas",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 34
+    }
+  ]
+}

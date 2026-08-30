@@ -1,0 +1,141 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 26,
+      "titulo": "A Visão Inaugural da Glória de Deus e o Chamado de Ezequiel junto ao Rio Quebar",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Atos Simbólicos do Cerco de Jerusalém e Anúncio da Fome e da Desolação",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Oráculos de Juízo contra os Montes de Israel e os Sobreviventes",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 26,
+      "titulo": "A Visão das Abominações no Templo de Jerusalém e a Partida da Glória do Senhor",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Sinais Proféticos da Mudança para o Exílio e Repreensão aos Falsos Profetas",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Parábolas da Videira Útil Apenas para o Fogo e da Esposa Infiel (Jerusalém)",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 26,
+      "titulo": "O Princípio da Responsabilidade Individual e a Lamentação sobre os Príncipes de Israel",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Histórico Crítico da Rebeldia de Israel no Deserto e o Juízo do Fogo no Neguebe",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Acusações contra a Cidade Sanguinária (Jerusalém) e as Irmãs Oolá e Ooliba",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 49
+    },
+    {
+      "livro_id": 26,
+      "titulo": "O Início do Cerco Final, a Morte da Esposa do Profeta como Sinal e Oráculos contra as Nações (Amom, Moabe, Edom, Filistéia)",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Oráculos contra Tiro (A Queda do Príncipe e do Rei) e Sidom",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Oráculos contra o Egito e sua Desolação sob o Poder da Babilônia",
+      "capitulo_inicio": 29,
+      "verso_inicio": 1,
+      "capitulo_fim": 32,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 26,
+      "titulo": "O Profeta como Atalaia, a Notícia da Queda de Jerusalém e a Crítica aos Maus Pastores",
+      "capitulo_inicio": 33,
+      "verso_inicio": 1,
+      "capitulo_fim": 34,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 26,
+      "titulo": "Juízo sobre o Monte Seir (Edom) e Promessas de Restauração Física e Espiritual aos Montes de Israel",
+      "capitulo_inicio": 35,
+      "verso_inicio": 1,
+      "capitulo_fim": 36,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 26,
+      "titulo": "A Visão do Vale dos Ossos Secos e a Reunião das Varas de Israel (Efraim e Judá)",
+      "capitulo_inicio": 37,
+      "verso_inicio": 1,
+      "capitulo_fim": 37,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 26,
+      "titulo": "A Profecia Contra Gog e Magog e o Juízo Divino sobre as Nações Invasoras",
+      "capitulo_inicio": 38,
+      "verso_inicio": 1,
+      "capitulo_fim": 39,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 26,
+      "titulo": "A Visão Escatológica do Novo Templo, as Leis Cultuais, os Príncipes e a Repartição da Terra",
+      "capitulo_inicio": 40,
+      "verso_inicio": 1,
+      "capitulo_fim": 48,
+      "verso_fim": 35
+    }
+  ]
+}

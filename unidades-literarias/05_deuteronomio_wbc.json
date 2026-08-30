@@ -1,0 +1,221 @@
+{
+  "codigo_padrao": "WBC_COMMENTARY",
+  "unidades": [
+    {
+      "livro_id": 5,
+      "titulo": "O Discurso Histórico: A Jornada desde o Horeb",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Exortação à Obediência e as Cidades de Refúgio Transjordanianas",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 49
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Repetição do Decálogo (Os Dez Mandamentos)",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 5,
+      "titulo": "O Grande Mandamento (O Shemá) e Exortações à Fidelidade",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Relembrança da Reunião no Horeb e a Rebelião do Bezerro de Ouro",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Chamado ao Temor a Deus e à Obediência por Amor",
+      "capitulo_inicio": 10,
+      "verso_inicio": 12,
+      "capitulo_fim": 11,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 5,
+      "titulo": "O Único Lugar de Culto Centralizado e Leis sobre o Sangue",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Advertências contra Falsos Profetas e a Idolatria",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Alimentos Limpos e Imundos, e as Leis sobre o Dízimo",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 5,
+      "titulo": "O Ano do Remissão de Dívidas e a Libertação de Servos",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 5,
+      "titulo": "As Três Festas Anuais Obrigatórias (Páscoa, Semanas e Tabernáculos)",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Administração da Justiça, Juízes e a Proibição de Práticas Pagãs",
+      "capitulo_inicio": 16,
+      "verso_inicio": 18,
+      "capitulo_fim": 17,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Regulamentos para os Sacerdotes, Levitas e a Proibição do Ocultismo",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 5,
+      "titulo": "As Cidades de Refúgio e Leis sobre Limites de Terras e Testemunhas",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Leis sobre a Condução de Guerras e Cerco a Cidades",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Leis Sociais Diversas (Homicídios Desconhecidos, Família e Direitos)",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Regulamentos de Pureza Comunitária e Moralidade",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 4
+    },
+    {
+      "livro_id": 5,
+      "titulo": "Leis de Justiça Social, Casamento Levirato e Pesos Justos",
+      "capitulo_inicio": 24,
+      "verso_inicio": 5,
+      "capitulo_fim": 25,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Oferta das Primeiras Frutas e a Confirmação da Aliança",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Escrita da Lei no Monte Ebal e as Maldições proclamadas",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 5,
+      "titulo": "As Bênçãos da Obediência e as Maldições da Desobediência",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 68
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Renovação da Aliança nas Terras de Moabe",
+      "capitulo_inicio": 29,
+      "verso_inicio": 1,
+      "capitulo_fim": 29,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Escolha entre a Vida e a Morte",
+      "capitulo_inicio": 30,
+      "verso_inicio": 1,
+      "capitulo_fim": 30,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Sucessão de Josué e a Entrega Escrita da Lei",
+      "capitulo_inicio": 31,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 5,
+      "titulo": "O Cântico de Moisés como Testemunho contra o Povo",
+      "capitulo_inicio": 32,
+      "verso_inicio": 1,
+      "capitulo_fim": 32,
+      "verso_fim": 47
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Ordem para subir ao Monte Nebo e a Bênção Final de Moisés",
+      "capitulo_inicio": 32,
+      "verso_inicio": 48,
+      "capitulo_fim": 33,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 5,
+      "titulo": "A Morte e o Sepultamento de Moisés",
+      "capitulo_inicio": 34,
+      "verso_inicio": 1,
+      "capitulo_fim": 34,
+      "verso_fim": 12
+    }
+  ]
+}

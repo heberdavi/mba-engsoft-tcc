@@ -1,0 +1,157 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 40,
+      "titulo": "A Genealogia e o Nascimento de Jesus Cristo",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Visita dos Magos, a Fuga para o Egito e o Retorno a Nazaré",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 40,
+      "titulo": "O Batismo de Jesus e a Tentação no Deserto",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 40,
+      "titulo": "O Início do Ministério na Galileia e a Vocação dos Primeiros Discípulos",
+      "capitulo_inicio": 4,
+      "verso_inicio": 12,
+      "capitulo_fim": 4,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 40,
+      "titulo": "O Sermão da Montanha: As Bem-Aventurauranças, a Lei e os Ensinamentos Práticos",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Cura de Diversos Enfermidades e o Poder de Jesus sobre a Natureza e os Demônios",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Missão dos Doze Apóstolos e as Instruções para o Testemunho",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 42
+    },
+    {
+      "livro_id": 40,
+      "titulo": "Dúvidas de João Batista, Crise nas Cidades Galileias e o Convite ao Descanso",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 40,
+      "titulo": "Controvérsias a Respeito do Sábado e a Acusação de Obrar por Belzebu",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 50
+    },
+    {
+      "livro_id": 40,
+      "titulo": "Parábolas do Reino dos Céus",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 58
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Morte de João Batista, a Multiplicação dos Pães e Jesus Caminhando sobre o Mar",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Tradição dos Anciãos, a Cura da Filha da Cananeia e a Segunda Multiplicação",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 39
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Confissão de Pedro, o Primeiro Anúncio da Paixão e a Transfiguração",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 40,
+      "titulo": "Ensinamentos sobre a Comunidade, o Perdão e Parábolas de Misericórdia",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 40,
+      "titulo": "Ensinamentos sobre o Matrimônio, o Jovem Rico e a Entrada em Jerusalém",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Chegada a Jerusalém, a Purificação do Templo e as Parábolas de Confronto",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 46
+    },
+    {
+      "livro_id": 40,
+      "titulo": "Repreensão aos Escribas e Fariseus e o Discurso Escatológico",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 46
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Paixão: Da conspiração e Unção em Betânia até a Crucificação",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 66
+    },
+    {
+      "livro_id": 40,
+      "titulo": "A Ressurreição e a Grande Comissão",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 20
+    }
+  ]
+}

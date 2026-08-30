@@ -1,0 +1,141 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 42,
+      "titulo": "Introdução, Anúncios dos Nascimentos de João Batista e de Jesus, e o Magnificat",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 80
+    },
+    {
+      "livro_id": 42,
+      "titulo": "O Nascimento de Jesus em Belém, a Apresentação no Templo e a Infância em Nazaré",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 52
+    },
+    {
+      "livro_id": 42,
+      "titulo": "O Ministério de João Batista, o Batismo, a Genealogia e a Tentação de Jesus",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 42,
+      "titulo": "O Início do Ministério na Galileia, Rejeição em Nazaré e Primeiras Curas",
+      "capitulo_inicio": 4,
+      "verso_inicio": 14,
+      "capitulo_fim": 4,
+      "verso_fim": 44
+    },
+    {
+      "livro_id": 42,
+      "titulo": "A Vocação dos Primeiros Discípulos, o Sermão da Planície e Ensinamentos Éticos",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 49
+    },
+    {
+      "livro_id": 42,
+      "titulo": "Milagres na Galileia, a Mensagem aos Mensageiros de João e a Mulher Pecadora Perdoada",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 50
+    },
+    {
+      "livro_id": 42,
+      "titulo": "As Mulheres que Acompanhavam Jesus, Parábola do Semeador e Poder sobre a Tempestade e os Demônios",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 56
+    },
+    {
+      "livro_id": 42,
+      "titulo": "A Missão dos Doze, a Alimentação dos Cinco Mil, a Confissão de Pedro e a Transfiguração",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 50
+    },
+    {
+      "livro_id": 42,
+      "titulo": "A Viagem rumo a Jerusalém, a Missão dos Setenta e a Parábola do Bom Samaritano",
+      "capitulo_inicio": 9,
+      "verso_inicio": 51,
+      "capitulo_fim": 10,
+      "verso_fim": 42
+    },
+    {
+      "livro_id": 42,
+      "titulo": "Ensinamentos sobre a Oração, Controvérsias com os Fariseus e Parábolas de Alerta",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 42,
+      "titulo": "Curtas Cura no Sábado, Parábolas do Banquete, da Ovelha Perdida, da Dracma Perdida e do Filho Pródigo",
+      "capitulo_inicio": 13,
+      "verso_inicio": 36,
+      "capitulo_fim": 15,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 42,
+      "titulo": "Parábolas do Administrador Deshonesto, do Rico e Lázaro, e Ensinamentos sobre a Fé e a Gratidão",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 37
+    },
+    {
+      "livro_id": 42,
+      "titulo": "Parábolas da Viúva Persistente e do Fariseu com o Publicano, Bênção às Crianças e o Jovem Rico",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 42,
+      "titulo": "A Cura do Cego em Jericó, a Conversão de Zaqueu, a Parábola das Minas e a Entrada Triunfal",
+      "capitulo_inicio": 18,
+      "verso_inicio": 35,
+      "capitulo_fim": 19,
+      "verso_fim": 44
+    },
+    {
+      "livro_id": 42,
+      "titulo": "A Purificação do Templo, Controvérsias Religiosas e o Discurso sobre o Fim dos Tempos",
+      "capitulo_inicio": 19,
+      "verso_inicio": 45,
+      "capitulo_fim": 21,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 42,
+      "titulo": "A Última Ceia, a Agonia no Getsêmani, a Prisão e os Julgamentos de Jesus",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 23,
+      "titulo": "A Crucificação, Morte, Sepultamento e as Aparições do Ressuscitado (Emaús e Jerusalém)",
+      "capitulo_inicio": 23,
+      "verso_inicio": 26,
+      "capitulo_fim": 24,
+      "verso_fim": 53
+    }
+  ]
+}

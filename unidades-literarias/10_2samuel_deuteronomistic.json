@@ -1,0 +1,165 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 10,
+      "titulo": "A Lamento de Davi por Saul e Jônatas",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 10,
+      "titulo": "Davi é Ungido Rei de Judá em Hebrom e a Guerra Civil contra Israel",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 10,
+      "titulo": "Davi é Ungido Rei de Todo o Israel e Conquista Jerusalém (Sião)",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 10,
+      "titulo": "A Arca da Aliança é Trazida para Jerusalém",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 10,
+      "titulo": "A Aliança de Deus com Davi (A Promessa da Dinastia)",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 10,
+      "titulo": "As Vitórias Militares de Davi e a Lista de seus Oficialiciais",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 10,
+      "titulo": "Davi Mostra Bondade a Mefibosete, Filho de Jônatas",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 10,
+      "titulo": "A Guerra contra os Amonitas e Sírios",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 10,
+      "titulo": "Davi e Bate-Seba, e o Assassinato de Urias",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 10,
+      "titulo": "A Repreensão de Natã a Davi e o Arrependimento",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 10,
+      "titulo": "O Incesto de Amnom e Tamar, e a Vingança de Absalão",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 39
+    },
+    {
+      "livro_id": 10,
+      "titulo": "O Retorno de Absalão a Jerusalém com a Ajuda de Joabe",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 10,
+      "titulo": "A conspiração e a Fuga de Davi de Jerusalém por Causa de Absalão",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 10,
+      "titulo": "Os Conselhos de Aitofel e Husai, e a Morte de Aitofel",
+      "capitulo_inicio": 16,
+      "verso_inicio": 24,
+      "capitulo_fim": 17,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 10,
+      "titulo": "A Batalha na Floresta de Efraim e a Morte de Absalão",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 10,
+      "titulo": "O Retorno de Davi a Jerusalém e a Revolta de Seba",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 10,
+      "titulo": "A Vingança dos Gibeonitas e os Feitos dos Valentes de Davi",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 10,
+      "titulo": "O Cântico de Louvor de Davi pelo Livramento",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 51
+    },
+    {
+      "livro_id": 10,
+      "titulo": "As Últimas Palavras de Davi",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 39
+    },
+    {
+      "livro_id": 10,
+      "titulo": "O Censo Contado por Davi e a Praga Enviada por Deus",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 25
+    }
+  ]
+}

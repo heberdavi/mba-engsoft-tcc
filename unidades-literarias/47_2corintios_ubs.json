@@ -1,0 +1,77 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 47,
+      "titulo": "Saudação, o Deus de Toda Consolação e a Explicação da Mudança nos Planos de Viagem de Paulo",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 47,
+      "titulo": "O Perdão ao Ofensor, a Ansiedade em Trôade e o Triunfo do Evangelho",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 47,
+      "titulo": "Ministros da Nova Aliança: A Glória Incomparável do Espírito em Comparação com a Lei de Moisés",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 47,
+      "titulo": "O Tesouro em Vasos de Barro, a Esperança na Resurreição e o Ministério da Reconciliação",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 47,
+      "titulo": "As Aflições e a Conduta do Apóstolo, e o Apelo à Separação das Práticas Idólatras",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 1
+    },
+    {
+      "livro_id": 7,
+      "titulo": "A Alegria de Paulo com a Tristeza Segundo Deus Produzida pelos Coríntios",
+      "capitulo_inicio": 7,
+      "verso_inicio": 2,
+      "capitulo_fim": 7,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 47,
+      "titulo": "A Coleta para os Santos de Jerusalém: O Exemplo da Generosidade e a Administração dos Recursos",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 47,
+      "titulo": "A Defesa da Autoridade Apostólica de Paulo contra os Opositores",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 47,
+      "titulo": "Recomendações Finais, Visões, O Espinho na Carne e a Próxima Visita",
+      "capitulo_inicio": 13,
+      "verso_inicio": 11,
+      "capitulo_fim": 13,
+      "verso_fim": 14
+    }
+  ]
+}

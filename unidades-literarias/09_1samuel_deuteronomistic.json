@@ -1,0 +1,229 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 9,
+      "titulo": "O Nascimento de Samuel e o Cântico de Ana",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Corrupção dos Filhos de Eli e a Profecia contra a Casa de Eli",
+      "capitulo_inicio": 2,
+      "verso_inicio": 12,
+      "capitulo_fim": 2,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 9,
+      "titulo": "O Chamado de Samuel pelo Senhor",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Perda da Arca para os Filisteus e a Morte de Eli",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Arca no Território dos Filisteus e as Plagas de Dagon",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 9,
+      "titulo": "O Retorno da Arca de Israel para Bete-Semes",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 2
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Vitória de Samuel sobre os Filisteus em Mispá (Eben-Ezer)",
+      "capitulo_inicio": 7,
+      "verso_inicio": 3,
+      "capitulo_fim": 7,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Israel Pede um Rei e Samuel Adverte sobre o Regime Monárquico",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Ungidura de Saul por Samuel",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Aclamação de Saul como Rei e a Vitória sobre Amom em Jabes",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 9,
+      "titulo": "O Discurso de Despedida de Samuel",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Desobediência de Saul no Sacrifício em Gilgal",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 9,
+      "titulo": "As Façanhas de Jônatas contra os Filisteus em Micmós",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 52
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Rejeição de Saul por Deus Devido ao Desobedecer a Ordem sobre Amaleque",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Ungidura de Davi por Samuel em Belém",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Davi Toca a Harpa para Saul e Derrota o Gigante Golias",
+      "capitulo_inicio": 16,
+      "verso_inicio": 14,
+      "capitulo_fim": 17,
+      "verso_fim": 58
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Amizade entre Jônatas e Davi e o Ciúme Crescente de Saul",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Fuga Definitiva de Davi e a Ajuda de Jônatas",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 42
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Davi em Nobe (o Pão da Proposição) e Fugindo para Gate",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Caverna de Adulão e o Massacre dos Sacerdotes em Nobe",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Davi Salva Queila e foge para o Deserto de Zife",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Davi Poupa a Vida de Saul na Caverna em En-Gedi",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Morte de Samuel, o Episódio de Nabal e Abigail, e o Casamento com Davi",
+      "capitulo_inicio": 25,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 44
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Davi Poupa a Vida de Saul pela Segunda Vez no Deserto de Zife",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Davi Busca Refúgio entre os Filisteus em Ziclague",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Saul Consulta a Médium de En-Dor antes da Batalha",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 9,
+      "titulo": "Os Filisteus Rejeitam Davi e o Ataque Amalequita a Ziclague",
+      "capitulo_inicio": 29,
+      "verso_inicio": 1,
+      "capitulo_fim": 30,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 9,
+      "titulo": "A Derrota de Israel no Monte Gilboa e a Morte de Saul e seus Filhos",
+      "capitulo_inicio": 31,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 13
+    }
+  ]
+}

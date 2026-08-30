@@ -1,0 +1,117 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 24,
+      "titulo": "A Chamada e Vocação de Jeremias e as Visões da Amendoeira e da Panela Fervente",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 24,
+      "titulo": "As Acusações de Apostasia contra Israel e o Convite ao Arrependimento",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 24,
+      "titulo": "O Sermão do Templo e o Juízo sobre a Falsa Confiança Religiosa",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 24,
+      "titulo": "A Quebra da Aliança, as Confissões de Jeremias e a Oposição dos Conterrâneos",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 24,
+      "titulo": "Sinais Proféticos (O Cinto de Linho, a Seca e o Oleiro e o Vaso de Barro)",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 24,
+      "titulo": "Oráculos contra os Reis de Judá e os Falsos Profetas",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 24,
+      "titulo": "A Visão dos Cestos de Figos e a Profecia dos Setenta Anos de Cativeiro Babilônico",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 24,
+      "titulo": "O Conflito de Jeremias com os Falsos Profetas (Hananias) e a Carta aos Exilados",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 29,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 24,
+      "titulo": "O Livro da Consolação: Promessas de Restauração e a Nova Aliança",
+      "capitulo_inicio": 30,
+      "verso_inicio": 1,
+      "capitulo_fim": 33,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 24,
+      "titulo": "Apêndices Biográficos: A Fidelidade dos Recabitas e o Rolo Queimado por Jeoaquim",
+      "capitulo_inicio": 34,
+      "verso_inicio": 1,
+      "capitulo_fim": 36,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 24,
+      "titulo": "O Sofrimento de Jeremias durante o Cerco de Jerusalém e a Prisão",
+      "capitulo_inicio": 37,
+      "verso_inicio": 1,
+      "capitulo_fim": 38,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 24,
+      "titulo": "A Queda Definitiva de Jerusalém, o Destino de Gedalias e a Fuga para o Egito",
+      "capitulo_inicio": 39,
+      "verso_inicio": 1,
+      "capitulo_fim": 45,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 24,
+      "titulo": "Oráculos Proféticos contra as Nações Estrangeiras (Egito, Filisteia, Moabe, Amom, Edom, Damasco, Quedar e Elão)",
+      "capitulo_inicio": 46,
+      "verso_inicio": 1,
+      "capitulo_fim": 51,
+      "verso_fim": 64
+    },
+    {
+      "livro_id": 24,
+      "titulo": "Apêndice Histórico: A Queda de Jerusalém e a Libertação de Joaquim na Babilônia",
+      "capitulo_inicio": 52,
+      "verso_inicio": 1,
+      "capitulo_fim": 52,
+      "verso_fim": 34
+    }
+  ]
+}

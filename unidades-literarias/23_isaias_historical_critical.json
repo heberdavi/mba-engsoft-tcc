@@ -1,0 +1,117 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 23,
+      "titulo": "A Indicação de Acusação contra Judá e o Convite ao Arrependimento",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 23,
+      "titulo": "A Visão do Monte da Casa do Senhor nos Últimos Dias",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 23,
+      "titulo": "O Juízo sobre os Líderes de Jerusalém e o Cântico da Vinha",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 23,
+      "titulo": "A Vocação de Isaías no Templo no Ano da Morte de Uzias",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 23,
+      "titulo": "O Sinal de Emanuel na Crise Siromerafita e Promessas do Menino",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 23,
+      "titulo": "O Juízo contra o Orgulho de Israel (Efraim) e o Rebento de Jessé",
+      "capitulo_inicio": 9,
+      "verso_inicio": 8,
+      "capitulo_fim": 11,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 23,
+      "titulo": "Cânticos de Louvor pelo Livramento e Resgate",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 23,
+      "titulo": "Oráculos contra as Nações Estrangeiras (Babilônia, Assíria, Moabe, Egito e Tiro)",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 23,
+      "titulo": "O Apocalipse de Isaías: Juízo Cósmico e Redenção Final da Terra",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 23,
+      "titulo": "Os Ai contra a Aliança com o Egito e a Confiança na Salvação de Sião",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 35,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 23,
+      "titulo": "Apêndice Histórico: A Invasão de Senaqueribe, a Doença de Ezequias e os Embaixadores Babilônios",
+      "capitulo_inicio": 36,
+      "verso_inicio": 1,
+      "capitulo_fim": 39,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 23,
+      "titulo": "O Livro da Consolação: A Mensagem de Esperança aos Exilados na Babilônia",
+      "capitulo_inicio": 40,
+      "verso_inicio": 1,
+      "capitulo_fim": 55,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 23,
+      "titulo": "Os Cânticos do Servo Sofredor e as Promessas de Restauração",
+      "capitulo_inicio": 52,
+      "verso_inicio": 13,
+      "capitulo_fim": 53,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 23,
+      "titulo": "Oráculos Finais: Chamado à Justiça, Confissão de Pecados e Novos Céus",
+      "capitulo_inicio": 56,
+      "verso_inicio": 1,
+      "capitulo_fim": 66,
+      "verso_fim": 24
+    }
+  ]
+}

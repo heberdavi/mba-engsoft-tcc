@@ -1,0 +1,133 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 14,
+      "titulo": "Salomão Pede Sabedoria em Gibeão e Acumula Riquezas",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 14,
+      "titulo": "Os Acordos com Hirão e a Construção do Templo de Jerusalém",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 14,
+      "titulo": "A Transferência da Arca para o Templo e a Oração de Dedicação de Salomão",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 14,
+      "titulo": "As Cidades Fortificadas de Salomão e a Visita da Rainha de Sabá",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 14,
+      "titulo": "A Revolta em Siquém, a Cisão do Reino e o Reinado de Roboão",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 14,
+      "titulo": "Os Reinados de Abias e Asa em Judá (Reformas e Vitórias)",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 14,
+      "titulo": "O Reinado Fiel de Josafá e as Reformas Administrativas e Religiosas",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 37
+    },
+    {
+      "livro_id": 14,
+      "titulo": "Os Reinados de Jeorão e Acazias em Judá",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 14,
+      "titulo": "A Opressão de Atalia, a Aclamação de Joás por Joiada e a Restauração",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 14,
+      "titulo": "Os Reinados de Amazias, Uzias (Azarias) e Jotão em Judá",
+      "capitulo_inicio": 25,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 14,
+      "titulo": "O Reinado Ímpio de Acaz e a Opressão dos Sírios e Filisteus",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 14,
+      "titulo": "A Grande Reforma Religiosa do Rei Ezequias e a Celebração da Páscoa",
+      "capitulo_inicio": 29,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 14,
+      "titulo": "A Invasão de Senaqueribe, a Doença de Ezequias e seus Últimos Anos",
+      "capitulo_inicio": 32,
+      "verso_inicio": 1,
+      "capitulo_fim": 32,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 14,
+      "titulo": "Os Reinados Ímpios de Manassés e Amom, e o Arrependimento tardio de Manassés",
+      "capitulo_inicio": 33,
+      "verso_inicio": 1,
+      "capitulo_fim": 33,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 14,
+      "titulo": "A Reforma do Rei Josias e a Descoberta do Livro da Lei",
+      "capitulo_inicio": 34,
+      "verso_inicio": 1,
+      "capitulo_fim": 35,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 14,
+      "titulo": "Os Últimos Reis de Judá, a Queda de Jerusalém e o Decreto de Ciro",
+      "capitulo_inicio": 36,
+      "verso_inicio": 1,
+      "capitulo_fim": 36,
+      "verso_fim": 23
+    }
+  ]
+}

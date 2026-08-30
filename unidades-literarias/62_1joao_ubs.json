@@ -1,0 +1,29 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 62,
+      "titulo": "A Palavra da Vida, a Comunhão com Deus e o Andar na Luz contra o Pecado",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 62,
+      "titulo": "O Alerta contra o Anticristo, a Filiação Divina e o Grande Mandamento do Amor Fraterno",
+      "capitulo_inicio": 2,
+      "verso_inicio": 18,
+      "capitulo_fim": 3,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 62,
+      "titulo": "O Teste dos Espíritos, Deus como Fonte do Amor e a Vitória sobre o Mundo pela Fé",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 21
+    }
+  ]
+}

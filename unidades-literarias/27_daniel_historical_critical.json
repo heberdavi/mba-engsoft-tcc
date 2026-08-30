@@ -1,0 +1,85 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 27,
+      "titulo": "A Fidelidade dos Jovens Judeus à Dieta Real na Corte da Babilônia",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 27,
+      "titulo": "A Interpretação do Sonho da Estátua Multimetálica por Daniel",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 49
+    },
+    {
+      "livro_id": 27,
+      "titulo": "A Fornalha Ardente e o Livramento dos Três Amigos (Sadraque, Mesaque e Abede-Nego)",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 27,
+      "titulo": "O Sonho da Árvore Cortada, a Loucura de Nabucodonosor e sua Restauração",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 37
+    },
+    {
+      "livro_id": 27,
+      "titulo": "O Banquete de Belsazar, a Escrita na Parede e a Queda do Império Babilônico",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 27,
+      "titulo": "Daniel na Cova dos Leões sob o Reinado de Dario, o Medo",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 27,
+      "titulo": "A Visão Apocalíptica das Quatro Bestas e do Filho do Homem",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 27,
+      "titulo": "A Visão do Carneiro e do Bode (Conflito entre a Medo-Pérsia e a Grécia)",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 27,
+      "titulo": "A Oração de Confissão de Daniel e a Profecia das Setenta Semanas",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 27,
+      "titulo": "A Visão Final junto ao Rio Tigre: Os Príncipes Celestiais e o Conflito dos Impérios",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 13
+    }
+  ]
+}

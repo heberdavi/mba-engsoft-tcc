@@ -1,0 +1,85 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 46,
+      "titulo": "Saudação, Ação de Graças e a Repreensão às Divisões e Partidarismos na Igreja",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 46,
+      "titulo": "A Sabedoria de Deus Revelada pelo Espírito e a Maturidade Espiritual",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 46,
+      "titulo": "Os Apóstolos como Despenseiros de Cristo, o Julgamento Prematuro e a Disciplina na Comunidade",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 46,
+      "titulo": "Questões Práticas: Processos entre Irmãos, a Pureza do Corpo e o Casamento",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 46,
+      "titulo": "A Questão dos Alimentos Oferecidos a Ídolos e os Direitos Apostólicos",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 46,
+      "titulo": "Advertências Baseadas na História de Israel, o Comportamento no Culto e a Ceia do Senhor",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 46,
+      "titulo": "Os Dons Espirituais, a Unidade do Corpo de Cristo e o Hino do Amor",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 46,
+      "titulo": "O Exercício das Profecias e das Línguas na Assembleia",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 46,
+      "titulo": "A Ressurreição de Cristo e a Ressurreição dos Mortos",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 58
+    },
+    {
+      "livro_id": 46,
+      "titulo": "A Coleta para os Santos, Planos de Viagem e Recomendações Finais",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 24
+    }
+  ]
+}

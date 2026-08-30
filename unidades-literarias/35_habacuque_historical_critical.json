@@ -1,0 +1,29 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 34,
+      "titulo": "A Majestade Furiosa de Deus e o Decreto de Juízo Irrevogável contra Nínive",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 34,
+      "titulo": "A Descrição Vívida do Cerco, da Tomada e do Saque da Cidade de Nínive",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 34,
+      "titulo": "Ai da Cidade Sanguinária: A Inevitabilidade da Ruína e a Queda Definitiva do Império Assírio",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 19
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "codigo_padrao": "WBC_COMMENTARY",
+  "unidades": [
+    {
+      "livro_id": 22,
+      "titulo": "O Anseio da Amada nos Aposentos do Rei e o Diálogo com as Filhas de Jerusalém",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 22,
+      "titulo": "A Voz do Amado na Primavera e a Metáfora da Rosa de Sarom",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 22,
+      "titulo": "O Sonho Noturno de Busca e o Cortejo Nupcial de Salomão",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 22,
+      "titulo": "O Elogio do Amado à Beleza da Esposa e o Jardim Fechado",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 22,
+      "titulo": "O Despertar da Amada, a Perda Temporária e a Descrição do Amado",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 22,
+      "titulo": "A Beleza Incomparável da Amada e o Descer ao Jardim das Nogueiras",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 22,
+      "titulo": "Elogios Detalhados aos Passos e ao Corpo da Esposa",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 22,
+      "titulo": "O Desejo de Intimidade Pública na Aldeia Natal e a Força do Amor Como a Morte",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 14
+    }
+  ]
+}

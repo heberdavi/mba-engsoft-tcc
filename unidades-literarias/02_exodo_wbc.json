@@ -1,0 +1,309 @@
+{
+  "codigo_padrao": "WBC_COMMENTARY",
+  "unidades": [
+    {
+      "livro_id": 2,
+      "titulo": "A Multiplicação dos Israelitas e a Opressão no Egito",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 2,
+      "titulo": "O Nascimento e a Infância de Moisés",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Fuga de Moisés para Midiã",
+      "capitulo_inicio": 2,
+      "verso_inicio": 11,
+      "capitulo_fim": 2,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Sarça Ardente e o Chamado de Moisés",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 2,
+      "titulo": "O Retorno de Moisés ao Egito e as Primeiras Reações",
+      "capitulo_inicio": 4,
+      "verso_inicio": 18,
+      "capitulo_fim": 4,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 2,
+      "titulo": "O Agravamento da Opressão e a Queixa dos Israelitas",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Genealogia de Moisés e Arão",
+      "capitulo_inicio": 6,
+      "verso_inicio": 14,
+      "capitulo_fim": 6,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Vara que se Transforma em Serpente diante de Faraó",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Primeira Praga: A Água em Sangue",
+      "capitulo_inicio": 7,
+      "verso_inicio": 14,
+      "capitulo_fim": 7,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Segunda Praga: As Rãs",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Terceira Praga: Os Piolhos",
+      "capitulo_inicio": 8,
+      "verso_inicio": 16,
+      "capitulo_fim": 8,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Quarta Praga: As Moscas",
+      "capitulo_inicio": 8,
+      "verso_inicio": 20,
+      "capitulo_fim": 8,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Quinta Praga: A Peste nos Animais",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Sexta Praga: As Úlceras",
+      "capitulo_inicio": 9,
+      "verso_inicio": 8,
+      "capitulo_fim": 9,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Sétima Praga: A Saraiva e o Fogo",
+      "capitulo_inicio": 9,
+      "verso_inicio": 13,
+      "capitulo_fim": 9,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Oitava Praga: Os Gafanhotos",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Nona Praga: As Trevas",
+      "capitulo_inicio": 10,
+      "verso_inicio": 21,
+      "capitulo_fim": 10,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 2,
+      "titulo": "O Anúncio da Décima Praga e a Instrução sobre a Páscoa",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Morte dos Primogênitos e a Saída de Israel do Egito",
+      "capitulo_inicio": 12,
+      "verso_inicio": 29,
+      "capitulo_fim": 13,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Travessia do Mar Vermelho e o Cântico de Moisés",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 2,
+      "titulo": "As Águas Amargas de Mará e a Chegada ao Deserto de Sim (Maná e Codornizes)",
+      "capitulo_inicio": 15,
+      "verso_inicio": 22,
+      "capitulo_fim": 16,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Água da Rocha em Refidim e a Batalha contra os Amalequitas",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Visita de Jetro e a Nomeação de Juízes",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Chegada ao Monte Sinai e a Preparação para a Aliança",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 2,
+      "titulo": "Os Dez Mandamentos (O Decálogo)",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 2,
+      "titulo": "O Código da Aliança: Leis Sociais e Civis",
+      "capitulo_inicio": 20,
+      "verso_inicio": 22,
+      "capitulo_fim": 23,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Ratificação da Aliança no Sinai",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 2,
+      "titulo": "Instruções para o Tabernáculo, a Arca e a Mesa",
+      "capitulo_inicio": 25,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 2,
+      "titulo": "As Cortinas, as Tábuas e o Véu do Tabernáculo",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 37
+    },
+    {
+      "livro_id": 2,
+      "titulo": "O Altar dos Holocaustos e o Pátio do Tabernáculo",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 2,
+      "titulo": "As Vestes Sacerdotais e o Peitoral",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Consagração dos Sacerdotes e as Ofertas Contínuas",
+      "capitulo_inicio": 29,
+      "verso_inicio": 1,
+      "capitulo_fim": 29,
+      "verso_fim": 46
+    },
+    {
+      "livro_id": 2,
+      "titulo": "O Altar do Incenso e o Imposto do Resgate",
+      "capitulo_inicio": 30,
+      "verso_inicio": 1,
+      "capitulo_fim": 30,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 2,
+      "titulo": "Os Artesãos Bezalel e Ooliabe e a Guarda do Sábado",
+      "capitulo_inicio": 31,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 2,
+      "titulo": "O Bezerro de Ouro e a Intercessão de Moisés",
+      "capitulo_inicio": 32,
+      "verso_inicio": 1,
+      "capitulo_fim": 33,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Renovação das Tábuas da Aliança",
+      "capitulo_inicio": 34,
+      "verso_inicio": 1,
+      "capitulo_fim": 34,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Coleta de Materiais e a Construção do Tabernáculo",
+      "capitulo_inicio": 35,
+      "verso_inicio": 1,
+      "capitulo_fim": 39,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 2,
+      "titulo": "A Montagem do Tabernáculo e a Glória do Senhor",
+      "capitulo_inicio": 40,
+      "verso_inicio": 1,
+      "capitulo_fim": 40,
+      "verso_fim": 38
+    }
+  ]
+}

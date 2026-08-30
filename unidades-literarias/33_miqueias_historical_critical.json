@@ -1,0 +1,37 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 33,
+      "titulo": "O Juízo Divino contra Samaria e Jerusalém devido à Injustiça Social",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 33,
+      "titulo": "A Profecia da Glória Futura de Sião e o Nascimento do Messias em Belém",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 33,
+      "titulo": "A Controvérsia do Senhor contra Israel e os Requisitos da Verdadeira Justiça",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 33,
+      "titulo": "O Lamento sobre a Corrupção Geral e a Promessa Final de Perdão e Compaixão",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 20
+    }
+  ]
+}

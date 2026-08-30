@@ -1,0 +1,141 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 44,
+      "titulo": "A Ascensão de Jesus, a Esperança do Espírito e a Eleição de Matias",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 44,
+      "titulo": "O Dia de Pentecostes, o Derramamento do Espírito e o Surgimento da Primeira Igreja em Jerusalém",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 47
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Cura do Coxo no Formosa, o Discurso de Pedro e a Prisão dos Apóstolos",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 37
+    },
+    {
+      "livro_id": 44,
+      "titulo": "O Caso de Ananias e Safira, os Sinais Apostólicos e a Instituição dos Sete Diáconos",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 44,
+      "titulo": "O Discurso e o Martírio de Estêvão, o Primeiro Mártir",
+      "capitulo_inicio": 6,
+      "verso_inicio": 8,
+      "capitulo_fim": 8,
+      "verso_fim": 3
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Expansão do Evangelho com Filipe na Samaria e a Conversão do Eunuco Etíope",
+      "capitulo_inicio": 8,
+      "verso_inicio": 4,
+      "capitulo_fim": 8,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Conversão de Saulo de Tarso no Caminho de Damasco e o Início de seu Testemunho",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Visão de Pedro, a Conversão de Cornélio e a Abertura da Porta aos Gentios",
+      "capitulo_inicio": 9,
+      "verso_inicio": 32,
+      "capitulo_fim": 11,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Fundação da Igreja em Antioquia, a Perseguição de Herodes e a Libertação de Pedro",
+      "capitulo_inicio": 11,
+      "verso_inicio": 19,
+      "capitulo_fim": 12,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Primeira Viagem Missionária de Paulo e Barnabé (Chipre e Galácia)",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 44,
+      "titulo": "O Concílio de Jerusalém e a Decisão sobre a Inclusão dos Gentios sem a Circuncisão",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Segunda Viagem Missionária: A Visão do Macedônio e a Fundação das Igrejas na Europa",
+      "capitulo_inicio": 15,
+      "verso_inicio": 36,
+      "capitulo_fim": 18,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Terceira Viagem Missionária: O Ministério em Éfeso e o Tumulto dos Prateiros",
+      "capitulo_inicio": 18,
+      "verso_inicio": 23,
+      "capitulo_fim": 20,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Viagem de Retorno a Jerusalém, a Prisão no Templo e o Testemunho perante a Multidão",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 44,
+      "titulo": "Paulo perante o Sinédrio, a Conspiração e a Transferência para Cesareia",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 44,
+      "titulo": "Os Julgamentos de Paulo perante Félix, Festo e o Rei Agripa",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 44,
+      "titulo": "A Viagem Marítima rumo a Roma, o Naufrágio na Ilha de Malta e a Chegada Final",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 31
+    }
+  ]
+}

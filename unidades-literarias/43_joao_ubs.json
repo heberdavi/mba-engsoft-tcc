@@ -1,0 +1,117 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 43,
+      "titulo": "O Verbo Eterno, o Testemunho de João Batista e o Chamado dos Primeiros Discípulos",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 51
+    },
+    {
+      "livro_id": 43,
+      "titulo": "As Bodas em Caná da Galileia e a Primeira Purificação do Templo",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 43,
+      "titulo": "O Diálogo Noturno com Nicodemos e o Novo Testemunho de João Batista",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 43,
+      "titulo": "Jesus e a Mulher Samaritana junto ao Poço de Jacó e a Cura do Filho do Oficial",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 54
+    },
+    {
+      "livro_id": 43,
+      "titulo": "A Cura do Paralítico no Tanque de Betesda e o Discurso sobre a Autoridade do Filho",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 47
+    },
+    {
+      "livro_id": 43,
+      "titulo": "A Multiplicação dos Pães, Jesus Caminhando sobre o Mar e o Discurso do Pão da Vida",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 71
+    },
+    {
+      "livro_id": 43,
+      "titulo": "Jesus na Festa dos Tabernáculos e as Consequências dos Debates com as Autoridades",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 59
+    },
+    {
+      "livro_id": 43,
+      "titulo": "A Cura do Cego de Nascença e o Discurso do Bom Pastor",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 42
+    },
+    {
+      "livro_id": 43,
+      "titulo": "A Ressurreição de Lázaro e a Conspiração do Sinédrio contra Jesus",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 57
+    },
+    {
+      "livro_id": 43,
+      "titulo": "A Unção em Betânia, a Entrada Triunfal e o Anúncio da Hora da Glorificação",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 50
+    },
+    {
+      "livro_id": 43,
+      "titulo": "O Lava-pés, os Discursos de Despedida e a Promessa do Consolador",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 43,
+      "titulo": "A Oração Sacerdotal de Jesus pelos Discípulos e pela Igreja",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 43,
+      "titulo": "A Prisão, os Julgamentos Perante Anás, Caifás e Pilatos, e a Crucificação",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 42
+    },
+    {
+      "livro_id": 43,
+      "titulo": "A Ressurreição, as Aparições aos Discípulos e a Restauração de Pedro",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 25
+    }
+  ]
+}

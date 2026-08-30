@@ -1,0 +1,45 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 52,
+      "titulo": "Saudação, Ação de Graças pela Fé Exemplar e a Conversão dos Tessalonicenses",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 52,
+      "titulo": "O Comportamento e o Ministério Paternal de Paulo e seus Companheiros em Tessalônica",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 52,
+      "titulo": "O Desejo de Paulo de Rever a Igreja e o Relatório Animador Trazido por Timóteo",
+      "capitulo_inicio": 2,
+      "verso_inicio": 17,
+      "capitulo_fim": 3,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 52,
+      "titulo": "O Chamado à Santidade, ao Amor Fraterno e ao Trabalho Honesto",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 52,
+      "titulo": "A Vinda do Senhor, a Esperança na Ressurreição e as Recomendações Finais da Vida Cristã",
+      "capitulo_inicio": 4,
+      "verso_inicio": 13,
+      "capitulo_fim": 5,
+      "verso_fim": 28
+    }
+  ]
+}

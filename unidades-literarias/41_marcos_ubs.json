@@ -1,0 +1,117 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 41,
+      "titulo": "A Preparação do Caminho por João Batista, o Batismo e a Tentação de Jesus",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 41,
+      "titulo": "O Início do Ministério na Galileia, Chamado dos Primeiros Discípulos e Curtas Curas em Cafarnaum",
+      "capitulo_inicio": 1,
+      "verso_inicio": 14,
+      "capitulo_fim": 1,
+      "verso_fim": 45
+    },
+    {
+      "livro_id": 41,
+      "titulo": "Controvérsias Crescentes: O Paralítico, o Chamado de Levi e Questões sobre o Sábado e o Jejum",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 41,
+      "titulo": "Multidões Junto ao Mar, a Escolha dos Doze Apóstolos e as Acusações dos Escribas",
+      "capitulo_inicio": 3,
+      "verso_inicio": 7,
+      "capitulo_fim": 3,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 41,
+      "titulo": "Parábolas do Reino e o Poder de Jesus sobre a Tempestade, a Legião e as Enfermidades",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 41,
+      "titulo": "Rejeição em Nazaré, a Missão dos Doze, a Morte de João Batista e a Primeira Multiplicação dos Pães",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 56
+    },
+    {
+      "livro_id": 41,
+      "titulo": "Tradições dos Homens, a Mulher Siro-Fenícia, a Cura do Surdo-Mudo e a Segunda Multiplicação",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 41,
+      "titulo": "A Confissão de Pedro, o Primeiro Anúncio da Paixão e a Transfiguração",
+      "capitulo_inicio": 8,
+      "verso_inicio": 27,
+      "capitulo_fim": 9,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 41,
+      "titulo": "Segundo Anúncio da Paixão, Ensinamentos sobre a Humildade, o Divórcio, o Jovem Rico e o Terceiro Anúncio",
+      "capitulo_inicio": 9,
+      "verso_inicio": 30,
+      "capitulo_fim": 10,
+      "verso_fim": 45
+    },
+    {
+      "livro_id": 41,
+      "titulo": "A Cura do Cego Bartimeu, a Entrada Triunfal em Jerusalém e a Purificação do Templo",
+      "capitulo_inicio": 10,
+      "verso_inicio": 46,
+      "capitulo_fim": 11,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 41,
+      "titulo": "Parábola dos Lavradores Mau, Questões Tributárias, o Grande Mandamento e a Oferta da Viúva",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 44
+    },
+    {
+      "livro_id": 41,
+      "titulo": "O Discurso Escatológico sobre a Destruição do Templo e os Sinais do Fim",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 37
+    },
+    {
+      "livro_id": 41,
+      "titulo": "A Paixão: Da Unção em Betânia, a Última Ceia, o Getsêmani até o Julgamento",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 47
+    },
+    {
+      "livro_id": 41,
+      "titulo": "A Crucificação, Morte, Sepultamento e a Ressurreição",
+      "capitulo_inicio": 15,
+      "verso_inicio": 48,
+      "capitulo_fim": 16,
+      "verso_fim": 20
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 64,
+      "titulo": "Saudação a Gaio e o Elogio à sua Hospitalidade e Andar na Verdade",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 64,
+      "titulo": "A Conduta Ambição de Diótrefes, o Bom Testemunho de Demétrio e as Recomendações Finais",
+      "capitulo_inicio": 1,
+      "verso_inicio": 9,
+      "capitulo_fim": 1,
+      "verso_fim": 15
+    }
+  ]
+}

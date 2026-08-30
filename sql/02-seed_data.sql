@@ -103,33 +103,1013 @@ INSERT INTO livro(id, nome, abreviacao, testamento_id, genero_id) VALUES
 (65,'Judas','Jd',2,6), 
 (66,'Apocalipse','Ap',2,7);
 
-INSERT INTO unidade_literaria (livro_id, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim, tipo, interlocutor) VALUES
-(18, 1, 1, 2, 13, 'narrativa', NULL),
-(18, 3, 1, 3, 26, 'discurso', 'Jó'),
-(18, 4, 1, 5, 27, 'discurso', 'Elifaz'),
-(18, 6, 1, 7, 21, 'discurso', 'Jó'),
-(18, 8, 1, 8, 22, 'discurso', 'Bildade'),
-(18, 9, 1, 10, 22, 'discurso', 'Jó'),
-(18, 11, 1, 11, 20, 'discurso', 'Zofar'),
-(18, 12, 1, 14, 22, 'discurso', 'Jó'),
-(18, 15, 1, 15, 35, 'discurso', 'Elifaz'),
-(18, 16, 1, 17, 16, 'discurso', 'Jó'),
-(18, 18, 1, 18, 21, 'discurso', 'Bildade'),
-(18, 19, 1, 19, 29, 'discurso', 'Jó'),
-(18, 20, 1, 20, 29, 'discurso', 'Zofar'),
-(18, 21, 1, 21, 34, 'discurso', 'Jó'),
-(18, 22, 1, 22, 30, 'discurso', 'Elifaz'),
-(18, 23, 1, 24, 25, 'discurso', 'Jó'),
-(18, 25, 1, 25, 6, 'discurso', 'Bildade'),
-(18, 26, 1, 31, 40, 'discurso', 'Jó'),
-(18, 32, 1, 37, 24, 'discurso', 'Eliú'),
-(18, 38, 1, 40, 2, 'discurso', 'Deus'),
-(18, 40, 3, 40, 5, 'discurso', 'Jó'),
-(18, 40, 6, 41, 34, 'discurso', 'Deus'),
-(18, 42, 1, 42, 6, 'discurso', 'Jó'),
-(18, 42, 7, 42, 17, 'narrativa', NULL);
+-- 3. Padrões e Unidades Literárias
+INSERT INTO "padrao_origem" ("codigo", "nome", "autor_ou_fonte", "descricao", "referencia_bibliografica") VALUES 
+('UBS', 'Períopes Editoriais UBS / NA', 'United Bible Societies', 'Divisão padrão em parágrafos e títulos de seções do Novo Testamento.', 'Greek New Testament (UBS5)'),
+('GUNKEL', 'Crítica das Formas', 'Hermann Gunkel', 'Classificação por formas literárias e contexto litúrgico, aplicado aos Salmos.', 'The Psalms: A Form-Critical Introduction'),
+('WBC_COMMENTARY', 'Macro-Estrutura Exegética', 'Word Biblical Commentary', 'Divisão por ciclos temáticos, estruturais e argumentativos em Sapienciais e Pentateuco.', 'Word Biblical Commentary Series'),
+('DEUTERONOMISTIC', 'Historiografia e Ciclos Históricos', 'Crítica Histórica / Comentários Bíblicos', 'Divisão baseada nas grandes eras da história de Israel (Conquista, Juízes, Monarquia, Exílio).', 'Anchor Yale Bible / OTL'),
+('HISTORICAL_CRITICAL', 'Análise Crítica de Oráculos e Contexto Histórico-Geopolítico', 'Escola Histórico-Crítica / Exegese Veterotestamentária', 'Metodologia voltada para a literatura profética, focando nos oráculos de julgamento e salvação, sitz im leben (contexto vital) e marcos históricos dos profetas maiores e menores.', 'Eissfeldt, Otto. Introduction to the Old Testament. Tübingen: J.C.B. Mohr (Paul Siebeck) / New York: Harper & Row.');
 
--- 3. População da Tabela de Versos (Texto Integral)
+-- ==========================================================
+-- Script gerado automaticamente para inserção de unidades literárias
+-- Tabela: UNIDADE_LITERARIA
+-- ==========================================================
+-- Arquivo: 01_genesis_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Criação dos Céus e da Terra', 1, 1, 2, 3);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Homem no Jardim do Éden', 2, 4, 2, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Queda do Homem', 3, 1, 3, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Caim e Abel', 4, 1, 4, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Os Descendentes de Caim', 4, 17, 4, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'As Gerações de Adão', 5, 1, 5, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Corrupção da Humanidade', 6, 1, 6, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Instrução para a Construção da Arca', 6, 9, 6, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Dilúvio', 7, 1, 8, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Altar de Noé e a Aliança de Deus', 8, 20, 9, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Noé e seus Filhos / A Embriaguez de Noé', 9, 18, 9, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Tabela das Nações (Descendentes de Noé)', 10, 1, 10, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Torre de Babel', 11, 1, 11, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Os Descendentes de Sem até Abrão', 11, 10, 11, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Chamada de Abrão', 12, 1, 12, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Abrão e Sarai no Egito', 12, 10, 12, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Abrão e Ló se Separam', 13, 1, 13, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Abrão Resgata Ló e o Encontro com Melquisedeque', 14, 1, 14, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Aliança de Deus com Abrão (Promessa da Descendência)', 15, 1, 15, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Hagar e o Nascimento de Ismael', 16, 1, 16, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Aliança da Circuncisão e a Mudança de Nomes', 17, 1, 17, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Promessa de um Filho a Sara e a Intercessão por Sodoma', 18, 1, 18, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Fuga de Ló e a Destruição de Sodoma e Gomorra', 19, 1, 19, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Abraão e Abimeleque', 20, 1, 20, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Nascimento de Isaque e a Expulsão de Hagar', 21, 1, 21, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Pacto entre Abraão e Abimeleque em Berseba', 21, 22, 21, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Provação da Fé de Abraão (O Sacrifício de Isaque)', 22, 1, 22, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Os Descendentes de Naor', 22, 20, 22, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Morte de Sara e a Compra da Cova de Macpela', 23, 1, 23, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Esposa Escolhida para Isaque (Rebeca)', 24, 1, 24, 67);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Morte de Abraão e os Descendentes de Ismael', 25, 1, 25, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Nascimento de Jacó e Esaú e a Venda da Primogenitura', 25, 19, 25, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Isaque em Gerar e o Poço de Seba', 26, 1, 26, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Jacó Obtém a Bênção de Isaque por Fraude', 27, 1, 27, 45);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Fuga de Jacó e a Visão da Escada em Betel', 27, 46, 28, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Casamento de Jacó com Lia e Raquel', 29, 1, 29, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Nascimento dos Filhos de Jacó', 29, 31, 30, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Os Acordos de Rebanho entre Jacó e Labão', 30, 25, 30, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Fuga de Jacó e o Pacto com Labão em Gileade', 31, 1, 31, 55);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Preparação para Encontrar Esaú e a Luta em Peneuel', 32, 1, 32, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Reencontro Pacífico entre Jacó e Esaú', 33, 1, 33, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Episódio de Diná e a Vingança em Siquém', 34, 1, 34, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Retorno a Betel, Morte de Raquel e de Isaque', 35, 1, 35, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Os Descendentes e Clãs de Esaú', 36, 1, 36, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Os Sonhos de José e sua Venda ao Egito', 37, 1, 37, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Judá e Tamar', 38, 1, 38, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'José na Casa de Potifar e a Prisão', 39, 1, 39, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Os Sonhos do Copeiro e do Padeiro na Prisão', 40, 1, 40, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Os Sonhos de Faraó e a Nomeação de José como Governador', 41, 1, 41, 57);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Primeira Viagem dos Irmãos de José ao Egito', 42, 1, 42, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Segunda Viagem ao Egito com Benjamim', 43, 1, 43, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Taça de Prata no Saco de Benjamim e a Súplica de Judá', 44, 1, 44, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'José se Revela aos Irmãos e Convida a Família', 45, 1, 45, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'A Mudança de Jacó e sua Família para Gósen', 46, 1, 46, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Jacó diante de Faraó e as Reformas de José na Fome', 47, 1, 47, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'Jacó Abençoa os Filhos de José (Efraim e Manassés)', 48, 1, 48, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'As Profecias Finais de Jacó sobre suas Tribos', 49, 1, 49, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (1, 3, 'O Sepultamento de Jacó em Canaã e a Morte de José', 50, 1, 50, 26);
+
+-- Arquivo: 02_exodo_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Multiplicação dos Israelitas e a Opressão no Egito', 1, 1, 1, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'O Nascimento e a Infância de Moisés', 2, 1, 2, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Fuga de Moisés para Midiã', 2, 11, 2, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Sarça Ardente e o Chamado de Moisés', 3, 1, 4, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'O Retorno de Moisés ao Egito e as Primeiras Reações', 4, 18, 4, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'O Agravamento da Opressão e a Queixa dos Israelitas', 5, 1, 6, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Genealogia de Moisés e Arão', 6, 14, 6, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Vara que se Transforma em Serpente diante de Faraó', 7, 1, 7, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Primeira Praga: A Água em Sangue', 7, 14, 7, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Segunda Praga: As Rãs', 8, 1, 8, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Terceira Praga: Os Piolhos', 8, 16, 8, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Quarta Praga: As Moscas', 8, 20, 8, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Quinta Praga: A Peste nos Animais', 9, 1, 9, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Sexta Praga: As Úlceras', 9, 8, 9, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Sétima Praga: A Saraiva e o Fogo', 9, 13, 9, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Oitava Praga: Os Gafanhotos', 10, 1, 10, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Nona Praga: As Trevas', 10, 21, 10, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'O Anúncio da Décima Praga e a Instrução sobre a Páscoa', 11, 1, 12, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Morte dos Primogênitos e a Saída de Israel do Egito', 12, 29, 13, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Travessia do Mar Vermelho e o Cântico de Moisés', 14, 1, 15, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'As Águas Amargas de Mará e a Chegada ao Deserto de Sim (Maná e Codornizes)', 15, 22, 16, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Água da Rocha em Refidim e a Batalha contra os Amalequitas', 17, 1, 17, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Visita de Jetro e a Nomeação de Juízes', 18, 1, 18, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Chegada ao Monte Sinai e a Preparação para a Aliança', 19, 1, 19, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'Os Dez Mandamentos (O Decálogo)', 20, 1, 20, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'O Código da Aliança: Leis Sociais e Civis', 20, 22, 23, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Ratificação da Aliança no Sinai', 24, 1, 24, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'Instruções para o Tabernáculo, a Arca e a Mesa', 25, 1, 25, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'As Cortinas, as Tábuas e o Véu do Tabernáculo', 26, 1, 26, 37);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'O Altar dos Holocaustos e o Pátio do Tabernáculo', 27, 1, 27, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'As Vestes Sacerdotais e o Peitoral', 28, 1, 28, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Consagração dos Sacerdotes e as Ofertas Contínuas', 29, 1, 29, 46);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'O Altar do Incenso e o Imposto do Resgate', 30, 1, 30, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'Os Artesãos Bezalel e Ooliabe e a Guarda do Sábado', 31, 1, 31, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'O Bezerro de Ouro e a Intercessão de Moisés', 32, 1, 33, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Renovação das Tábuas da Aliança', 34, 1, 34, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Coleta de Materiais e a Construção do Tabernáculo', 35, 1, 39, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (2, 3, 'A Montagem do Tabernáculo e a Glória do Senhor', 40, 1, 40, 38);
+
+-- Arquivo: 03_levitico_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'A Lei do Holocausto', 1, 1, 1, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'A Lei da Oferta de Manjares', 2, 1, 2, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'A Lei do Sacrifício de Paz', 3, 1, 3, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'A Lei da Oferta pelo Pecado', 4, 1, 5, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'A Lei da Oferta pela Culpa', 5, 14, 6, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Instruções Adicionais sobre os Sacrifícios aos Sacerdotes', 6, 8, 7, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'A Consagração de Arão e seus Filhos', 8, 1, 8, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'O Início do Ministério Sacerdotal e a Morte de Nadabe e Abiú', 9, 1, 10, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Animais Limpos e Imundos para o Consumo', 11, 1, 11, 47);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'A Purificação da Mulher após o Parto', 12, 1, 12, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Leis sobre a Lepra e Doenças de Pele', 13, 1, 13, 59);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'O Rito de Purificação do Leproso', 14, 1, 14, 57);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Fluxos Corporais e Impurezas Higiênicas', 15, 1, 15, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'O Dia da Expiação (Yom Kippur)', 16, 1, 16, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'O Local dos Sacrifícios e a Proibição de Comer Sangue', 17, 1, 17, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Relações Sexuais Proibidas e Práticas Abomináveis', 18, 1, 18, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Preceitos de Santidade Moral, Social e Cultual', 19, 1, 19, 37);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Penalidades para Infrações Graves da Lei', 20, 1, 20, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Regulamentos Especiais para a Conduta dos Sacerdotes', 21, 1, 22, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'As Festas Fixas do Senhor e as Soleminidades Litúrgicas', 23, 1, 23, 44);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'O Óleo das Candeeiras, os Pães da Proposição e a Lei de talião', 24, 1, 24, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'O Ano sabático e o Ano do Jubileu', 25, 1, 25, 55);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'Bênçãos para a Obediência e Maldições para a Desobediência', 26, 1, 26, 46);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (3, 3, 'As Leis sobre os Votos e as Dízimas', 27, 1, 27, 34);
+
+-- Arquivo: 04_numeros_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'O Primeiro Censo dos Homens Aptos para a Guerra', 1, 1, 1, 54);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Disposição e Ordem das Tribos ao Redor da Tenda', 2, 1, 2, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'O Censo e as Funções dos Levitas (Gérson, Coate e Merari)', 3, 1, 4, 49);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Purificação do Acampamento, a Restituição e a Lei do Ciúme', 5, 1, 5, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Lei do Voto de Nazireu e a Bênção Sacerdotal', 6, 1, 6, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'As Ofertas dos Príncipes na Dedicação do Tabernáculo', 7, 1, 7, 89);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Consagração das Lâmpadas e a Separação dos Levitas', 8, 1, 8, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Celebração da Páscoa e a Nuvem sobre o Tabernáculo', 9, 1, 9, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'As Trombetas de Prata e a Partida do Sinai em Direção a Parã', 10, 1, 10, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'As Reclamacões em Taberá e a Queixa sobre o Maná (Codornizes)', 11, 1, 11, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Revolta de Miriã e Arão contra Moisés', 12, 1, 12, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'O Envio dos Doze Espias a Canaã e o Relatório Desanimador', 13, 1, 13, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Rebelião do Povo, a Intercessão de Moisés e a Sentença de 40 Anos', 14, 1, 14, 45);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'Leis sobre Ofertas e a Punição do Violador do Sábado', 15, 1, 15, 41);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Rebelião de Coré, Datã e Abirão', 16, 1, 16, 50);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Vara de Arão que Brota como Confirmação do Sacerdócio', 17, 1, 17, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'Os Deveres dos Sacerdotes e Levitas e a Provisão das Dízimas', 18, 1, 18, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'O Rito da Novilha Vermelha e a Água da Purificação', 19, 1, 19, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Morte de Miriã, a Água de Meribá e o Erro de Moisés', 20, 1, 20, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Morte de Arão no Monte Hor e a Passagem Negada por Edom', 20, 14, 20, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Serpente de Bronze e a Marcha até as Planícies de Moabe', 21, 1, 21, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'Balaque Convoca Balaão para Amaldiçoar Israel', 22, 1, 22, 41);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'Os Oráculos de Bênção de Balaão sobre Israel', 23, 1, 24, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Apostasia em Peor e o Zeloso Ato de Fineias', 25, 1, 25, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'O Segundo Censo nas Planícies de Moabe', 26, 1, 26, 65);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'As Filhas de Zelofeade e a Sucessão de Josué', 27, 1, 27, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'Ofertas Regulares Diárias, Semanais, Mensais e das Festas', 28, 1, 29, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Lei sobre os Votos de Homens e Mulheres', 30, 1, 30, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Vingança contra Midiã', 31, 1, 31, 54);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Divisão das Terras Transjordanianas para Ruben, Gade e Manassés', 32, 1, 32, 42);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'Resumo das Jornadas de Israel desde o Egito', 33, 1, 33, 56);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'Limites de Canaã e Nomeação dos Líderes Repartidores da Terra', 34, 1, 34, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'As Cidades dos Levitas e as Cidades de Refúgio', 35, 1, 35, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (4, 3, 'A Herança das Filhas de Zelofeade na mesma Tribo', 36, 1, 36, 13);
+
+-- Arquivo: 05_deuteronomio_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'O Discurso Histórico: A Jornada desde o Horeb', 1, 1, 3, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Exortação à Obediência e as Cidades de Refúgio Transjordanianas', 4, 1, 4, 49);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Repetição do Decálogo (Os Dez Mandamentos)', 5, 1, 5, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'O Grande Mandamento (O Shemá) e Exortações à Fidelidade', 6, 1, 8, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Relembrança da Reunião no Horeb e a Rebelião do Bezerro de Ouro', 9, 1, 10, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Chamado ao Temor a Deus e à Obediência por Amor', 10, 12, 11, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'O Único Lugar de Culto Centralizado e Leis sobre o Sangue', 12, 1, 12, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Advertências contra Falsos Profetas e a Idolatria', 13, 1, 13, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Alimentos Limpos e Imundos, e as Leis sobre o Dízimo', 14, 1, 14, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'O Ano do Remissão de Dívidas e a Libertação de Servos', 15, 1, 15, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'As Três Festas Anuais Obrigatórias (Páscoa, Semanas e Tabernáculos)', 16, 1, 16, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Administração da Justiça, Juízes e a Proibição de Práticas Pagãs', 16, 18, 17, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Regulamentos para os Sacerdotes, Levitas e a Proibição do Ocultismo', 18, 1, 18, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'As Cidades de Refúgio e Leis sobre Limites de Terras e Testemunhas', 19, 1, 19, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Leis sobre a Condução de Guerras e Cerco a Cidades', 20, 1, 20, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Leis Sociais Diversas (Homicídios Desconhecidos, Família e Direitos)', 21, 1, 22, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Regulamentos de Pureza Comunitária e Moralidade', 23, 1, 24, 4);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'Leis de Justiça Social, Casamento Levirato e Pesos Justos', 24, 5, 25, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Oferta das Primeiras Frutas e a Confirmação da Aliança', 26, 1, 26, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Escrita da Lei no Monte Ebal e as Maldições proclamadas', 27, 1, 27, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'As Bênçãos da Obediência e as Maldições da Desobediência', 28, 1, 28, 68);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Renovação da Aliança nas Terras de Moabe', 29, 1, 29, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Escolha entre a Vida e a Morte', 30, 1, 30, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Sucessão de Josué e a Entrega Escrita da Lei', 31, 1, 31, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'O Cântico de Moisés como Testemunho contra o Povo', 32, 1, 32, 47);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Ordem para subir ao Monte Nebo e a Bênção Final de Moisés', 32, 48, 33, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (5, 3, 'A Morte e o Sepultamento de Moisés', 34, 1, 34, 12);
+
+-- Arquivo: 06_josue_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'Deus Encoraja a Josué', 1, 1, 1, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'Preparativos para a Travessia do Jordão', 1, 10, 1, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'Os Espias em Jericó e o Acordo com Raabe', 2, 1, 2, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'A Travessia do Rio Jordão', 3, 1, 4, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'A Circuncisão em Gilgal e a Páscoa', 5, 1, 5, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'O Comandante do Exército do Senhor', 5, 13, 5, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'A Queda de Jericó', 6, 1, 6, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'O Pecado de Acã e a Derrota em Ai', 7, 1, 7, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'A Tomada de Ai e a Leitura da Lei no Ebal', 8, 1, 8, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'O Engano dos Gibeonitas', 9, 1, 9, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'A Batalha de Gibeom e o Sol que Para', 10, 1, 10, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'A Conquista do Norte de Canaã', 11, 1, 11, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'Resumo dos Reis Derrotados por Moisés e Josué', 12, 1, 12, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'A Divisão da Terra entre as Tribos', 13, 1, 19, 51);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'As Cidades de Refúgio e as Cidades dos Levitas', 20, 1, 21, 45);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'O Retorno das Tribos Transjordanianas e o Altar do Testemunho', 22, 1, 22, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'O Primeiro Discurso de Despedida de Josué', 23, 1, 23, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (6, 4, 'A Aliança de Siquém e a Morte de Josué', 24, 1, 24, 33);
+
+-- Arquivo: 07_juizes_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'Resumo das Conquistas e Fracas Ocupações das Tribos', 1, 1, 1, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'A Advertência do Anjo do Senhor em Boquim', 2, 1, 2, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Ciclo Espiritual de Israel no Período dos Juízes', 2, 6, 3, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Primeiro Juiz: Otaniel liberta Israel de Cusã-Risataim', 3, 7, 3, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'Eúde mata Eglom, rei de Moabe, e liberta Israel', 3, 12, 3, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'Samgar derrota os filisteus com uma aguilhada de bois', 3, 31, 3, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'Débora e Baraque derrotam Sísera e o exército de Jabim', 4, 1, 4, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Cântico de Débora e Baraque', 5, 1, 5, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'Gideão é chamado para livrar Israel dos midianitas', 6, 1, 6, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Exército reduzido e a Derrota dos Midianitas por Gideão', 7, 1, 8, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Efode de Ouro e a Morte de Gideão', 8, 22, 8, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'A Usurpação de Abimeleque e sua Morte em Tebez', 9, 1, 9, 57);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'Os Juízes Menores: Tola e Jair', 10, 1, 10, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'A Opressão dos Amonitas e o Chamado de Jefté', 10, 6, 11, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Voto Trágico de Jefté e o Conflito com os Efraimitas', 11, 29, 12, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'Os Juízes Menores: Ibzã, Elom e Abdom', 12, 8, 12, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Nascimento de Sansão anunciado pelo Anjo', 13, 1, 13, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Casamento de Sansão e o Enigma do Leão', 14, 1, 14, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'As Vinganças de Sansão contra os Filisteus', 15, 1, 15, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'Sansão e Dalila, a Traição e a Queda do Templo de Dagom', 16, 1, 16, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'A Idolatria de Mica e a Migração da Tribo de Dã', 17, 1, 18, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'O Crime Hediondo em Gibeá e a Convocação das Tribos', 19, 1, 20, 48);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 4, 'A Restauração da Tribo de Benjamim', 21, 1, 21, 25);
+
+-- Arquivo: 08_rute_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (8, 4, 'Noemi Perde a Família em Moabe e Retorna a Belém com Rute', 1, 1, 1, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (8, 4, 'Rute Espiga nos Campos de Boaz', 2, 1, 2, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (8, 4, 'Rute na Eira de Boaz e o Pedido de Resgate', 3, 1, 3, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (8, 4, 'Boaz Resgata Rute e se Casa com Ela (Genealogia de Davi)', 4, 1, 4, 22);
+
+-- Arquivo: 09_1samuel_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'O Nascimento de Samuel e o Cântico de Ana', 1, 1, 2, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Corrupção dos Filhos de Eli e a Profecia contra a Casa de Eli', 2, 12, 2, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'O Chamado de Samuel pelo Senhor', 3, 1, 3, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Perda da Arca para os Filisteus e a Morte de Eli', 4, 1, 4, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Arca no Território dos Filisteus e as Plagas de Dagon', 5, 1, 5, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'O Retorno da Arca de Israel para Bete-Semes', 6, 1, 7, 2);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Vitória de Samuel sobre os Filisteus em Mispá (Eben-Ezer)', 7, 3, 7, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Israel Pede um Rei e Samuel Adverte sobre o Regime Monárquico', 8, 1, 8, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Ungidura de Saul por Samuel', 9, 1, 10, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Aclamação de Saul como Rei e a Vitória sobre Amom em Jabes', 11, 1, 11, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'O Discurso de Despedida de Samuel', 12, 1, 12, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Desobediência de Saul no Sacrifício em Gilgal', 13, 1, 13, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'As Façanhas de Jônatas contra os Filisteus em Micmós', 14, 1, 14, 52);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Rejeição de Saul por Deus Devido ao Desobedecer a Ordem sobre Amaleque', 15, 1, 15, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Ungidura de Davi por Samuel em Belém', 16, 1, 16, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Davi Toca a Harpa para Saul e Derrota o Gigante Golias', 16, 14, 17, 58);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Amizade entre Jônatas e Davi e o Ciúme Crescente de Saul', 18, 1, 19, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Fuga Definitiva de Davi e a Ajuda de Jônatas', 20, 1, 20, 42);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Davi em Nobe (o Pão da Proposição) e Fugindo para Gate', 21, 1, 21, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Caverna de Adulão e o Massacre dos Sacerdotes em Nobe', 22, 1, 22, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Davi Salva Queila e foge para o Deserto de Zife', 23, 1, 23, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Davi Poupa a Vida de Saul na Caverna em En-Gedi', 24, 1, 24, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Morte de Samuel, o Episódio de Nabal e Abigail, e o Casamento com Davi', 25, 1, 25, 44);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Davi Poupa a Vida de Saul pela Segunda Vez no Deserto de Zife', 26, 1, 26, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Davi Busca Refúgio entre os Filisteus em Ziclague', 27, 1, 27, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Saul Consulta a Médium de En-Dor antes da Batalha', 28, 1, 28, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'Os Filisteus Rejeitam Davi e o Ataque Amalequita a Ziclague', 29, 1, 30, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (9, 4, 'A Derrota de Israel no Monte Gilboa e a Morte de Saul e seus Filhos', 31, 1, 31, 13);
+
+-- Arquivo: 10_2samuel_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'A Lamento de Davi por Saul e Jônatas', 1, 1, 1, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'Davi é Ungido Rei de Judá em Hebrom e a Guerra Civil contra Israel', 2, 1, 4, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'Davi é Ungido Rei de Todo o Israel e Conquista Jerusalém (Sião)', 5, 1, 5, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'A Arca da Aliança é Trazida para Jerusalém', 6, 1, 6, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'A Aliança de Deus com Davi (A Promessa da Dinastia)', 7, 1, 7, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'As Vitórias Militares de Davi e a Lista de seus Oficialiciais', 8, 1, 8, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'Davi Mostra Bondade a Mefibosete, Filho de Jônatas', 9, 1, 9, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'A Guerra contra os Amonitas e Sírios', 10, 1, 10, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'Davi e Bate-Seba, e o Assassinato de Urias', 11, 1, 11, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'A Repreensão de Natã a Davi e o Arrependimento', 12, 1, 12, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'O Incesto de Amnom e Tamar, e a Vingança de Absalão', 13, 1, 13, 39);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'O Retorno de Absalão a Jerusalém com a Ajuda de Joabe', 14, 1, 14, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'A conspiração e a Fuga de Davi de Jerusalém por Causa de Absalão', 15, 1, 16, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'Os Conselhos de Aitofel e Husai, e a Morte de Aitofel', 16, 24, 17, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'A Batalha na Floresta de Efraim e a Morte de Absalão', 18, 1, 18, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'O Retorno de Davi a Jerusalém e a Revolta de Seba', 19, 1, 20, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'A Vingança dos Gibeonitas e os Feitos dos Valentes de Davi', 21, 1, 21, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'O Cântico de Louvor de Davi pelo Livramento', 22, 1, 22, 51);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'As Últimas Palavras de Davi', 23, 1, 23, 39);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (10, 4, 'O Censo Contado por Davi e a Praga Enviada por Deus', 24, 1, 24, 25);
+
+-- Arquivo: 11_1reis_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Conspiração de Adonias e a Ungidura de Salomão como Rei', 1, 1, 1, 53);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'As Últimas Recomendações e a Morte de Davi', 2, 1, 2, 46);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'O Pedido de Sabedoria de Salomão e seu Julgamento Famoso', 3, 1, 3, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Administração, a Sabedoria e a Prosperidade do Reino de Salomão', 4, 1, 4, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'Os Acordos com Hirão e os Preparativos para a Construção do Templo', 5, 1, 5, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Construção do Templo de Salomão e do Palácio Real', 6, 1, 7, 51);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Dedicação do Templo e a Oração Solene de Salomão', 8, 1, 8, 66);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Resposta de Deus a Salomão, suas Cidades e Riquezas', 9, 1, 9, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Visita da Rainha de Sabá e o Apogeu do Reino', 10, 1, 10, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Apostasia de Salomão na velhice e os Adversários Levantados por Deus', 11, 1, 11, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Reunião em Siquém, a Recusa de Roboão e a Cisão do Reino (Israel e Judá)', 12, 1, 12, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Profecia contra o Altar de Betel e o Profeta Desobediente', 13, 1, 13, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'Profecias contra a Casa de Jeroboão e a Casa de Roboão', 14, 1, 14, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'Os Reinados de Abias e Asa em Judá, e Nadabe e Baasa em Israel', 15, 1, 15, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'Os Breves Reinados em Israel (Elá, Zinri, Onri) e a Ascensão de Acabe', 16, 1, 16, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'Elias Prediz a Seca, é Sustentado pelos Corvos e a Viúva de Sarepta', 17, 1, 17, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'O Confronto de Elias com os Profetas de Baal no Monte Carmelo', 18, 1, 18, 46);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Fuga de Elias para o Horeb e a Chamada de Eliseu', 19, 1, 19, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'As Guerras de Acabe contra os Sírios', 20, 1, 20, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Vinha de Nabote e a Profecia de Juízo contra Acabe e Jezabel', 21, 1, 21, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (11, 4, 'A Aliança de Acabe com Josafá e a Morte de Acabe em Ramote-Gileade', 22, 1, 22, 53);
+
+-- Arquivo: 12_2reis_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'O Profeta Elias Arrebatado ao Céu e a Sucessão de Eliseu', 1, 1, 2, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'A Campanha de Israel, Judá e Edom contra Moabe', 3, 1, 3, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'Os Milagres de Eliseu (Azeite da Viúva, o Sulamita, a Morte na Panela)', 4, 1, 4, 44);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'A Cura da Lepra de Naamã e a Desonestidade de Geazi', 5, 1, 5, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'O Machado Flutuante e o Cerco da Síria a Samaria (Visão dos Cavalos de Fogo)', 6, 1, 7, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'A Restituição das Terras da Sulamita e as Profecias de Eliseu a Hazael e Jeú', 8, 1, 8, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'A Ungidura de Jeú e a Destruição da Casa de Acabe (Morte de Jezabel)', 9, 1, 10, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'Atalia usurpa o trono em Judá e a Restauração de Joás pelo Sacerdote Joiada', 11, 1, 12, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'Os Reinados de Jeoacaz e Jeoás em Israel, e a Morte de Eliseu', 13, 1, 13, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'Os Reinados de Amazias em Judá e Jeroboão II em Israel', 14, 1, 14, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'Cronologia dos Últimos Reis de Israel e Judá (Azarias, Jotão, Acaz, Zacarias, etc.)', 15, 1, 15, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'A Apostasia do Rei Acaz de Judá e a Aliança com a Assíria', 16, 1, 16, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'A Queda do Reino do Norte (Samaria) diante da Assíria e o Cativeiro', 17, 1, 17, 41);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'O Reinado Fiel de Ezequias e a Invasão de Senaqueribe (Ameaça contra Jerusalém)', 18, 1, 19, 37);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'A Doença de Ezequias, a Cura e a Visita dos Embaixadores da Babilônia', 20, 1, 20, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'Os Reinados Ímpios de Manassés e Amom em Judá', 21, 1, 21, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'A Reforma Religiosa do Rei Josias e a Descoberta do Livro da Lei', 22, 1, 23, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (12, 4, 'Os Últimos Reis de Judá, o Cerco da Babilônia e a Queda de Jerusalém', 23, 31, 25, 30);
+
+-- Arquivo: 13_1cronicas_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'As Genealogias desde Adão até Abraão', 1, 1, 1, 54);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'Os Descendentes de Israel (Jacó) e a Linhagem de Judá até Davi', 2, 1, 2, 55);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Descendência do Rei Davi e os Reis de Judá', 3, 1, 3, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'Outros Clãs de Judá e a Linhagem da Tribo de Simeão', 4, 1, 4, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'As Tribos a Leste do Jordão (Ruben, Gade e a Meia Tribo de Manassés)', 5, 1, 5, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Genealogia da Tribo de Levi e as Cidades dos Sacerdotes', 6, 1, 6, 81);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'Genealogias das Outras Tribos de Israel (Issacar, Benjamim, Naftali, Manassés, Efraim, Aser)', 7, 1, 7, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Genealogia de Saul e sua Descendência', 8, 1, 8, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'Lista dos Habitantes de Jerusalém após o Exílio', 9, 1, 9, 44);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Morte de Saul e de seus Filhos no Monte Gilboa', 10, 1, 10, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'Davi é Ungido Rei de Todo o Israel e Conquista Jerusalém', 11, 1, 11, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Lista dos Valentes e Heróis de Guerra de Davi', 11, 10, 12, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Primeira Tentativa de Trazer a Arca e a Morte de Uzá', 13, 1, 13, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Família e o Palácio de Davi, e as Vitórias sobre os Filisteus', 14, 1, 14, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Arca é Trazida para Jerusalém com Celebração e Cânticos', 15, 1, 16, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Aliança de Deus com Davi Prometendo uma Dinastia', 17, 1, 17, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'As Vitórias Militares de Davi sobre os Povos Vizinhas', 18, 1, 20, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'O Censo Contado por Davi e a Escolha do Local do Altar', 21, 1, 21, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'Os Preparativos de Davi para a Construção do Templo por Salomão', 22, 1, 22, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'A Organização dos Levitas, Sacerdotes, Músicos e Porteiros', 23, 1, 26, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'Os Chefes Militares e Administradores Civis do Reino de Davi', 27, 1, 27, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (13, 4, 'As Recomendações Finais de Davi a Salomão sobre o Templo e a Assembleia', 28, 1, 29, 30);
+
+-- Arquivo: 14_2cronicas_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'Salomão Pede Sabedoria em Gibeão e Acumula Riquezas', 1, 1, 1, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'Os Acordos com Hirão e a Construção do Templo de Jerusalém', 2, 1, 4, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'A Transferência da Arca para o Templo e a Oração de Dedicação de Salomão', 5, 1, 7, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'As Cidades Fortificadas de Salomão e a Visita da Rainha de Sabá', 8, 1, 9, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'A Revolta em Siquém, a Cisão do Reino e o Reinado de Roboão', 10, 1, 12, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'Os Reinados de Abias e Asa em Judá (Reformas e Vitórias)', 13, 1, 16, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'O Reinado Fiel de Josafá e as Reformas Administrativas e Religiosas', 17, 1, 20, 37);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'Os Reinados de Jeorão e Acazias em Judá', 21, 1, 22, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'A Opressão de Atalia, a Aclamação de Joás por Joiada e a Restauração', 23, 1, 24, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'Os Reinados de Amazias, Uzias (Azarias) e Jotão em Judá', 25, 1, 27, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'O Reinado Ímpio de Acaz e a Opressão dos Sírios e Filisteus', 28, 1, 28, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'A Grande Reforma Religiosa do Rei Ezequias e a Celebração da Páscoa', 29, 1, 31, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'A Invasão de Senaqueribe, a Doença de Ezequias e seus Últimos Anos', 32, 1, 32, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'Os Reinados Ímpios de Manassés e Amom, e o Arrependimento tardio de Manassés', 33, 1, 33, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'A Reforma do Rei Josias e a Descoberta do Livro da Lei', 34, 1, 35, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (14, 4, 'Os Últimos Reis de Judá, a Queda de Jerusalém e o Decreto de Ciro', 36, 1, 36, 23);
+
+-- Arquivo: 15_esdras_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (15, 4, 'O Decreto de Ciro, Rei da Pérsia, autorizando o Retorno a Jerusalém', 1, 1, 1, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (15, 4, 'A Lista dos Exilados que Retornaram com Zorobabel e Jesua', 2, 1, 2, 70);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (15, 4, 'A Reconstrução do Altar e o Reinício dos Sacrifícios', 3, 1, 3, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (15, 4, 'A Oposição dos Adversários e a Paralisação das Obras do Templo', 4, 1, 4, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (15, 4, 'A Retomada das Obras sob a Profecia de Ageu e Zacarias e a Carta a Dario', 5, 1, 6, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (15, 4, 'A Chegada de Esdras a Jerusalém com a Carta de Artaxerxes', 7, 1, 8, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (15, 4, 'A Oração de Confissão de Esdras sobre os Casamentos Mistos', 9, 1, 9, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (15, 4, 'O Arrependimento do Povo e a Dissolução dos Casamentos Mistos', 10, 1, 10, 44);
+
+-- Arquivo: 16_neemias_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'A Oração de Neemias em Susa pela Situação de Jerusalém', 1, 1, 1, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'A Viagem de Neemias a Jerusalém e a Inspeção Secreta dos Muros', 2, 1, 2, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'A Divisão do Trabalho para a Reconstrução dos Muros de Jerusalém', 3, 1, 3, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'A Oposição de Sambalate e Tobias, e a Organização da Defesa Armada', 4, 1, 4, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'Neemias Corrige a Exploração dos Pobres e a Usura Interna', 5, 1, 5, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'As Maquinações contra Neemias e a Conclusão dos Muros', 6, 1, 6, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'A Lista dos Retornados que Vieram com Zorobabel (Registro Genealógico)', 7, 1, 7, 73);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'A Leitura Pública da Lei por Esdras e a Celebração da Festa dos Tabernáculos', 8, 1, 8, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'O Grande Dia de Confissão Pública e o Pacto Renovado do Povo', 9, 1, 10, 39);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'A Repartição dos Habitantes de Jerusalém e a Lista dos Líderes', 11, 1, 12, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (16, 4, 'A Dedicação dos Muros de Jerusalém e as Reformas Finais de Neemias', 12, 27, 13, 31);
+
+-- Arquivo: 17_ester_deuteronomistic.json | Padrão: DEUTERONOMISTIC (ID: 4)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (17, 4, 'As Festas do Rei Assuero e a Desobediência e Deposição da Rainha Vasti', 1, 1, 1, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (17, 4, 'A Escolha de Ester como Rainha e a Descoberta da Conspiração por Mardoqueu', 2, 1, 2, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (17, 4, 'O Decreto de Hamã contra os Judeus devido à Recusa de Mardoqueu em Reverenciá-lo', 3, 1, 3, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (17, 4, 'O Luto dos Judeus e o Apelo de Mardoqueu a Ester para Interceder', 4, 1, 4, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (17, 4, 'O Primeiro Banquete de Ester e os Planos de Hamã para Enforcar Mardoqueu', 5, 1, 5, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (17, 4, 'A Insônia do Rei, a Honra Pública a Mardoqueu e a Queda de Hamã', 6, 1, 7, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (17, 4, 'O Novo Decreto Real em Favor dos Judeus e a Derrota de Seus Inimigos', 8, 1, 9, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (17, 4, 'A Instituição da Festa de Purim e a Grandeza de Mardoqueu', 9, 20, 10, 3);
+
+-- Arquivo: 18_jo_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'A Piedade de Jó e o Primeiro Desafio de Satanás no Céu', 1, 1, 1, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'O Segundo Desafio de Satanás e a Enfermidade de Jó', 2, 1, 2, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'O Lamento de Jó Amaldiçoando o Dia de seu Nascimento', 3, 1, 3, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'Primeiro Ciclo de Discursos: A Discussão entre Jó e seus Amigos (Elifaz, Bildade e Zofar)', 4, 1, 14, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'Segundo Ciclo de Discursos: O Aprofundamento da Acusação e o Sofrimento', 15, 1, 21, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'Terceiro Ciclo de Discursos: As Últimas Tréplicas e a Defesa de Jó', 22, 1, 27, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'O Poema Interlúdio sobre a Sabedoria Inalcançável ao Homem', 28, 1, 28, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'O Monólogo Final de Defesa de Jó', 29, 1, 31, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'Os Discursos de Eliú corrigindo Jó e seus Amigos', 32, 1, 37, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'As Respostas e Perguntas de Deus a Jó a partir da Tempestade', 38, 1, 41, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (18, 3, 'A Submissão de Jó, a Repreensão dos Amigos e a Restauração Final', 42, 1, 42, 17);
+
+-- Arquivo: 19_salmos_gunkel.json | Padrão: GUNKEL (ID: 2)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Caminho do Justo e o Destino dos Ímpios', 1, 1, 1, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Reino do Messias e o Triunfo de Deus', 2, 1, 2, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica Matinal de Confiança em Meio à Opressão', 3, 1, 3, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Confiança na Paz e na Justiça Divina à Noite', 4, 1, 4, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica Matinal contra os Homens Fraudulentos', 5, 1, 5, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Penitencial na Angústia e Doença', 6, 1, 6, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Apelo ao Juiz Justo Contra a Calúnia', 7, 1, 7, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Glória do Criador e a Dignidade do Ser Humano', 8, 1, 8, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Louvor pela Justiça e Proteção aos Oprimidos', 9, 1, 9, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Coletivo contra a Arrogância dos Ímpios', 10, 1, 10, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Inabalável Confiança no Senhor no Templo', 11, 1, 11, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica contra a Falsidade e Promessa da Palavra Pura', 12, 1, 12, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento que se Transforma em Alegria e Confiança', 13, 1, 13, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Corrupção Universal da Humanidade', 14, 1, 14, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Perfil do Cidadão do Céu e Amigo de Deus', 15, 1, 15, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Mictão de Davi: Confiança na Herança Divina e Vitória sobre a Morte', 16, 1, 16, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica por Proteção contra os Inimigos Violentos', 17, 1, 17, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Ação de Graças de Davi pelos Livramentos do Senhor', 18, 1, 18, 50);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Revelação de Deus na Criação e na Sua Lei Perfeita', 19, 1, 19, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Intercessão e Súplica pela Vitória do Rei', 20, 1, 20, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Ação de Graças pelas Bênçãos e Força Concedidas ao Rei', 21, 1, 21, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Profético do Sofrimento e Exaltação Final de Deus', 22, 1, 22, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Senhor é o Meu Pastor: Confiança e Segurança Plena', 23, 1, 23, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Liturgia de Entrada: O Rei da Glória Entra no Santuário', 24, 1, 24, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica por Orientação, Perdão e Misericórdia', 25, 1, 25, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Declaração de Inocência e Amor pela Casa de Deus', 26, 1, 26, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Luz e a Salvação em Tempos de Guerra e Perigo', 27, 1, 27, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica por Auxílio e Cântico de Louvor pelo Atendimento', 28, 1, 28, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Majestade e o Poder da Voz do Senhor na Tempestade', 29, 1, 29, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Ação de Graças pelo Livramento da Morte e Restauração', 30, 1, 30, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica de Confiança na Angústia Extrema e Entrega a Deus', 31, 1, 31, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Salmo Didático: A Bem-Aventurança do Perdão dos Pecados', 32, 1, 32, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Louvor ao Criador e Protetor dos Retos', 33, 1, 33, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Ação de Graças pela Proteção Divina aos Justos', 34, 1, 34, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica por Defesa contra os Acusadores Injustos', 35, 1, 35, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Maldade dos Ímpios em Contraste com a Infalível Bondade de Deus', 36, 1, 36, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Exortação Sapiencial: Confie no Senhor e Espere Nele Pacientemente', 37, 1, 37, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Penitencial de um Enfermo Abandonado', 38, 1, 38, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Reflexão sobre a Brevidade e a Fragilidade da Vida Humana', 39, 1, 39, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Ação de Graças pelo Livramento e Esperança na Fidelidade de Deus', 40, 1, 40, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento na Doença e Traição de Amigos Íntimos', 41, 1, 41, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica e Anseio Profundo pela Presença de Deus no Santuário', 42, 1, 43, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Coletivo de Israel em Meio à Opressão e Oprobrio', 44, 1, 44, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Epitalâmio Real: Cântico de Celebração do Casamento do Rei', 45, 1, 45, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Deus é o Nosso Refúgio e Fortaleza Inabalável', 46, 1, 46, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Celebração a Deus como Rei de Toda a Terra', 47, 1, 47, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Grandeza de Deus e a Segurança de Sião', 48, 1, 48, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Reflexão Sapiencial sobre a Vaidade das Riquezas e a Morte', 49, 1, 49, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Julgamento Divino sobre o Culto Externo e a Verdadeira Obediência', 50, 1, 50, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica Penitencial Profunda de Arrependimento e Purificação', 51, 1, 51, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Repreensão à Malícia e Confiança na Misericórdia Divina', 52, 1, 52, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Insensatez dos Homens Corrompidos contra o Povo de Deus', 53, 1, 53, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica por Auxílio Contra os Zifitas Inimigos', 54, 1, 54, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento de Traição por um Amigo Íntimo', 55, 1, 55, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Confiança Inabalável em Deus no Meio do Medo e da Perseguição', 56, 1, 56, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento na Caverna e Exaltação Matinal da Glória de Deus', 57, 1, 57, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Repreensão aos Juízes Injustos e Corruptos', 58, 1, 58, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica por Livramento contra Perseguidores Cruéis', 59, 1, 59, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento após uma Derrota Militar e Súplica por Socorro', 60, 1, 60, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Refúgio Seguro sob as Asas de Deus na Extremança da Terra', 61, 1, 61, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Silêncio Confiante e Esperança Exclusiva em Deus', 62, 1, 62, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Anseio Fervoroso pela Presença de Deus no Deserto', 63, 1, 63, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica contra Conspirações Secretas e Justiça Divina', 64, 1, 64, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Ação de Graças pela Abundância da Terra e Perdão', 65, 1, 65, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Chamado para Toda a Terra Louvar os Feitos Poderosos de Deus', 66, 1, 66, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Bênção Sacerdotal para que Todos os Povos Conheçam a Salvação', 67, 1, 67, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cântico Triunfal da Marcha de Deus e a Vitória de seu Povo', 68, 1, 68, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Doloroso na Profunda Angústia e Perseguição', 69, 1, 69, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica Urgente por Auxílio Rápido e Confusão dos Inimigos', 70, 1, 70, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Oração de um Idoso por Proteção na Velhice', 71, 1, 71, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Salmo Real: A Justiça e a Prosperidade do Reinado do Messias', 72, 1, 72, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Problema da Prosperidade Temporária dos Ímpios e a Resolução no Santuário', 73, 1, 73, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento pela Destruição do Santuário e Silêncio de Deus', 74, 1, 74, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Confiança no Juízo Certo de Deus', 75, 1, 75, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Celebração do Poder Magnífico do Deus de Israel em Sião', 76, 1, 76, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Meditação Consoladora sobre as Obras Maravilhosas de Deus no Passado', 77, 1, 77, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lições da História de Israel: A Infidelidade do Povo e a Misericórdia de Deus', 78, 1, 78, 72);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento pela Ruína de Jerusalém e Súplica por Compaixão', 79, 1, 79, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica pela Restauração da Vinha do Senhor (Israel)', 80, 1, 80, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Exortação à Obediência e Apelo Solene nas Festas', 81, 1, 81, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Repreensão aos Juízes Injustos e Apelo à Justiça Divina Universal', 82, 1, 82, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica contra a Conspiração das Nações Inimigas de Israel', 83, 1, 83, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Formidável Ventura de Habitar na Casa do Senhor', 84, 1, 84, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Prece por Avivamento e Paz baseada na Misericórdia Divina', 85, 1, 85, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Oração de um Afadigado Pedindo Misericórdia e Ajuda', 86, 1, 86, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Louvor a Sião como Cidade e Mãe de Todos os Povos', 87, 1, 87, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Amargurado de Solidão e Trevas Extremais', 88, 1, 88, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Celebração da Fidelidade Eterna da Aliança com a Dinastia de Davi', 89, 1, 89, 52);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Meditação Sapiencial sobre a Eternidade de Deus e a Brevidade Humana', 90, 1, 90, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Segurança Inabalável de Quem Habita sob a Sombra do Altíssimo', 91, 1, 91, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cântico de Louvor para o Dia de Sábado', 92, 1, 92, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Majestade Soberana e o Trono Eterno do Senhor', 93, 1, 93, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Apelo à Justiça e Confiança na Vingança Divina contra os Opressores', 94, 1, 94, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Chamado Solene à Adoração e Advertência contra a Dureza de Coração', 95, 1, 95, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino Universal de Louvor à Grandeza e Justiça do Rei Universal', 96, 1, 96, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Regozijo pela Instalação do Reinado Justo de Deus na Terra', 97, 1, 97, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Novo Cântico de Exultação pelas Maravilhas e Salvação de Deus', 98, 1, 98, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Celebração da Santidade do Senhor que Habita entre Querubins', 99, 1, 99, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Entrada Festiva no Templo: Hino de Ação de Graças Universal', 100, 1, 100, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Compromisso Moral do Líder Íntegro na Casa e na Cidade', 101, 1, 101, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento de um Afadigado e Oração pela Restauração de Sião', 102, 1, 102, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Louvor Extático à Infinita Misericórdia e Perdão de Deus', 103, 1, 103, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino Grandioso de Louvor a Deus como Criador e Protetor da Natureza', 104, 1, 104, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Celebração Histórica da Aliança com os Patriarcas e o Êxodo', 105, 1, 105, 45);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Confissão Histórica das Rebandas e Infidelidades de Israel no Deserto', 106, 1, 106, 48);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Ação de Graças pelo Livramento dos Redimidos de Todas as Direções', 107, 1, 107, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Louvor Matinal e Súplica por Vitória Definitiva sobre os Inimigos', 108, 1, 108, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Amargo contra Acusadores Injustos e Apelo à Justiça Divina', 19, 1, 109, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Salmo Messiânico: O Sacerdócio Eterno segundo a Ordem de Melquisedeque', 110, 1, 110, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Ação de Graças pelas Grandes Obras e Aliança do Senhor', 111, 1, 111, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Bem-Aventurança, Justiça e Generosidade do Homem que Teme a Deus', 112, 1, 112, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Louvor ao Deus que Eleva os Pobres e Necesitados', 113, 1, 113, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Hallel: O Milagroso Poder de Deus manifestado no Êxodo', 114, 1, 114, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Exaltação ao Único Deus Verdadeiro em Contraste com os Ídolos Mortos', 115, 1, 115, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Ação de Graças Individual pelo Livramento da Morte', 116, 1, 116, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Salmo Mais Curto: Convite Universal de Louvor à Misericórdia', 117, 1, 117, 2);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Liturgia de Ação de Graças: A Pedra Rejeitada que se Tornou Esquina', 118, 1, 118, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Grande Acróstico da Palavra: A Beleza e Perfeição da Lei de Deus', 119, 1, 119, 176);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: Súplica por Socorro contra a Mentira', 120, 1, 120, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: O Senhor é o Guarda de Israel', 121, 1, 121, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: Alegria de Chegar aos Portões de Jerusalém', 122, 1, 122, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: Olhos Fitos na Misericórdia do Senhor', 123, 1, 123, 4);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: O Socorro Vem do Nome do Senhor', 124, 1, 124, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: A Inabalável Segurança de Jerusalém', 125, 1, 125, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: A Esperança de Quem Planta com Lágrimas', 126, 1, 126, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: A Dependência Absoluta da Bênção de Deus no Lar', 127, 1, 127, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: A Bem-Aventurança do Homem que Teme a Deus', 128, 1, 128, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: Lamento e Vitória sobre os Opressores de Sião', 129, 1, 129, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: Esperança Profunda e Silenciosa no perdão', 130, 1, 130, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: A Doce Humildade e Descanso na Alma', 131, 1, 131, 3);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cânticos dos Degraus: Súplica pela Morada Definitiva de Deus em Sião', 132, 1, 132, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Preciosa União e Fraternidade dos Irmãos', 133, 1, 133, 3);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Convite Noturno aos Sacerdotes para Louvarem no Santuário', 134, 1, 134, 3);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Exaltação ao Deus Criador e Senhor da História', 135, 1, 135, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'O Grande Hallel: A Misericórdia Eterna do Senhor Manifestada em Tudo', 136, 1, 136, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento Profundo dos Exilados às Margens dos Rios da Babilônia', 137, 1, 137, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Ação de Graças de Davi pela Fidelidade e Resposta de Deus', 138, 1, 138, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'A Onipresença e Onisciência Inescapável de Deus na Formação da Vida', 139, 1, 139, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica por Proteção contra os Homens Violentos e Traiçoeiros', 140, 1, 140, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Oração Vespertina pedindo Guarda para os Lábios e Retidão', 141, 1, 141, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Lamento na Caverna: O Senhor é o Único Refúgio na Angústia', 142, 1, 142, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Súplica Penitencial e Sede pela Orientação do Espírito de Deus', 143, 1, 143, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Louvor Real pela Vitória e pela Prosperidade do Povo de Deus', 144, 1, 144, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Exaltação à Grandiosidade e Bondade Imparável de Deus', 145, 1, 145, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Louvor Exclusivo ao Deus que Sustenta os Oprimidos e Necessitados', 146, 1, 146, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Hino de Louvor ao Criador das Estrelas e Curador dos Corações Feridos', 147, 1, 147, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Chamado Cósmico para que Toda a Criação Louve o Nome do Senhor', 148, 1, 148, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Cântico Novo de Alegria dos Santos na Vitória e Honra Divina', 149, 1, 149, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (19, 2, 'Doxologia Final: Que Tudo o Que Tem Fôlego Louve ao Senhor', 150, 1, 150, 6);
+
+-- Arquivo: 20_proverbios_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'O Propósito dos Provérbios e o Convite da Sabedoria contra a Tentações', 1, 1, 1, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Os Benefícios da Sabedoria e a Proteção contra os Maus Caminhos', 2, 1, 2, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Exortações à Confiança em Deus, à Generosidade e à Disciplina', 3, 1, 3, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'O Apelo Paternal para Reter a Sabedoria e o Caminho dos Justos', 4, 1, 4, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Advertências contra a Mulher Imoral e o Louvor à Fidelidade Conjugal', 5, 1, 5, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Avisos Práticos sobre Fianças, Preguiça, Malícia e Abominações', 6, 1, 6, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'A Estratégia da Mulher Sedutora e o Perigo da Insensatez', 7, 1, 7, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'O Chamado Público e a Origem Eterna da Sabedoria', 8, 1, 8, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'O Banquete da Sabedoria em Contraste com o Banquete da Loucura', 9, 1, 9, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Primeira Coleção de Provérbios de Salomão (Contraste entre Justos e Ímpios)', 10, 1, 15, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Segunda Coleção de Provérbios de Salomão (Integridade e Prudência)', 16, 1, 22, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Palavras dos Sábios (Primeira Seção de Conselhos)', 22, 17, 24, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Provérbios de Salomão Copiados pelos Homens de Ezequias', 25, 1, 29, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'As Palavras de Agur e a Sabedoria Contida na Criação', 30, 1, 30, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'As Palavras do Rei Lemuel e o Retrato da Mulher Virtuosa', 31, 1, 31, 31);
+
+-- Arquivo: 21_eclesiastes_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'O Propósito dos Provérbios e o Convite da Sabedoria contra a Tentações', 1, 1, 1, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Os Benefícios da Sabedoria e a Proteção contra os Maus Caminhos', 2, 1, 2, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Exortações à Confiança em Deus, à Generosidade e à Disciplina', 3, 1, 3, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'O Apelo Paternal para Reter a Sabedoria e o Caminho dos Justos', 4, 1, 4, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Advertências contra a Mulher Imoral e o Louvor à Fidelidade Conjugal', 5, 1, 5, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Avisos Práticos sobre Fianças, Preguiça, Malícia e Abominações', 6, 1, 6, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'A Estratégia da Mulher Sedutora e o Perigo da Insensatez', 7, 1, 7, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'O Chamado Público e a Origem Eterna da Sabedoria', 8, 1, 8, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'O Banquete da Sabedoria em Contraste com o Banquete da Loucura', 9, 1, 9, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Primeira Coleção de Provérbios de Salomão (Contraste entre Justos e Ímpios)', 10, 1, 15, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Segunda Coleção de Provérbios de Salomão (Integridade e Prudência)', 16, 1, 22, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Palavras dos Sábios (Primeira Seção de Conselhos)', 22, 17, 24, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'Provérbios de Salomão Copiados pelos Homens de Ezequias', 25, 1, 29, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'As Palavras de Agur e a Sabedoria Contida na Criação', 30, 1, 30, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (20, 3, 'As Palavras do Rei Lemuel e o Retrato da Mulher Virtuosa', 31, 1, 31, 31);
+
+-- Arquivo: 22_cantares_wbc.json | Padrão: WBC_COMMENTARY (ID: 3)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (22, 3, 'O Anseio da Amada nos Aposentos do Rei e o Diálogo com as Filhas de Jerusalém', 1, 1, 1, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (22, 3, 'A Voz do Amado na Primavera e a Metáfora da Rosa de Sarom', 2, 1, 2, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (22, 3, 'O Sonho Noturno de Busca e o Cortejo Nupcial de Salomão', 3, 1, 3, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (22, 3, 'O Elogio do Amado à Beleza da Esposa e o Jardim Fechado', 4, 1, 4, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (22, 3, 'O Despertar da Amada, a Perda Temporária e a Descrição do Amado', 5, 1, 5, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (22, 3, 'A Beleza Incomparável da Amada e o Descer ao Jardim das Nogueiras', 6, 1, 6, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (22, 3, 'Elogios Detalhados aos Passos e ao Corpo da Esposa', 7, 1, 7, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (22, 3, 'O Desejo de Intimidade Pública na Aldeia Natal e a Força do Amor Como a Morte', 8, 1, 8, 14);
+
+-- Arquivo: 23_isaias_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'A Indicação de Acusação contra Judá e o Convite ao Arrependimento', 1, 1, 1, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'A Visão do Monte da Casa do Senhor nos Últimos Dias', 2, 1, 2, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'O Juízo sobre os Líderes de Jerusalém e o Cântico da Vinha', 3, 1, 5, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'A Vocação de Isaías no Templo no Ano da Morte de Uzias', 6, 1, 6, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'O Sinal de Emanuel na Crise Siromerafita e Promessas do Menino', 7, 1, 9, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'O Juízo contra o Orgulho de Israel (Efraim) e o Rebento de Jessé', 9, 8, 11, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'Cânticos de Louvor pelo Livramento e Resgate', 12, 1, 12, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'Oráculos contra as Nações Estrangeiras (Babilônia, Assíria, Moabe, Egito e Tiro)', 13, 1, 23, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'O Apocalipse de Isaías: Juízo Cósmico e Redenção Final da Terra', 24, 1, 27, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'Os Ai contra a Aliança com o Egito e a Confiança na Salvação de Sião', 28, 1, 35, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'Apêndice Histórico: A Invasão de Senaqueribe, a Doença de Ezequias e os Embaixadores Babilônios', 36, 1, 39, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'O Livro da Consolação: A Mensagem de Esperança aos Exilados na Babilônia', 40, 1, 55, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'Os Cânticos do Servo Sofredor e as Promessas de Restauração', 52, 13, 53, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 5, 'Oráculos Finais: Chamado à Justiça, Confissão de Pecados e Novos Céus', 56, 1, 66, 24);
+
+-- Arquivo: 24_jeremias_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'A Chamada e Vocação de Jeremias e as Visões da Amendoeira e da Panela Fervente', 1, 1, 1, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'As Acusações de Apostasia contra Israel e o Convite ao Arrependimento', 2, 1, 6, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'O Sermão do Templo e o Juízo sobre a Falsa Confiança Religiosa', 7, 1, 10, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'A Quebra da Aliança, as Confissões de Jeremias e a Oposição dos Conterrâneos', 11, 1, 15, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'Sinais Proféticos (O Cinto de Linho, a Seca e o Oleiro e o Vaso de Barro)', 13, 1, 20, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'Oráculos contra os Reis de Judá e os Falsos Profetas', 21, 1, 23, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'A Visão dos Cestos de Figos e a Profecia dos Setenta Anos de Cativeiro Babilônico', 24, 1, 25, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'O Conflito de Jeremias com os Falsos Profetas (Hananias) e a Carta aos Exilados', 26, 1, 29, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'O Livro da Consolação: Promessas de Restauração e a Nova Aliança', 30, 1, 33, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'Apêndices Biográficos: A Fidelidade dos Recabitas e o Rolo Queimado por Jeoaquim', 34, 1, 36, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'O Sofrimento de Jeremias durante o Cerco de Jerusalém e a Prisão', 37, 1, 38, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'A Queda Definitiva de Jerusalém, o Destino de Gedalias e a Fuga para o Egito', 39, 1, 45, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'Oráculos Proféticos contra as Nações Estrangeiras (Egito, Filisteia, Moabe, Amom, Edom, Damasco, Quedar e Elão)', 46, 1, 51, 64);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (24, 5, 'Apêndice Histórico: A Queda de Jerusalém e a Libertação de Joaquim na Babilônia', 52, 1, 52, 34);
+
+-- Arquivo: 25_lamentacoes_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (25, 5, 'Primeira Lamentação: Jerusalém Solitária, Arruinada e em Desolação sob o Juízo', 1, 1, 1, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (25, 5, 'Segunda Lamentação: A Ira do Senhor Derramada sobre a Filha de Sião e seus Muros Destruídos', 2, 1, 2, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (25, 5, 'Terceira Lamentação: A Voz do Homem Aflictado, as Misericórdias Renovadas e a Esperança na Fidelidade', 3, 1, 3, 66);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (25, 5, 'Quarta Lamentação: O Contraste entre a Glória Passada de Sião e a Miséria Extrema do Cerco', 4, 1, 4, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (25, 5, 'Quinta Lamentação: O Pesar Coletivo, Súplica pela Restauração e o Apelo Final ao Senhor', 5, 1, 5, 22);
+
+-- Arquivo: 26_ezequiel_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'A Visão Inaugural da Glória de Deus e o Chamado de Ezequiel junto ao Rio Quebar', 1, 1, 3, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Atos Simbólicos do Cerco de Jerusalém e Anúncio da Fome e da Desolação', 4, 1, 5, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Oráculos de Juízo contra os Montes de Israel e os Sobreviventes', 6, 1, 7, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'A Visão das Abominações no Templo de Jerusalém e a Partida da Glória do Senhor', 8, 1, 11, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Sinais Proféticos da Mudança para o Exílio e Repreensão aos Falsos Profetas', 12, 1, 14, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Parábolas da Videira Útil Apenas para o Fogo e da Esposa Infiel (Jerusalém)', 15, 1, 17, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'O Princípio da Responsabilidade Individual e a Lamentação sobre os Príncipes de Israel', 18, 1, 19, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Histórico Crítico da Rebeldia de Israel no Deserto e o Juízo do Fogo no Neguebe', 20, 1, 21, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Acusações contra a Cidade Sanguinária (Jerusalém) e as Irmãs Oolá e Ooliba', 22, 1, 23, 49);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'O Início do Cerco Final, a Morte da Esposa do Profeta como Sinal e Oráculos contra as Nações (Amom, Moabe, Edom, Filistéia)', 24, 1, 25, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Oráculos contra Tiro (A Queda do Príncipe e do Rei) e Sidom', 26, 1, 28, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Oráculos contra o Egito e sua Desolação sob o Poder da Babilônia', 29, 1, 32, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'O Profeta como Atalaia, a Notícia da Queda de Jerusalém e a Crítica aos Maus Pastores', 33, 1, 34, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'Juízo sobre o Monte Seir (Edom) e Promessas de Restauração Física e Espiritual aos Montes de Israel', 35, 1, 36, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'A Visão do Vale dos Ossos Secos e a Reunião das Varas de Israel (Efraim e Judá)', 37, 1, 37, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'A Profecia Contra Gog e Magog e o Juízo Divino sobre as Nações Invasoras', 38, 1, 39, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (26, 5, 'A Visão Escatológica do Novo Templo, as Leis Cultuais, os Príncipes e a Repartição da Terra', 40, 1, 48, 35);
+
+-- Arquivo: 27_daniel_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'A Fidelidade dos Jovens Judeus à Dieta Real na Corte da Babilônia', 1, 1, 1, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'A Interpretação do Sonho da Estátua Multimetálica por Daniel', 2, 1, 2, 49);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'A Fornalha Ardente e o Livramento dos Três Amigos (Sadraque, Mesaque e Abede-Nego)', 3, 1, 3, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'O Sonho da Árvore Cortada, a Loucura de Nabucodonosor e sua Restauração', 4, 1, 4, 37);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'O Banquete de Belsazar, a Escrita na Parede e a Queda do Império Babilônico', 5, 1, 5, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'Daniel na Cova dos Leões sob o Reinado de Dario, o Medo', 6, 1, 6, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'A Visão Apocalíptica das Quatro Bestas e do Filho do Homem', 7, 1, 7, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'A Visão do Carneiro e do Bode (Conflito entre a Medo-Pérsia e a Grécia)', 8, 1, 8, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'A Oração de Confissão de Daniel e a Profecia das Setenta Semanas', 9, 1, 9, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (27, 5, 'A Visão Final junto ao Rio Tigre: Os Príncipes Celestiais e o Conflito dos Impérios', 10, 1, 12, 13);
+
+-- Arquivo: 28_oseias_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (28, 5, 'O Casamento Simbólico de Oséias com Gômer e as Metáforas da Infidelidade de Israel', 1, 1, 3, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (28, 5, 'A Acusação Formal do Senhor contra a Corrupção Moral e Religiosa de Israel', 4, 1, 6, 3);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (28, 5, 'Oráculos de Juízo sobre a Falsidade Política, as Alianças Estrangeiras e a Ingratidão Divina', 6, 4, 10, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (28, 5, 'O Amor Paternal de Deus ferido, a Severidade do Castigo e a Promessa Final de Restauração', 11, 1, 14, 9);
+
+-- Arquivo: 29_joel_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (29, 5, 'A Praga de Gafanhotos e a Seca como Sinal do Juízo (O Dia do Senhor)', 1, 1, 1, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (29, 5, 'O Exército de Gafanhotos como o Dia do Senhor e o Chamado ao Arrependimento', 2, 1, 2, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (29, 5, 'A Promessa do derramamento do Espírito e a Restauração da Terra', 2, 18, 2, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (29, 5, 'O Juízo Escatológico sobre as Nações no Vale de Josafá e a Bênção sobre Sião', 3, 1, 3, 21);
+
+-- Arquivo: 30_amos_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (30, 5, 'Oráculos de Juízo contra as Nações Vizinhas e contra Judá e Israel', 1, 1, 2, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (30, 5, 'Acusações Diretas contra a Injustiça Social, o Luxo e a Corrupção Moral de Samaria', 3, 1, 6, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (30, 5, 'As Primeiras Visões Simbólicas de Juízo e o Conflito de Amós com o Sacerdote Amias em Betel', 7, 1, 7, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (30, 5, 'A Visão do Cesto de Frutas Maduras, a Fome da Palavra e a Promessa de Restauração da Tenda de Davi', 8, 1, 9, 15);
+
+-- Arquivo: 31_obadias_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (31, 5, 'O Oráculo de Juízo contra o Orgulho e a Traição de Edom', 1, 1, 1, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (31, 5, 'O Dia do Senhor, a Retribuição às Nações e o Triunfo do Reino de Deus', 1, 15, 1, 21);
+
+-- Arquivo: 32_jonas_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (32, 5, 'A Fuga de Jonas da Missão de Deus, a Tempestade no Mar e o Lançamento ao Fundo', 1, 1, 1, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (32, 5, 'A Oração de Ação de Graças de Jonas no Ventre do Grande Peixe e a Libertação', 2, 1, 2, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (32, 5, 'A Pregada de Conversão em Nínive e o Arrependimento Geral da Cidade', 3, 1, 3, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (32, 5, 'A Irritação de Jonas pela Misericórdia Divina e a Lição da Abóbora', 4, 1, 4, 11);
+
+-- Arquivo: 33_miqueias_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (33, 5, 'O Juízo Divino contra Samaria e Jerusalém devido à Injustiça Social', 1, 1, 3, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (33, 5, 'A Profecia da Glória Futura de Sião e o Nascimento do Messias em Belém', 4, 1, 5, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (33, 5, 'A Controvérsia do Senhor contra Israel e os Requisitos da Verdadeira Justiça', 6, 1, 6, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (33, 5, 'O Lamento sobre a Corrupção Geral e a Promessa Final de Perdão e Compaixão', 7, 1, 7, 20);
+
+-- Arquivo: 34_naum_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (34, 5, 'A Majestade Furiosa de Deus e o Decreto de Juízo Irrevogável contra Nínive', 1, 1, 1, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (34, 5, 'A Descrição Vívida do Cerco, da Tomada e do Saque da Cidade de Nínive', 2, 1, 2, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (34, 5, 'Ai da Cidade Sanguinária: A Inevitabilidade da Ruína e a Queda Definitiva do Império Assírio', 3, 1, 3, 19);
+
+-- Arquivo: 35_habacuque_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (34, 5, 'A Majestade Furiosa de Deus e o Decreto de Juízo Irrevogável contra Nínive', 1, 1, 1, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (34, 5, 'A Descrição Vívida do Cerco, da Tomada e do Saque da Cidade de Nínive', 2, 1, 2, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (34, 5, 'Ai da Cidade Sanguinária: A Inevitabilidade da Ruína e a Queda Definitiva do Império Assírio', 3, 1, 3, 19);
+
+-- Arquivo: 36_sofonias_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (36, 5, 'O Anúncio do Dia do Senhor e o Juízo Universal de Destruição sobre Judá e Jerusalém', 1, 1, 1, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (36, 5, 'O Chamado ao Arrependimento dos Humildes e Oráculos de Juízo contra as Nações Vizinhas', 2, 1, 3, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (36, 5, 'A Acusação contra Jerusalém Rebelde e a Promessa Futura de Restauração e Alegria para o Remanescente', 3, 9, 3, 20);
+
+-- Arquivo: 37_ageu_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (37, 5, 'A Repreensão por Deixar o Templo em Ruínas e a Convocação para a Retomada das Obras', 1, 1, 1, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (37, 5, 'A Promessa de que a Glória da Nova Casa Superará a do Templo de Salomão', 2, 1, 2, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (37, 5, 'A Impureza do Povo, a Promessa de Bênção a partir do Fundamento e a Exaltação de Zorobabel', 2, 10, 2, 23);
+
+-- Arquivo: 38_zacarias_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (38, 5, 'O Chamado inicial ao Arrependimento e as Oito Visões Noturnas de Consolação e Juízo', 1, 1, 6, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (38, 5, 'A Pergunta sobre o Jejum Ritual e a Resposta com Exortações à Justiça Social e à Verdade', 7, 1, 8, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (38, 5, 'Oráculos Apocalípticos sobre o Julgamento das Nações Vizinhas e a Vinda do Rei Humilde montado em Jumento', 9, 1, 11, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (38, 5, 'O Cerco Final a Jerusalém, o Lamento pelo Traspassado, a Purificação do Pecado e o Triunfo Escatológico do Senhor', 12, 1, 14, 21);
+
+-- Arquivo: 39_malaquias_historical_critical.json | Padrão: HISTORICAL_CRITICAL (ID: 5)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (39, 5, 'O Amor de Deus por Jacó e a Repreensão aos Sacerdotes pela Corrupção dos Sacrifícios', 1, 1, 2, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (39, 5, 'Advertências contra a Infiidelidade Conjugal, o Divórcio e a Falta de Justiça Social', 2, 10, 2, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (39, 5, 'A Vinda do Mensageiro da Aliança, a Chamada à Fidelidade nos Dízimos e a Promessa aos que Temem o Senhor', 3, 1, 3, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (39, 5, 'O Dia Ardente do Senhor, a Memória da Lei de Moisés e o Envio do Profeta Elias antes do Grande Dia', 4, 1, 4, 6);
+
+-- Arquivo: 40_mateus_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Genealogia e o Nascimento de Jesus Cristo', 1, 1, 1, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Visita dos Magos, a Fuga para o Egito e o Retorno a Nazaré', 2, 1, 2, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'O Batismo de Jesus e a Tentação no Deserto', 3, 1, 4, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'O Início do Ministério na Galileia e a Vocação dos Primeiros Discípulos', 4, 12, 4, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'O Sermão da Montanha: As Bem-Aventurauranças, a Lei e os Ensinamentos Práticos', 5, 1, 7, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Cura de Diversos Enfermidades e o Poder de Jesus sobre a Natureza e os Demônios', 8, 1, 9, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Missão dos Doze Apóstolos e as Instruções para o Testemunho', 10, 1, 10, 42);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'Dúvidas de João Batista, Crise nas Cidades Galileias e o Convite ao Descanso', 11, 1, 11, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'Controvérsias a Respeito do Sábado e a Acusação de Obrar por Belzebu', 12, 1, 12, 50);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'Parábolas do Reino dos Céus', 13, 1, 13, 58);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Morte de João Batista, a Multiplicação dos Pães e Jesus Caminhando sobre o Mar', 14, 1, 14, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Tradição dos Anciãos, a Cura da Filha da Cananeia e a Segunda Multiplicação', 15, 1, 15, 39);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Confissão de Pedro, o Primeiro Anúncio da Paixão e a Transfiguração', 16, 1, 17, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'Ensinamentos sobre a Comunidade, o Perdão e Parábolas de Misericórdia', 18, 1, 18, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'Ensinamentos sobre o Matrimônio, o Jovem Rico e a Entrada em Jerusalém', 19, 1, 20, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Chegada a Jerusalém, a Purificação do Templo e as Parábolas de Confronto', 21, 1, 22, 46);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'Repreensão aos Escribas e Fariseus e o Discurso Escatológico', 23, 1, 25, 46);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Paixão: Da conspiração e Unção em Betânia até a Crucificação', 26, 1, 27, 66);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (40, 1, 'A Ressurreição e a Grande Comissão', 28, 1, 28, 20);
+
+-- Arquivo: 41_marcos_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'A Preparação do Caminho por João Batista, o Batismo e a Tentação de Jesus', 1, 1, 1, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'O Início do Ministério na Galileia, Chamado dos Primeiros Discípulos e Curtas Curas em Cafarnaum', 1, 14, 1, 45);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'Controvérsias Crescentes: O Paralítico, o Chamado de Levi e Questões sobre o Sábado e o Jejum', 2, 1, 3, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'Multidões Junto ao Mar, a Escolha dos Doze Apóstolos e as Acusações dos Escribas', 3, 7, 3, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'Parábolas do Reino e o Poder de Jesus sobre a Tempestade, a Legião e as Enfermidades', 4, 1, 5, 43);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'Rejeição em Nazaré, a Missão dos Doze, a Morte de João Batista e a Primeira Multiplicação dos Pães', 6, 1, 6, 56);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'Tradições dos Homens, a Mulher Siro-Fenícia, a Cura do Surdo-Mudo e a Segunda Multiplicação', 7, 1, 8, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'A Confissão de Pedro, o Primeiro Anúncio da Paixão e a Transfiguração', 8, 27, 9, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'Segundo Anúncio da Paixão, Ensinamentos sobre a Humildade, o Divórcio, o Jovem Rico e o Terceiro Anúncio', 9, 30, 10, 45);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'A Cura do Cego Bartimeu, a Entrada Triunfal em Jerusalém e a Purificação do Templo', 10, 46, 11, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'Parábola dos Lavradores Mau, Questões Tributárias, o Grande Mandamento e a Oferta da Viúva', 12, 1, 12, 44);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'O Discurso Escatológico sobre a Destruição do Templo e os Sinais do Fim', 13, 1, 13, 37);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'A Paixão: Da Unção em Betânia, a Última Ceia, o Getsêmani até o Julgamento', 14, 1, 15, 47);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (41, 1, 'A Crucificação, Morte, Sepultamento e a Ressurreição', 15, 48, 16, 20);
+
+-- Arquivo: 42_lucas_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'Introdução, Anúncios dos Nascimentos de João Batista e de Jesus, e o Magnificat', 1, 1, 1, 80);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'O Nascimento de Jesus em Belém, a Apresentação no Templo e a Infância em Nazaré', 2, 1, 2, 52);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'O Ministério de João Batista, o Batismo, a Genealogia e a Tentação de Jesus', 3, 1, 4, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'O Início do Ministério na Galileia, Rejeição em Nazaré e Primeiras Curas', 4, 14, 4, 44);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'A Vocação dos Primeiros Discípulos, o Sermão da Planície e Ensinamentos Éticos', 5, 1, 6, 49);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'Milagres na Galileia, a Mensagem aos Mensageiros de João e a Mulher Pecadora Perdoada', 7, 1, 7, 50);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'As Mulheres que Acompanhavam Jesus, Parábola do Semeador e Poder sobre a Tempestade e os Demônios', 8, 1, 8, 56);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'A Missão dos Doze, a Alimentação dos Cinco Mil, a Confissão de Pedro e a Transfiguração', 9, 1, 9, 50);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'A Viagem rumo a Jerusalém, a Missão dos Setenta e a Parábola do Bom Samaritano', 9, 51, 10, 42);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'Ensinamentos sobre a Oração, Controvérsias com os Fariseus e Parábolas de Alerta', 11, 1, 13, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'Curtas Cura no Sábado, Parábolas do Banquete, da Ovelha Perdida, da Dracma Perdida e do Filho Pródigo', 13, 36, 15, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'Parábolas do Administrador Deshonesto, do Rico e Lázaro, e Ensinamentos sobre a Fé e a Gratidão', 16, 1, 17, 37);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'Parábolas da Viúva Persistente e do Fariseu com o Publicano, Bênção às Crianças e o Jovem Rico', 18, 1, 18, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'A Cura do Cego em Jericó, a Conversão de Zaqueu, a Parábola das Minas e a Entrada Triunfal', 18, 35, 19, 44);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'A Purificação do Templo, Controvérsias Religiosas e o Discurso sobre o Fim dos Tempos', 19, 45, 21, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (42, 1, 'A Última Ceia, a Agonia no Getsêmani, a Prisão e os Julgamentos de Jesus', 22, 1, 23, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (23, 1, 'A Crucificação, Morte, Sepultamento e as Aparições do Ressuscitado (Emaús e Jerusalém)', 23, 26, 24, 53);
+
+-- Arquivo: 43_joao_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'O Verbo Eterno, o Testemunho de João Batista e o Chamado dos Primeiros Discípulos', 1, 1, 1, 51);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'As Bodas em Caná da Galileia e a Primeira Purificação do Templo', 2, 1, 2, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'O Diálogo Noturno com Nicodemos e o Novo Testemunho de João Batista', 3, 1, 3, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'Jesus e a Mulher Samaritana junto ao Poço de Jacó e a Cura do Filho do Oficial', 4, 1, 4, 54);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'A Cura do Paralítico no Tanque de Betesda e o Discurso sobre a Autoridade do Filho', 5, 1, 5, 47);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'A Multiplicação dos Pães, Jesus Caminhando sobre o Mar e o Discurso do Pão da Vida', 6, 1, 6, 71);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'Jesus na Festa dos Tabernáculos e as Consequências dos Debates com as Autoridades', 7, 1, 8, 59);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'A Cura do Cego de Nascença e o Discurso do Bom Pastor', 9, 1, 10, 42);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'A Ressurreição de Lázaro e a Conspiração do Sinédrio contra Jesus', 11, 1, 11, 57);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'A Unção em Betânia, a Entrada Triunfal e o Anúncio da Hora da Glorificação', 12, 1, 12, 50);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'O Lava-pés, os Discursos de Despedida e a Promessa do Consolador', 13, 1, 16, 33);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'A Oração Sacerdotal de Jesus pelos Discípulos e pela Igreja', 17, 1, 17, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'A Prisão, os Julgamentos Perante Anás, Caifás e Pilatos, e a Crucificação', 18, 1, 19, 42);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (43, 1, 'A Ressurreição, as Aparições aos Discípulos e a Restauração de Pedro', 20, 1, 21, 25);
+
+-- Arquivo: 44_atos_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Ascensão de Jesus, a Esperança do Espírito e a Eleição de Matias', 1, 1, 1, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'O Dia de Pentecostes, o Derramamento do Espírito e o Surgimento da Primeira Igreja em Jerusalém', 2, 1, 2, 47);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Cura do Coxo no Formosa, o Discurso de Pedro e a Prisão dos Apóstolos', 3, 1, 4, 37);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'O Caso de Ananias e Safira, os Sinais Apostólicos e a Instituição dos Sete Diáconos', 5, 1, 6, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'O Discurso e o Martírio de Estêvão, o Primeiro Mártir', 6, 8, 8, 3);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Expansão do Evangelho com Filipe na Samaria e a Conversão do Eunuco Etíope', 8, 4, 8, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Conversão de Saulo de Tarso no Caminho de Damasco e o Início de seu Testemunho', 9, 1, 9, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Visão de Pedro, a Conversão de Cornélio e a Abertura da Porta aos Gentios', 9, 32, 11, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Fundação da Igreja em Antioquia, a Perseguição de Herodes e a Libertação de Pedro', 11, 19, 12, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Primeira Viagem Missionária de Paulo e Barnabé (Chipre e Galácia)', 13, 1, 14, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'O Concílio de Jerusalém e a Decisão sobre a Inclusão dos Gentios sem a Circuncisão', 15, 1, 15, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Segunda Viagem Missionária: A Visão do Macedônio e a Fundação das Igrejas na Europa', 15, 36, 18, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Terceira Viagem Missionária: O Ministério em Éfeso e o Tumulto dos Prateiros', 18, 23, 20, 38);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Viagem de Retorno a Jerusalém, a Prisão no Templo e o Testemunho perante a Multidão', 21, 1, 22, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'Paulo perante o Sinédrio, a Conspiração e a Transferência para Cesareia', 23, 1, 23, 35);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'Os Julgamentos de Paulo perante Félix, Festo e o Rei Agripa', 24, 1, 26, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (44, 1, 'A Viagem Marítima rumo a Roma, o Naufrágio na Ilha de Malta e a Chegada Final', 27, 1, 28, 31);
+
+-- Arquivo: 45_romanos_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (45, 1, 'Saudação, o Propósito da Carta e a Condenação Universal da Humanidade (Gentios e Judeus) sob o Pecado', 1, 1, 3, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (45, 1, 'A Justificação pela Graça mediante a Fé em Cristo Jesus e o Exemplo de Abraão', 3, 21, 4, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (45, 1, 'Os Benefícios da Justificação: Paz com Deus, a Vida no Espírito e a Liberdade do Pecado', 5, 1, 8, 39);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (45, 1, 'O Mistério da Soberania de Deus em Relação a Israel, a Rejeição Temporária e a Promessa Futura', 9, 1, 11, 36);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (45, 1, 'A Vida Prática Transformada: Deveres Cristãos, Submissão às Autoridades e o Amor como Cumprimento da Lei', 12, 1, 13, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (45, 1, 'Instruções sobre os Fracos na Fé, a Unidade entre Judeus e Gentios, e Saudações Finais', 14, 1, 16, 27);
+
+-- Arquivo: 46_1corintios_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'Saudação, Ação de Graças e a Repreensão às Divisões e Partidarismos na Igreja', 1, 1, 1, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'A Sabedoria de Deus Revelada pelo Espírito e a Maturidade Espiritual', 2, 1, 3, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'Os Apóstolos como Despenseiros de Cristo, o Julgamento Prematuro e a Disciplina na Comunidade', 4, 1, 5, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'Questões Práticas: Processos entre Irmãos, a Pureza do Corpo e o Casamento', 6, 1, 7, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'A Questão dos Alimentos Oferecidos a Ídolos e os Direitos Apostólicos', 8, 1, 9, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'Advertências Baseadas na História de Israel, o Comportamento no Culto e a Ceia do Senhor', 10, 1, 11, 34);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'Os Dons Espirituais, a Unidade do Corpo de Cristo e o Hino do Amor', 12, 1, 13, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'O Exercício das Profecias e das Línguas na Assembleia', 14, 1, 14, 40);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'A Ressurreição de Cristo e a Ressurreição dos Mortos', 15, 1, 15, 58);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (46, 1, 'A Coleta para os Santos, Planos de Viagem e Recomendações Finais', 16, 1, 16, 24);
+
+-- Arquivo: 47_2corintios_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (47, 1, 'Saudação, o Deus de Toda Consolação e a Explicação da Mudança nos Planos de Viagem de Paulo', 1, 1, 1, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (47, 1, 'O Perdão ao Ofensor, a Ansiedade em Trôade e o Triunfo do Evangelho', 2, 1, 2, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (47, 1, 'Ministros da Nova Aliança: A Glória Incomparável do Espírito em Comparação com a Lei de Moisés', 3, 1, 3, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (47, 1, 'O Tesouro em Vasos de Barro, a Esperança na Resurreição e o Ministério da Reconciliação', 4, 1, 5, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (47, 1, 'As Aflições e a Conduta do Apóstolo, e o Apelo à Separação das Práticas Idólatras', 6, 1, 7, 1);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (7, 1, 'A Alegria de Paulo com a Tristeza Segundo Deus Produzida pelos Coríntios', 7, 2, 7, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (47, 1, 'A Coleta para os Santos de Jerusalém: O Exemplo da Generosidade e a Administração dos Recursos', 8, 1, 9, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (47, 1, 'A Defesa da Autoridade Apostólica de Paulo contra os Opositores', 10, 1, 13, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (47, 1, 'Recomendações Finais, Visões, O Espinho na Carne e a Próxima Visita', 13, 11, 13, 14);
+
+-- Arquivo: 48_galatas_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (48, 1, 'Saudação e a Severa Repreensão ao Abandono do Único Evangelho Verdadeiro', 1, 1, 1, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (48, 1, 'A Origem Divina do Evangelho de Paulo, sua Visita a Jerusalém e a Repreensão a Pedro em Antioquia', 1, 11, 2, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (48, 1, 'A Justificação pela Fé em Contraste com as Obras da Lei, e o Exemplo de Abraão', 3, 1, 3, 29);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (48, 1, 'Filhos e Herdeiros pela Adoção, o Alerta contra a Escravidão Ritual e a Alegoria de Hagar e Sara', 4, 1, 4, 31);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (48, 1, 'A Liberdade Cristã, a Vida Guiada pelo Espírito e o Fruto do Espírito contra as Obras da Carne', 5, 1, 6, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (48, 1, 'A Glória na Cruz de Cristo, Exortações Finais e a Bênção Apostólica', 6, 11, 6, 18);
+
+-- Arquivo: 49_efesios_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (49, 1, 'Saudação, as Bênçãos Espirituais em Cristo e a Oração pela Sabedoria dos Efésios', 1, 1, 1, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (49, 1, 'Da Morte no Pecado à Salvação pela Graça, e a Reconciliação dos Judeus e Gentios em um Só Corpo', 2, 1, 2, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (49, 1, 'O Mistério Revelado do Evangelho, o Ministério de Paulo e a Oração pela Plenitude de Amor em Cristo', 3, 1, 3, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (49, 1, 'A Unidade do Corpo de Cristo, a Diversidade dos Dons e o Chamado para a Nova Vida de Santidade', 4, 1, 4, 32);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (49, 1, 'Andar na Luz, a Conduta Prudente, a Plenitude do Espírito e as Relações Domésticas', 5, 1, 6, 9);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (49, 1, 'A Armadura de Deus, o Combate Espiritual, Pedidos Finais e a Saudação de Encerramento', 6, 10, 6, 24);
+
+-- Arquivo: 50_filipenses_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (50, 1, 'Saudação, a Ação de Graças de Paulo pela Comunhão dos Filipenses e a Oração pela Sua Constância', 1, 1, 1, 11);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (50, 1, 'As Prisões de Paulo Vistas como Avanço do Evangelho e a Disposição para a Vida ou para a Morte', 1, 12, 1, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (50, 1, 'O Exemplo da Humildade de Cristo (O Hino Kenótico) e a Exortação à Obediência e Brilho no Mundo', 2, 1, 2, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (50, 1, 'Notícias e Encomenda de Timóteo e Epafrodito', 2, 19, 2, 30);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (50, 1, 'O Alerta contra os Falsos Mestres, a Conquista da Justiça pela Fé e o Alvo da Vocação Celestial', 3, 1, 3, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (50, 1, 'Exortações Finais à Concórdia e à Alegria, o Segredo da Contentamento e o Agradecimento pelas Ofertas', 4, 1, 4, 23);
+
+-- Arquivo: 51_colossenses_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (51, 1, 'Saudação, Oração de Ação de Graças e o Testemunho da Fé dos Colossenses', 1, 1, 1, 14);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (51, 1, 'A Supremacia Absoluta de Cristo na Criação e na Redenção, e o Ministério de Paulo', 1, 15, 2, 5);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (51, 1, 'Plenitude em Cristo contra as Falsas Filosofias e o Alerta contra Rituais Humanos', 2, 6, 2, 23);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (51, 1, 'A Nova Vida em Cristo e as Relações Domésticas no Lar Cristão', 3, 1, 4, 1);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (51, 1, 'Exortações Finais à Oração, à Conduta Sábia e Saudações Pessoais', 4, 2, 4, 18);
+
+-- Arquivo: 52_1tessalonicenses_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (52, 1, 'Saudação, Ação de Graças pela Fé Exemplar e a Conversão dos Tessalonicenses', 1, 1, 1, 10);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (52, 1, 'O Comportamento e o Ministério Paternal de Paulo e seus Companheiros em Tessalônica', 2, 1, 2, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (52, 1, 'O Desejo de Paulo de Rever a Igreja e o Relatório Animador Trazido por Timóteo', 2, 17, 3, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (52, 1, 'O Chamado à Santidade, ao Amor Fraterno e ao Trabalho Honesto', 4, 1, 4, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (52, 1, 'A Vinda do Senhor, a Esperança na Ressurreição e as Recomendações Finais da Vida Cristã', 4, 13, 5, 28);
+
+-- Arquivo: 53_2tessalonicenses_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (53, 1, 'Saudação, Ação de Graças pela Constância na Perseguição e o Juízo Futuro de Deus', 1, 1, 1, 12);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (53, 1, 'A Manifestação do Homem da Iniquidade e a Exortação à Firmeza na Doutrina', 2, 1, 2, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (53, 1, 'Pedido de Orações, Advertência contra a Ociosidade e as Recomendações e Bênçãos Finais', 3, 1, 3, 18);
+
+-- Arquivo: 54_1timoteo_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (54, 1, 'Saudação, o Alerta contra Falsos Ensinamentos e a Misericórdia de Deus na Conversão de Paulo', 1, 1, 1, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (54, 1, 'Instruções sobre a Oração Pública, a Conduta e o Papel dos Homens e das Mulheres na Igreja', 2, 1, 2, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (54, 1, 'Os Requisitos para Bispos e Diáconos, e o Grande Mistério da Piedade', 3, 1, 3, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (54, 1, 'O Alerta Profético sobre a Apostasia e os Deveres de Timóteo como Bom Ministro de Cristo', 4, 1, 4, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (54, 1, 'Orientações sobre o Tratamento de Diferentes Grupos Etários, Viúvas, Presbíteros, Escravos e a Advertência sobre a Ambição', 5, 1, 6, 21);
+
+-- Arquivo: 55_2timoteo_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (55, 1, 'Saudação, o Apelo à Reavivamento do Dom de Deus e o Chamado à Coragem diante do Sofrimento', 1, 1, 1, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (55, 1, 'O Exemplo do Bom Soldado de Cristo, o Obreiro Aprovado e a Conduta Mansa com os Opositores', 2, 1, 2, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (55, 1, 'Os Dias Difíceis dos Últimos Tempos, o Valor da Escritura Inspirada e a Convocação à Fidelidade', 3, 1, 4, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (55, 1, 'Instruções Pessoais, Relatos de Viagem, Pedidos Finais e Saudações', 4, 9, 4, 22);
+
+-- Arquivo: 56_tito_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (56, 1, 'Saudação, a Missão de Tito em Creta e os Requisitos para a Nomeação de Presbíteros', 1, 1, 1, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (56, 1, 'Instruções para Diferentes Grupos da Igreja e a Manifestação da Graça Salvadora de Deus', 2, 1, 2, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (56, 1, 'O Comportamento Cívico dos Crentes, a Regeneração pelo Espírito e Recomendações Finais', 3, 1, 3, 15);
+
+-- Arquivo: 57_filemom_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (57, 1, 'Saudação e Ação de Graças pela Fé e o Amor de Filemom pelos Santos', 1, 1, 1, 7);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (57, 1, 'O Apelo Intercessor de Paulo em Favor do Escravo Fugitivo Onésimo', 1, 8, 1, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (57, 1, 'Saudações Finais e a Bênção Apostólica', 1, 23, 1, 25);
+
+-- Arquivo: 58_hebreus_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (58, 1, 'A Revelação Suprema de Deus por Meio do Filho, Superior aos Anjos', 1, 1, 2, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (58, 1, 'Jesus Superior a Moisés e o Alerta contra a Descrença e a Rebeilão', 3, 1, 4, 13);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (58, 1, 'Jesus, o Sumo Sacerdote Superior Segundo a Ordem de Melquisedeque', 4, 14, 7, 28);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (58, 1, 'A Nova Aliança, o Santuário Celestial e o Sacrifício Definitivo de Cristo', 8, 1, 10, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (58, 1, 'O Chamado à Perseverança na Fé, a Galeria dos Heróis da Fé e Exortações Práticas', 10, 19, 13, 25);
+
+-- Arquivo: 59_tiago_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (59, 1, 'Saudação, a Provação da Fé, a Sabedoria Divina e o Perigo da Riqueza e da Tentação', 1, 1, 1, 27);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (59, 1, 'A Proibição do Favoritismo e a Inseparabilidade entre a Fé e as Obras', 2, 1, 2, 26);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (59, 1, 'O Poder da Língua, a Sabedoria Terrena versus a Sabedoria do Alto e os Perigos da Confusão', 3, 1, 3, 18);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (59, 1, 'Advertências contra as Brigas, a Arrogância Humana, a Soberba e o Julgamento Preconceituoso do Próximo', 4, 1, 4, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (59, 1, 'Alerta aos Ricos Opressores, o Chamado à Paciência nas Aflições, o Juramento e a Oração Eficaz', 5, 1, 5, 20);
+
+-- Arquivo: 60_1pedro_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (60, 1, 'Saudação, a Viva Esperança por meio da Ressurreição e o Chamado à Santidade', 1, 1, 1, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (60, 1, 'A Pedra Viva e o Povo Santo de Deus: Conduta Exemplar diante dos Homens e das Autoridades', 2, 1, 2, 25);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (60, 1, 'As Relações Domésticas, os Deveres Conjugais e o Sofrimento por Causa da Justiça', 3, 1, 3, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (60, 1, 'A Mordomia dos Dons, a Provação Fiada pelo Fogo e a Fidelidade na Tribulação', 4, 1, 4, 19);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (60, 1, 'Conselhos aos Presbíteros e aos Jovens, Resitência ao Adversário e Saudações Finais', 5, 1, 5, 14);
+
+-- Arquivo: 61_2pedro_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (61, 1, 'Saudação, as Promessas Preciosas e a Exortação ao Crescimento nas Virtudes Cristãs', 1, 1, 1, 21);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (61, 1, 'O Alerta Severo contra os Falsos Mestres e sua Condenação Certa', 2, 1, 2, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (61, 1, 'A Certeza da Vinda do Dia do Senhor, a Longanimidade Divina e o Chamado à Vida Santa', 3, 1, 3, 18);
+
+-- Arquivo: 62_1joao_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (62, 1, 'A Palavra da Vida, a Comunhão com Deus e o Andar na Luz contra o Pecado', 1, 1, 2, 17);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (62, 1, 'O Alerta contra o Anticristo, a Filiação Divina e o Grande Mandamento do Amor Fraterno', 2, 18, 3, 24);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (62, 1, 'O Teste dos Espíritos, Deus como Fonte do Amor e a Vitória sobre o Mundo pela Fé', 4, 1, 5, 21);
+
+-- Arquivo: 63_2joao_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (63, 1, 'Saudação à Senhora Eleita, Exortação à Prática da Verdade e do Amor Mútuo', 1, 1, 1, 6);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (63, 1, 'O Alerta Rigoroso contra os Falsos Mestres e os Enganadores que Negam a Encarnação', 1, 7, 1, 13);
+
+-- Arquivo: 64_3joao_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (64, 1, 'Saudação a Gaio e o Elogio à sua Hospitalidade e Andar na Verdade', 1, 1, 1, 8);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (64, 1, 'A Conduta Ambição de Diótrefes, o Bom Testemunho de Demétrio e as Recomendações Finais', 1, 9, 1, 15);
+
+-- Arquivo: 65_judas_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (65, 1, 'Saudação, o Propósito da Carta e o Alerta contra os Falsos Mestres Infiltrados', 1, 1, 1, 16);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (65, 1, 'Exortação à Perseverança na Fé, o Cuidado com os Desviados e a Doxologia Final', 1, 17, 1, 25);
+
+-- Arquivo: 66_apocalipse_ubs.json | Padrão: UBS (ID: 1)
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (66, 1, 'Prólogo, a Visão do Filho do Homem e as Cartas às Sete Igrejas da Ásia', 1, 1, 3, 22);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (66, 1, 'A Visão do Trono Celestial, o Cordeiro e a Abertura do Livro com os Selos', 4, 1, 8, 1);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (66, 1, 'As Sete Trombetas, os Sinais Cósmicos e a Batalha Espiritual', 8, 2, 14, 20);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (66, 1, 'As Sete Taças da Ira de Deus, a Queda de Babilônia e a Destruição do Mal', 15, 1, 20, 15);
+INSERT INTO unidade_literaria (livro_id, padrao_origem_id, titulo, capitulo_inicio, verso_inicio, capitulo_fim, verso_fim) VALUES (66, 1, 'O Novo Céu, a Nova Terra, a Nova Jerusalém e o Epílogo Profético', 21, 1, 22, 21);
+
+-- 4. População da Tabela de Versos (Texto Integral)
 -- -----------------------------------------------------------------------------
 
 INSERT INTO verso(versao_id, livro_id, numero_capitulo, numero_verso, texto) VALUES 

@@ -1,0 +1,53 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 45,
+      "titulo": "Saudação, o Propósito da Carta e a Condenação Universal da Humanidade (Gentios e Judeus) sob o Pecado",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 45,
+      "titulo": "A Justificação pela Graça mediante a Fé em Cristo Jesus e o Exemplo de Abraão",
+      "capitulo_inicio": 3,
+      "verso_inicio": 21,
+      "capitulo_fim": 4,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 45,
+      "titulo": "Os Benefícios da Justificação: Paz com Deus, a Vida no Espírito e a Liberdade do Pecado",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 39
+    },
+    {
+      "livro_id": 45,
+      "titulo": "O Mistério da Soberania de Deus em Relação a Israel, a Rejeição Temporária e a Promessa Futura",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 45,
+      "titulo": "A Vida Prática Transformada: Deveres Cristãos, Submissão às Autoridades e o Amor como Cumprimento da Lei",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 45,
+      "titulo": "Instruções sobre os Fracos na Fé, a Unidade entre Judeus e Gentios, e Saudações Finais",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 27
+    }
+  ]
+}

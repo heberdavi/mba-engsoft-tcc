@@ -1,0 +1,69 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 15,
+      "titulo": "O Decreto de Ciro, Rei da Pérsia, autorizando o Retorno a Jerusalém",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 15,
+      "titulo": "A Lista dos Exilados que Retornaram com Zorobabel e Jesua",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 70
+    },
+    {
+      "livro_id": 15,
+      "titulo": "A Reconstrução do Altar e o Reinício dos Sacrifícios",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 15,
+      "titulo": "A Oposição dos Adversários e a Paralisação das Obras do Templo",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 15,
+      "titulo": "A Retomada das Obras sob a Profecia de Ageu e Zacarias e a Carta a Dario",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 15,
+      "titulo": "A Chegada de Esdras a Jerusalém com a Carta de Artaxerxes",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 15,
+      "titulo": "A Oração de Confissão de Esdras sobre os Casamentos Mistos",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 15,
+      "titulo": "O Arrependimento do Povo e a Dissolução dos Casamentos Mistos",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 44
+    }
+  ]
+}

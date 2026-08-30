@@ -1,0 +1,37 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 55,
+      "titulo": "Saudação, o Apelo à Reavivamento do Dom de Deus e o Chamado à Coragem diante do Sofrimento",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 55,
+      "titulo": "O Exemplo do Bom Soldado de Cristo, o Obreiro Aprovado e a Conduta Mansa com os Opositores",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 55,
+      "titulo": "Os Dias Difíceis dos Últimos Tempos, o Valor da Escritura Inspirada e a Convocação à Fidelidade",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 55,
+      "titulo": "Instruções Pessoais, Relatos de Viagem, Pedidos Finais e Saudações",
+      "capitulo_inicio": 4,
+      "verso_inicio": 9,
+      "capitulo_fim": 4,
+      "verso_fim": 22
+    }
+  ]
+}

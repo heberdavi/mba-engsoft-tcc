@@ -1,0 +1,21 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 65,
+      "titulo": "Saudação, o Propósito da Carta e o Alerta contra os Falsos Mestres Infiltrados",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 65,
+      "titulo": "Exortação à Perseverança na Fé, o Cuidado com os Desviados e a Doxologia Final",
+      "capitulo_inicio": 1,
+      "verso_inicio": 17,
+      "capitulo_fim": 1,
+      "verso_fim": 25
+    }
+  ]
+}

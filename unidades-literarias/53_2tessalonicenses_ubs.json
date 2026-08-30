@@ -1,0 +1,29 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 53,
+      "titulo": "Saudação, Ação de Graças pela Constância na Perseguição e o Juízo Futuro de Deus",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 53,
+      "titulo": "A Manifestação do Homem da Iniquidade e a Exortação à Firmeza na Doutrina",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 53,
+      "titulo": "Pedido de Orações, Advertência contra a Ociosidade e as Recomendações e Bênçãos Finais",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 18
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 13,
+      "titulo": "As Genealogias desde Adão até Abraão",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 54
+    },
+    {
+      "livro_id": 13,
+      "titulo": "Os Descendentes de Israel (Jacó) e a Linhagem de Judá até Davi",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 55
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Descendência do Rei Davi e os Reis de Judá",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 13,
+      "titulo": "Outros Clãs de Judá e a Linhagem da Tribo de Simeão",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 13,
+      "titulo": "As Tribos a Leste do Jordão (Ruben, Gade e a Meia Tribo de Manassés)",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Genealogia da Tribo de Levi e as Cidades dos Sacerdotes",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 81
+    },
+    {
+      "livro_id": 13,
+      "titulo": "Genealogias das Outras Tribos de Israel (Issacar, Benjamim, Naftali, Manassés, Efraim, Aser)",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Genealogia de Saul e sua Descendência",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 13,
+      "titulo": "Lista dos Habitantes de Jerusalém após o Exílio",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 44
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Morte de Saul e de seus Filhos no Monte Gilboa",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 13,
+      "titulo": "Davi é Ungido Rei de Todo o Israel e Conquista Jerusalém",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Lista dos Valentes e Heróis de Guerra de Davi",
+      "capitulo_inicio": 11,
+      "verso_inicio": 10,
+      "capitulo_fim": 12,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Primeira Tentativa de Trazer a Arca e a Morte de Uzá",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Família e o Palácio de Davi, e as Vitórias sobre os Filisteus",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Arca é Trazida para Jerusalém com Celebração e Cânticos",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Aliança de Deus com Davi Prometendo uma Dinastia",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 13,
+      "titulo": "As Vitórias Militares de Davi sobre os Povos Vizinhas",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 13,
+      "titulo": "O Censo Contado por Davi e a Escolha do Local do Altar",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 13,
+      "titulo": "Os Preparativos de Davi para a Construção do Templo por Salomão",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 13,
+      "titulo": "A Organização dos Levitas, Sacerdotes, Músicos e Porteiros",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 13,
+      "titulo": "Os Chefes Militares e Administradores Civis do Reino de Davi",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 13,
+      "titulo": "As Recomendações Finais de Davi a Salomão sobre o Templo e a Assembleia",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 29,
+      "verso_fim": 30
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 48,
+      "titulo": "Saudação e a Severa Repreensão ao Abandono do Único Evangelho Verdadeiro",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 48,
+      "titulo": "A Origem Divina do Evangelho de Paulo, sua Visita a Jerusalém e a Repreensão a Pedro em Antioquia",
+      "capitulo_inicio": 1,
+      "verso_inicio": 11,
+      "capitulo_fim": 2,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 48,
+      "titulo": "A Justificação pela Fé em Contraste com as Obras da Lei, e o Exemplo de Abraão",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 48,
+      "titulo": "Filhos e Herdeiros pela Adoção, o Alerta contra a Escravidão Ritual e a Alegoria de Hagar e Sara",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 48,
+      "titulo": "A Liberdade Cristã, a Vida Guiada pelo Espírito e o Fruto do Espírito contra as Obras da Carne",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 48,
+      "titulo": "A Glória na Cruz de Cristo, Exortações Finais e a Bênção Apostólica",
+      "capitulo_inicio": 6,
+      "verso_inicio": 11,
+      "capitulo_fim": 6,
+      "verso_fim": 18
+    }
+  ]
+}

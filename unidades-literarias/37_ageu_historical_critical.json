@@ -1,0 +1,29 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 37,
+      "titulo": "A Repreensão por Deixar o Templo em Ruínas e a Convocação para a Retomada das Obras",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 37,
+      "titulo": "A Promessa de que a Glória da Nova Casa Superará a do Templo de Salomão",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 37,
+      "titulo": "A Impureza do Povo, a Promessa de Bênção a partir do Fundamento e a Exaltação de Zorobabel",
+      "capitulo_inicio": 2,
+      "verso_inicio": 10,
+      "capitulo_fim": 2,
+      "verso_fim": 23
+    }
+  ]
+}

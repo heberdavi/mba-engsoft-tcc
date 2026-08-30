@@ -1,0 +1,149 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 6,
+      "titulo": "Deus Encoraja a Josué",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 6,
+      "titulo": "Preparativos para a Travessia do Jordão",
+      "capitulo_inicio": 1,
+      "verso_inicio": 10,
+      "capitulo_fim": 1,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 6,
+      "titulo": "Os Espias em Jericó e o Acordo com Raabe",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 6,
+      "titulo": "A Travessia do Rio Jordão",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 6,
+      "titulo": "A Circuncisão em Gilgal e a Páscoa",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 6,
+      "titulo": "O Comandante do Exército do Senhor",
+      "capitulo_inicio": 5,
+      "verso_inicio": 13,
+      "capitulo_fim": 5,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 6,
+      "titulo": "A Queda de Jericó",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 6,
+      "titulo": "O Pecado de Acã e a Derrota em Ai",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 6,
+      "titulo": "A Tomada de Ai e a Leitura da Lei no Ebal",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 6,
+      "titulo": "O Engano dos Gibeonitas",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 6,
+      "titulo": "A Batalha de Gibeom e o Sol que Para",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 6,
+      "titulo": "A Conquista do Norte de Canaã",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 6,
+      "titulo": "Resumo dos Reis Derrotados por Moisés e Josué",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 6,
+      "titulo": "A Divisão da Terra entre as Tribos",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 51
+    },
+    {
+      "livro_id": 6,
+      "titulo": "As Cidades de Refúgio e as Cidades dos Levitas",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 45
+    },
+    {
+      "livro_id": 6,
+      "titulo": "O Retorno das Tribos Transjordanianas e o Altar do Testemunho",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 6,
+      "titulo": "O Primeiro Discurso de Despedida de Josué",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 6,
+      "titulo": "A Aliança de Siquém e a Morte de Josué",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 33
+    }
+  ]
+}

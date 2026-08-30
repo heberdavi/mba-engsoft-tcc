@@ -1,0 +1,29 @@
+{
+  "codigo_padrao": "HISTORICAL_CRITICAL",
+  "unidades": [
+    {
+      "livro_id": 36,
+      "titulo": "O Anúncio do Dia do Senhor e o Juízo Universal de Destruição sobre Judá e Jerusalém",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 36,
+      "titulo": "O Chamado ao Arrependimento dos Humildes e Oráculos de Juízo contra as Nações Vizinhas",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 36,
+      "titulo": "A Acusação contra Jerusalém Rebelde e a Promessa Futura de Restauração e Alegria para o Remanescente",
+      "capitulo_inicio": 3,
+      "verso_inicio": 9,
+      "capitulo_fim": 3,
+      "verso_fim": 20
+    }
+  ]
+}

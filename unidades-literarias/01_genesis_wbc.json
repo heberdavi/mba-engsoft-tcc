@@ -1,0 +1,469 @@
+{
+  "codigo_padrao": "WBC_COMMENTARY",
+  "unidades": [
+    {
+      "livro_id": 1,
+      "titulo": "A Criação dos Céus e da Terra",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 3
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Homem no Jardim do Éden",
+      "capitulo_inicio": 2,
+      "verso_inicio": 4,
+      "capitulo_fim": 2,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Queda do Homem",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Caim e Abel",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Os Descendentes de Caim",
+      "capitulo_inicio": 4,
+      "verso_inicio": 17,
+      "capitulo_fim": 4,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 1,
+      "titulo": "As Gerações de Adão",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Corrupção da Humanidade",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Instrução para a Construção da Arca",
+      "capitulo_inicio": 6,
+      "verso_inicio": 9,
+      "capitulo_fim": 6,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Dilúvio",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Altar de Noé e a Aliança de Deus",
+      "capitulo_inicio": 8,
+      "verso_inicio": 20,
+      "capitulo_fim": 9,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Noé e seus Filhos / A Embriaguez de Noé",
+      "capitulo_inicio": 9,
+      "verso_inicio": 18,
+      "capitulo_fim": 9,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Tabela das Nações (Descendentes de Noé)",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Torre de Babel",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Os Descendentes de Sem até Abrão",
+      "capitulo_inicio": 11,
+      "verso_inicio": 10,
+      "capitulo_fim": 11,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Chamada de Abrão",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Abrão e Sarai no Egito",
+      "capitulo_inicio": 12,
+      "verso_inicio": 10,
+      "capitulo_fim": 12,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Abrão e Ló se Separam",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Abrão Resgata Ló e o Encontro com Melquisedeque",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Aliança de Deus com Abrão (Promessa da Descendência)",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Hagar e o Nascimento de Ismael",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Aliança da Circuncisão e a Mudança de Nomes",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Promessa de um Filho a Sara e a Intercessão por Sodoma",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Fuga de Ló e a Destruição de Sodoma e Gomorra",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Abraão e Abimeleque",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Nascimento de Isaque e a Expulsão de Hagar",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Pacto entre Abraão e Abimeleque em Berseba",
+      "capitulo_inicio": 21,
+      "verso_inicio": 22,
+      "capitulo_fim": 21,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Provação da Fé de Abraão (O Sacrifício de Isaque)",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Os Descendentes de Naor",
+      "capitulo_inicio": 22,
+      "verso_inicio": 20,
+      "capitulo_fim": 22,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Morte de Sara e a Compra da Cova de Macpela",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Esposa Escolhida para Isaque (Rebeca)",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 67
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Morte de Abraão e os Descendentes de Ismael",
+      "capitulo_inicio": 25,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Nascimento de Jacó e Esaú e a Venda da Primogenitura",
+      "capitulo_inicio": 25,
+      "verso_inicio": 19,
+      "capitulo_fim": 25,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Isaque em Gerar e o Poço de Seba",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Jacó Obtém a Bênção de Isaque por Fraude",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 45
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Fuga de Jacó e a Visão da Escada em Betel",
+      "capitulo_inicio": 27,
+      "verso_inicio": 46,
+      "capitulo_fim": 28,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Casamento de Jacó com Lia e Raquel",
+      "capitulo_inicio": 29,
+      "verso_inicio": 1,
+      "capitulo_fim": 29,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Nascimento dos Filhos de Jacó",
+      "capitulo_inicio": 29,
+      "verso_inicio": 31,
+      "capitulo_fim": 30,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Os Acordos de Rebanho entre Jacó e Labão",
+      "capitulo_inicio": 30,
+      "verso_inicio": 25,
+      "capitulo_fim": 30,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Fuga de Jacó e o Pacto com Labão em Gileade",
+      "capitulo_inicio": 31,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 55
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Preparação para Encontrar Esaú e a Luta em Peneuel",
+      "capitulo_inicio": 32,
+      "verso_inicio": 1,
+      "capitulo_fim": 32,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Reencontro Pacífico entre Jacó e Esaú",
+      "capitulo_inicio": 33,
+      "verso_inicio": 1,
+      "capitulo_fim": 33,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Episódio de Diná e a Vingança em Siquém",
+      "capitulo_inicio": 34,
+      "verso_inicio": 1,
+      "capitulo_fim": 34,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Retorno a Betel, Morte de Raquel e de Isaque",
+      "capitulo_inicio": 35,
+      "verso_inicio": 1,
+      "capitulo_fim": 35,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Os Descendentes e Clãs de Esaú",
+      "capitulo_inicio": 36,
+      "verso_inicio": 1,
+      "capitulo_fim": 36,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Os Sonhos de José e sua Venda ao Egito",
+      "capitulo_inicio": 37,
+      "verso_inicio": 1,
+      "capitulo_fim": 37,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Judá e Tamar",
+      "capitulo_inicio": 38,
+      "verso_inicio": 1,
+      "capitulo_fim": 38,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 1,
+      "titulo": "José na Casa de Potifar e a Prisão",
+      "capitulo_inicio": 39,
+      "verso_inicio": 1,
+      "capitulo_fim": 39,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Os Sonhos do Copeiro e do Padeiro na Prisão",
+      "capitulo_inicio": 40,
+      "verso_inicio": 1,
+      "capitulo_fim": 40,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Os Sonhos de Faraó e a Nomeação de José como Governador",
+      "capitulo_inicio": 41,
+      "verso_inicio": 1,
+      "capitulo_fim": 41,
+      "verso_fim": 57
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Primeira Viagem dos Irmãos de José ao Egito",
+      "capitulo_inicio": 42,
+      "verso_inicio": 1,
+      "capitulo_fim": 42,
+      "verso_fim": 38
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Segunda Viagem ao Egito com Benjamim",
+      "capitulo_inicio": 43,
+      "verso_inicio": 1,
+      "capitulo_fim": 43,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Taça de Prata no Saco de Benjamim e a Súplica de Judá",
+      "capitulo_inicio": 44,
+      "verso_inicio": 1,
+      "capitulo_fim": 44,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 1,
+      "titulo": "José se Revela aos Irmãos e Convida a Família",
+      "capitulo_inicio": 45,
+      "verso_inicio": 1,
+      "capitulo_fim": 45,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 1,
+      "titulo": "A Mudança de Jacó e sua Família para Gósen",
+      "capitulo_inicio": 46,
+      "verso_inicio": 1,
+      "capitulo_fim": 46,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Jacó diante de Faraó e as Reformas de José na Fome",
+      "capitulo_inicio": 47,
+      "verso_inicio": 1,
+      "capitulo_fim": 47,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 1,
+      "titulo": "Jacó Abençoa os Filhos de José (Efraim e Manassés)",
+      "capitulo_inicio": 48,
+      "verso_inicio": 1,
+      "capitulo_fim": 48,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 1,
+      "titulo": "As Profecias Finais de Jacó sobre suas Tribos",
+      "capitulo_inicio": 49,
+      "verso_inicio": 1,
+      "capitulo_fim": 49,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 1,
+      "titulo": "O Sepultamento de Jacó em Canaã e a Morte de José",
+      "capitulo_inicio": 50,
+      "verso_inicio": 1,
+      "capitulo_fim": 50,
+      "verso_fim": 26
+    }
+  ]
+}

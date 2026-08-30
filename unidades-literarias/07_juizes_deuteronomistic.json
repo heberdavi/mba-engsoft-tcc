@@ -1,0 +1,189 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 7,
+      "titulo": "Resumo das Conquistas e Fracas Ocupações das Tribos",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 7,
+      "titulo": "A Advertência do Anjo do Senhor em Boquim",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Ciclo Espiritual de Israel no Período dos Juízes",
+      "capitulo_inicio": 2,
+      "verso_inicio": 6,
+      "capitulo_fim": 3,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Primeiro Juiz: Otaniel liberta Israel de Cusã-Risataim",
+      "capitulo_inicio": 3,
+      "verso_inicio": 7,
+      "capitulo_fim": 3,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 7,
+      "titulo": "Eúde mata Eglom, rei de Moabe, e liberta Israel",
+      "capitulo_inicio": 3,
+      "verso_inicio": 12,
+      "capitulo_fim": 3,
+      "verso_fim": 30
+    },
+    {
+      "livro_id": 7,
+      "titulo": "Samgar derrota os filisteus com uma aguilhada de bois",
+      "capitulo_inicio": 3,
+      "verso_inicio": 31,
+      "capitulo_fim": 3,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 7,
+      "titulo": "Débora e Baraque derrotam Sísera e o exército de Jabim",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Cântico de Débora e Baraque",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 7,
+      "titulo": "Gideão é chamado para livrar Israel dos midianitas",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Exército reduzido e a Derrota dos Midianitas por Gideão",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Efode de Ouro e a Morte de Gideão",
+      "capitulo_inicio": 8,
+      "verso_inicio": 22,
+      "capitulo_fim": 8,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 7,
+      "titulo": "A Usurpação de Abimeleque e sua Morte em Tebez",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 57
+    },
+    {
+      "livro_id": 7,
+      "titulo": "Os Juízes Menores: Tola e Jair",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 7,
+      "titulo": "A Opressão dos Amonitas e o Chamado de Jefté",
+      "capitulo_inicio": 10,
+      "verso_inicio": 6,
+      "capitulo_fim": 11,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Voto Trágico de Jefté e o Conflito com os Efraimitas",
+      "capitulo_inicio": 11,
+      "verso_inicio": 29,
+      "capitulo_fim": 12,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 7,
+      "titulo": "Os Juízes Menores: Ibzã, Elom e Abdom",
+      "capitulo_inicio": 12,
+      "verso_inicio": 8,
+      "capitulo_fim": 12,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Nascimento de Sansão anunciado pelo Anjo",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Casamento de Sansão e o Enigma do Leão",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 7,
+      "titulo": "As Vinganças de Sansão contra os Filisteus",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 7,
+      "titulo": "Sansão e Dalila, a Traição e a Queda do Templo de Dagom",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 7,
+      "titulo": "A Idolatria de Mica e a Migração da Tribo de Dã",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 7,
+      "titulo": "O Crime Hediondo em Gibeá e a Convocação das Tribos",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 48
+    },
+    {
+      "livro_id": 7,
+      "titulo": "A Restauração da Tribo de Benjamim",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 25
+    }
+  ]
+}

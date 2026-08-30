@@ -1,0 +1,21 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 63,
+      "titulo": "Saudação à Senhora Eleita, Exortação à Prática da Verdade e do Amor Mútuo",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 63,
+      "titulo": "O Alerta Rigoroso contra os Falsos Mestres e os Enganadores que Negam a Encarnação",
+      "capitulo_inicio": 1,
+      "verso_inicio": 7,
+      "capitulo_fim": 1,
+      "verso_fim": 13
+    }
+  ]
+}

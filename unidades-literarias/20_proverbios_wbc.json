@@ -1,0 +1,125 @@
+{
+  "codigo_padrao": "WBC_COMMENTARY",
+  "unidades": [
+    {
+      "livro_id": 20,
+      "titulo": "O Propósito dos Provérbios e o Convite da Sabedoria contra a Tentações",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 20,
+      "titulo": "Os Benefícios da Sabedoria e a Proteção contra os Maus Caminhos",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 20,
+      "titulo": "Exortações à Confiança em Deus, à Generosidade e à Disciplina",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 20,
+      "titulo": "O Apelo Paternal para Reter a Sabedoria e o Caminho dos Justos",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 20,
+      "titulo": "Advertências contra a Mulher Imoral e o Louvor à Fidelidade Conjugal",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 20,
+      "titulo": "Avisos Práticos sobre Fianças, Preguiça, Malícia e Abominações",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 20,
+      "titulo": "A Estratégia da Mulher Sedutora e o Perigo da Insensatez",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 20,
+      "titulo": "O Chamado Público e a Origem Eterna da Sabedoria",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 20,
+      "titulo": "O Banquete da Sabedoria em Contraste com o Banquete da Loucura",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 20,
+      "titulo": "Primeira Coleção de Provérbios de Salomão (Contraste entre Justos e Ímpios)",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 20,
+      "titulo": "Segunda Coleção de Provérbios de Salomão (Integridade e Prudência)",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 20,
+      "titulo": "Palavras dos Sábios (Primeira Seção de Conselhos)",
+      "capitulo_inicio": 22,
+      "verso_inicio": 17,
+      "capitulo_fim": 24,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 20,
+      "titulo": "Provérbios de Salomão Copiados pelos Homens de Ezequias",
+      "capitulo_inicio": 25,
+      "verso_inicio": 1,
+      "capitulo_fim": 29,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 20,
+      "titulo": "As Palavras de Agur e a Sabedoria Contida na Criação",
+      "capitulo_inicio": 30,
+      "verso_inicio": 1,
+      "capitulo_fim": 30,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 20,
+      "titulo": "As Palavras do Rei Lemuel e o Retrato da Mulher Virtuosa",
+      "capitulo_inicio": 31,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 31
+    }
+  ]
+}

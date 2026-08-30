@@ -1,0 +1,45 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 54,
+      "titulo": "Saudação, o Alerta contra Falsos Ensinamentos e a Misericórdia de Deus na Conversão de Paulo",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 54,
+      "titulo": "Instruções sobre a Oração Pública, a Conduta e o Papel dos Homens e das Mulheres na Igreja",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 54,
+      "titulo": "Os Requisitos para Bispos e Diáconos, e o Grande Mistério da Piedade",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 54,
+      "titulo": "O Alerta Profético sobre a Apostasia e os Deveres de Timóteo como Bom Ministro de Cristo",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 54,
+      "titulo": "Orientações sobre o Tratamento de Diferentes Grupos Etários, Viúvas, Presbíteros, Escravos e a Advertência sobre a Ambição",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 21
+    }
+  ]
+}

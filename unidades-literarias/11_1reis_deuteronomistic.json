@@ -1,0 +1,173 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 11,
+      "titulo": "A Conspiração de Adonias e a Ungidura de Salomão como Rei",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 53
+    },
+    {
+      "livro_id": 11,
+      "titulo": "As Últimas Recomendações e a Morte de Davi",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 46
+    },
+    {
+      "livro_id": 11,
+      "titulo": "O Pedido de Sabedoria de Salomão e seu Julgamento Famoso",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Administração, a Sabedoria e a Prosperidade do Reino de Salomão",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 11,
+      "titulo": "Os Acordos com Hirão e os Preparativos para a Construção do Templo",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Construção do Templo de Salomão e do Palácio Real",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 51
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Dedicação do Templo e a Oração Solene de Salomão",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 66
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Resposta de Deus a Salomão, suas Cidades e Riquezas",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Visita da Rainha de Sabá e o Apogeu do Reino",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Apostasia de Salomão na velhice e os Adversários Levantados por Deus",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Reunião em Siquém, a Recusa de Roboão e a Cisão do Reino (Israel e Judá)",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Profecia contra o Altar de Betel e o Profeta Desobediente",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 11,
+      "titulo": "Profecias contra a Casa de Jeroboão e a Casa de Roboão",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 11,
+      "titulo": "Os Reinados de Abias e Asa em Judá, e Nadabe e Baasa em Israel",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 11,
+      "titulo": "Os Breves Reinados em Israel (Elá, Zinri, Onri) e a Ascensão de Acabe",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 11,
+      "titulo": "Elias Prediz a Seca, é Sustentado pelos Corvos e a Viúva de Sarepta",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 11,
+      "titulo": "O Confronto de Elias com os Profetas de Baal no Monte Carmelo",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 46
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Fuga de Elias para o Horeb e a Chamada de Eliseu",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 11,
+      "titulo": "As Guerras de Acabe contra os Sírios",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Vinha de Nabote e a Profecia de Juízo contra Acabe e Jezabel",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 11,
+      "titulo": "A Aliança de Acabe com Josafá e a Morte de Acabe em Ramote-Gileade",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 53
+    }
+  ]
+}

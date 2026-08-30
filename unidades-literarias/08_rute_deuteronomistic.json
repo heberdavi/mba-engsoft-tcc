@@ -1,0 +1,37 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 8,
+      "titulo": "Noemi Perde a Família em Moabe e Retorna a Belém com Rute",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 8,
+      "titulo": "Rute Espiga nos Campos de Boaz",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 8,
+      "titulo": "Rute na Eira de Boaz e o Pedido de Resgate",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 8,
+      "titulo": "Boaz Resgata Rute e se Casa com Ela (Genealogia de Davi)",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 22
+    }
+  ]
+}

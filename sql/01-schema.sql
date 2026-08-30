@@ -31,18 +31,26 @@ CREATE TABLE IF NOT EXISTS "livro"(
     FOREIGN KEY (genero_id) REFERENCES genero_literario(id)
 );
 
+CREATE TABLE IF NOT EXISTS "padrao_origem" (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "codigo" VARCHAR(30) UNIQUE NOT NULL,    -- Ex: 'UBS', 'GUNKEL', 'COMMENTARY_WBC'
+    "nome" VARCHAR(100) NOT NULL,            -- Ex: 'Períopes Editoriais UBS / NA'
+    "autor_ou_fonte" VARCHAR(150),           -- Ex: 'United Bible Societies'
+    "descricao" TEXT,                        -- Explicação da metodologia ou critério
+    "referencia_bibliografica" TEXT          -- Opcional: citação bibliográfica
+);
+
 CREATE TABLE IF NOT EXISTS "unidade_literaria" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT,
     "livro_id" INTEGER NOT NULL,
-    "capitulo_inicio" INTEGER NOT NULL,
+	"padrao_origem_id" INTEGER NOT NULL,     -- Vínculo com a tabela de origens
+    "titulo" VARCHAR(150),                   -- Título descritivo da períope/unidade
+	"capitulo_inicio" INTEGER NOT NULL,
     "verso_inicio" INTEGER NOT NULL,
     "capitulo_fim" INTEGER NOT NULL,
     "verso_fim" INTEGER NOT NULL,
-    "tipo" VARCHAR(30),         -- 'narrativa', 'discurso', 'hino', 'epilogo'...
-    "interlocutor" VARCHAR(100), -- 'Jó', 'Elifaz', 'Bildade', 'Zofar', 'Eliú', 'Deus', NULL para narrativa
-    "genero_id" INTEGER,         -- override opcional do gênero do livro para esta unidade
     FOREIGN KEY (livro_id) REFERENCES livro(id),
-    FOREIGN KEY (genero_id) REFERENCES genero_literario(id)
+    FOREIGN KEY (padrao_origem_id) REFERENCES padrao_origem(id)
 );
 
 CREATE TABLE IF NOT EXISTS "verso"(

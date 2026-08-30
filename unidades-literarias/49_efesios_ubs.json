@@ -1,0 +1,53 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 49,
+      "titulo": "Saudação, as Bênçãos Espirituais em Cristo e a Oração pela Sabedoria dos Efésios",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 49,
+      "titulo": "Da Morte no Pecado à Salvação pela Graça, e a Reconciliação dos Judeus e Gentios em um Só Corpo",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 49,
+      "titulo": "O Mistério Revelado do Evangelho, o Ministério de Paulo e a Oração pela Plenitude de Amor em Cristo",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 49,
+      "titulo": "A Unidade do Corpo de Cristo, a Diversidade dos Dons e o Chamado para a Nova Vida de Santidade",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 49,
+      "titulo": "Andar na Luz, a Conduta Prudente, a Plenitude do Espírito e as Relações Domésticas",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 49,
+      "titulo": "A Armadura de Deus, o Combate Espiritual, Pedidos Finais e a Saudação de Encerramento",
+      "capitulo_inicio": 6,
+      "verso_inicio": 10,
+      "capitulo_fim": 6,
+      "verso_fim": 24
+    }
+  ]
+}

@@ -1,0 +1,1197 @@
+{
+  "codigo_padrao": "GUNKEL",
+  "unidades": [
+    {
+      "livro_id": 19,
+      "titulo": "O Caminho do Justo e o Destino dos Ímpios",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Reino do Messias e o Triunfo de Deus",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica Matinal de Confiança em Meio à Opressão",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Confiança na Paz e na Justiça Divina à Noite",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica Matinal contra os Homens Fraudulentos",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Penitencial na Angústia e Doença",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Apelo ao Juiz Justo Contra a Calúnia",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Glória do Criador e a Dignidade do Ser Humano",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Louvor pela Justiça e Proteção aos Oprimidos",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Coletivo contra a Arrogância dos Ímpios",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Inabalável Confiança no Senhor no Templo",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica contra a Falsidade e Promessa da Palavra Pura",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento que se Transforma em Alegria e Confiança",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Corrupção Universal da Humanidade",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Perfil do Cidadão do Céu e Amigo de Deus",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Mictão de Davi: Confiança na Herança Divina e Vitória sobre a Morte",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica por Proteção contra os Inimigos Violentos",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Ação de Graças de Davi pelos Livramentos do Senhor",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 50
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Revelação de Deus na Criação e na Sua Lei Perfeita",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Intercessão e Súplica pela Vitória do Rei",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Ação de Graças pelas Bênçãos e Força Concedidas ao Rei",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Profético do Sofrimento e Exaltação Final de Deus",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Senhor é o Meu Pastor: Confiança e Segurança Plena",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 23,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Liturgia de Entrada: O Rei da Glória Entra no Santuário",
+      "capitulo_inicio": 24,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica por Orientação, Perdão e Misericórdia",
+      "capitulo_inicio": 25,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Declaração de Inocência e Amor pela Casa de Deus",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Luz e a Salvação em Tempos de Guerra e Perigo",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica por Auxílio e Cântico de Louvor pelo Atendimento",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 28,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Majestade e o Poder da Voz do Senhor na Tempestade",
+      "capitulo_inicio": 29,
+      "verso_inicio": 1,
+      "capitulo_fim": 29,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Ação de Graças pelo Livramento da Morte e Restauração",
+      "capitulo_inicio": 30,
+      "verso_inicio": 1,
+      "capitulo_fim": 30,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica de Confiança na Angústia Extrema e Entrega a Deus",
+      "capitulo_inicio": 31,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Salmo Didático: A Bem-Aventurança do Perdão dos Pecados",
+      "capitulo_inicio": 32,
+      "verso_inicio": 1,
+      "capitulo_fim": 32,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Louvor ao Criador e Protetor dos Retos",
+      "capitulo_inicio": 33,
+      "verso_inicio": 1,
+      "capitulo_fim": 33,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Ação de Graças pela Proteção Divina aos Justos",
+      "capitulo_inicio": 34,
+      "verso_inicio": 1,
+      "capitulo_fim": 34,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica por Defesa contra os Acusadores Injustos",
+      "capitulo_inicio": 35,
+      "verso_inicio": 1,
+      "capitulo_fim": 35,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Maldade dos Ímpios em Contraste com a Infalível Bondade de Deus",
+      "capitulo_inicio": 36,
+      "verso_inicio": 1,
+      "capitulo_fim": 36,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Exortação Sapiencial: Confie no Senhor e Espere Nele Pacientemente",
+      "capitulo_inicio": 37,
+      "verso_inicio": 1,
+      "capitulo_fim": 37,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Penitencial de um Enfermo Abandonado",
+      "capitulo_inicio": 38,
+      "verso_inicio": 1,
+      "capitulo_fim": 38,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Reflexão sobre a Brevidade e a Fragilidade da Vida Humana",
+      "capitulo_inicio": 39,
+      "verso_inicio": 1,
+      "capitulo_fim": 39,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Ação de Graças pelo Livramento e Esperança na Fidelidade de Deus",
+      "capitulo_inicio": 40,
+      "verso_inicio": 1,
+      "capitulo_fim": 40,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento na Doença e Traição de Amigos Íntimos",
+      "capitulo_inicio": 41,
+      "verso_inicio": 1,
+      "capitulo_fim": 41,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica e Anseio Profundo pela Presença de Deus no Santuário",
+      "capitulo_inicio": 42,
+      "verso_inicio": 1,
+      "capitulo_fim": 43,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Coletivo de Israel em Meio à Opressão e Oprobrio",
+      "capitulo_inicio": 44,
+      "verso_inicio": 1,
+      "capitulo_fim": 44,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Epitalâmio Real: Cântico de Celebração do Casamento do Rei",
+      "capitulo_inicio": 45,
+      "verso_inicio": 1,
+      "capitulo_fim": 45,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Deus é o Nosso Refúgio e Fortaleza Inabalável",
+      "capitulo_inicio": 46,
+      "verso_inicio": 1,
+      "capitulo_fim": 46,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Celebração a Deus como Rei de Toda a Terra",
+      "capitulo_inicio": 47,
+      "verso_inicio": 1,
+      "capitulo_fim": 47,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Grandeza de Deus e a Segurança de Sião",
+      "capitulo_inicio": 48,
+      "verso_inicio": 1,
+      "capitulo_fim": 48,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Reflexão Sapiencial sobre a Vaidade das Riquezas e a Morte",
+      "capitulo_inicio": 49,
+      "verso_inicio": 1,
+      "capitulo_fim": 49,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Julgamento Divino sobre o Culto Externo e a Verdadeira Obediência",
+      "capitulo_inicio": 50,
+      "verso_inicio": 1,
+      "capitulo_fim": 50,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica Penitencial Profunda de Arrependimento e Purificação",
+      "capitulo_inicio": 51,
+      "verso_inicio": 1,
+      "capitulo_fim": 51,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Repreensão à Malícia e Confiança na Misericórdia Divina",
+      "capitulo_inicio": 52,
+      "verso_inicio": 1,
+      "capitulo_fim": 52,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Insensatez dos Homens Corrompidos contra o Povo de Deus",
+      "capitulo_inicio": 53,
+      "verso_inicio": 1,
+      "capitulo_fim": 53,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica por Auxílio Contra os Zifitas Inimigos",
+      "capitulo_inicio": 54,
+      "verso_inicio": 1,
+      "capitulo_fim": 54,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento de Traição por um Amigo Íntimo",
+      "capitulo_inicio": 55,
+      "verso_inicio": 1,
+      "capitulo_fim": 55,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Confiança Inabalável em Deus no Meio do Medo e da Perseguição",
+      "capitulo_inicio": 56,
+      "verso_inicio": 1,
+      "capitulo_fim": 56,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento na Caverna e Exaltação Matinal da Glória de Deus",
+      "capitulo_inicio": 57,
+      "verso_inicio": 1,
+      "capitulo_fim": 57,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Repreensão aos Juízes Injustos e Corruptos",
+      "capitulo_inicio": 58,
+      "verso_inicio": 1,
+      "capitulo_fim": 58,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica por Livramento contra Perseguidores Cruéis",
+      "capitulo_inicio": 59,
+      "verso_inicio": 1,
+      "capitulo_fim": 59,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento após uma Derrota Militar e Súplica por Socorro",
+      "capitulo_inicio": 60,
+      "verso_inicio": 1,
+      "capitulo_fim": 60,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Refúgio Seguro sob as Asas de Deus na Extremança da Terra",
+      "capitulo_inicio": 61,
+      "verso_inicio": 1,
+      "capitulo_fim": 61,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Silêncio Confiante e Esperança Exclusiva em Deus",
+      "capitulo_inicio": 62,
+      "verso_inicio": 1,
+      "capitulo_fim": 62,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Anseio Fervoroso pela Presença de Deus no Deserto",
+      "capitulo_inicio": 63,
+      "verso_inicio": 1,
+      "capitulo_fim": 63,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica contra Conspirações Secretas e Justiça Divina",
+      "capitulo_inicio": 64,
+      "verso_inicio": 1,
+      "capitulo_fim": 64,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Ação de Graças pela Abundância da Terra e Perdão",
+      "capitulo_inicio": 65,
+      "verso_inicio": 1,
+      "capitulo_fim": 65,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Chamado para Toda a Terra Louvar os Feitos Poderosos de Deus",
+      "capitulo_inicio": 66,
+      "verso_inicio": 1,
+      "capitulo_fim": 66,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Bênção Sacerdotal para que Todos os Povos Conheçam a Salvação",
+      "capitulo_inicio": 67,
+      "verso_inicio": 1,
+      "capitulo_fim": 67,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cântico Triunfal da Marcha de Deus e a Vitória de seu Povo",
+      "capitulo_inicio": 68,
+      "verso_inicio": 1,
+      "capitulo_fim": 68,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Doloroso na Profunda Angústia e Perseguição",
+      "capitulo_inicio": 69,
+      "verso_inicio": 1,
+      "capitulo_fim": 69,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica Urgente por Auxílio Rápido e Confusão dos Inimigos",
+      "capitulo_inicio": 70,
+      "verso_inicio": 1,
+      "capitulo_fim": 70,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Oração de um Idoso por Proteção na Velhice",
+      "capitulo_inicio": 71,
+      "verso_inicio": 1,
+      "capitulo_fim": 71,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Salmo Real: A Justiça e a Prosperidade do Reinado do Messias",
+      "capitulo_inicio": 72,
+      "verso_inicio": 1,
+      "capitulo_fim": 72,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Problema da Prosperidade Temporária dos Ímpios e a Resolução no Santuário",
+      "capitulo_inicio": 73,
+      "verso_inicio": 1,
+      "capitulo_fim": 73,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento pela Destruição do Santuário e Silêncio de Deus",
+      "capitulo_inicio": 74,
+      "verso_inicio": 1,
+      "capitulo_fim": 74,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Confiança no Juízo Certo de Deus",
+      "capitulo_inicio": 75,
+      "verso_inicio": 1,
+      "capitulo_fim": 75,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Celebração do Poder Magnífico do Deus de Israel em Sião",
+      "capitulo_inicio": 76,
+      "verso_inicio": 1,
+      "capitulo_fim": 76,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Meditação Consoladora sobre as Obras Maravilhosas de Deus no Passado",
+      "capitulo_inicio": 77,
+      "verso_inicio": 1,
+      "capitulo_fim": 77,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lições da História de Israel: A Infidelidade do Povo e a Misericórdia de Deus",
+      "capitulo_inicio": 78,
+      "verso_inicio": 1,
+      "capitulo_fim": 78,
+      "verso_fim": 72
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento pela Ruína de Jerusalém e Súplica por Compaixão",
+      "capitulo_inicio": 79,
+      "verso_inicio": 1,
+      "capitulo_fim": 79,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica pela Restauração da Vinha do Senhor (Israel)",
+      "capitulo_inicio": 80,
+      "verso_inicio": 1,
+      "capitulo_fim": 80,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Exortação à Obediência e Apelo Solene nas Festas",
+      "capitulo_inicio": 81,
+      "verso_inicio": 1,
+      "capitulo_fim": 81,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Repreensão aos Juízes Injustos e Apelo à Justiça Divina Universal",
+      "capitulo_inicio": 82,
+      "verso_inicio": 1,
+      "capitulo_fim": 82,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica contra a Conspiração das Nações Inimigas de Israel",
+      "capitulo_inicio": 83,
+      "verso_inicio": 1,
+      "capitulo_fim": 83,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Formidável Ventura de Habitar na Casa do Senhor",
+      "capitulo_inicio": 84,
+      "verso_inicio": 1,
+      "capitulo_fim": 84,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Prece por Avivamento e Paz baseada na Misericórdia Divina",
+      "capitulo_inicio": 85,
+      "verso_inicio": 1,
+      "capitulo_fim": 85,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Oração de um Afadigado Pedindo Misericórdia e Ajuda",
+      "capitulo_inicio": 86,
+      "verso_inicio": 1,
+      "capitulo_fim": 86,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Louvor a Sião como Cidade e Mãe de Todos os Povos",
+      "capitulo_inicio": 87,
+      "verso_inicio": 1,
+      "capitulo_fim": 87,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Amargurado de Solidão e Trevas Extremais",
+      "capitulo_inicio": 88,
+      "verso_inicio": 1,
+      "capitulo_fim": 88,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Celebração da Fidelidade Eterna da Aliança com a Dinastia de Davi",
+      "capitulo_inicio": 89,
+      "verso_inicio": 1,
+      "capitulo_fim": 89,
+      "verso_fim": 52
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Meditação Sapiencial sobre a Eternidade de Deus e a Brevidade Humana",
+      "capitulo_inicio": 90,
+      "verso_inicio": 1,
+      "capitulo_fim": 90,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Segurança Inabalável de Quem Habita sob a Sombra do Altíssimo",
+      "capitulo_inicio": 91,
+      "verso_inicio": 1,
+      "capitulo_fim": 91,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cântico de Louvor para o Dia de Sábado",
+      "capitulo_inicio": 92,
+      "verso_inicio": 1,
+      "capitulo_fim": 92,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Majestade Soberana e o Trono Eterno do Senhor",
+      "capitulo_inicio": 93,
+      "verso_inicio": 1,
+      "capitulo_fim": 93,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Apelo à Justiça e Confiança na Vingança Divina contra os Opressores",
+      "capitulo_inicio": 94,
+      "verso_inicio": 1,
+      "capitulo_fim": 94,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Chamado Solene à Adoração e Advertência contra a Dureza de Coração",
+      "capitulo_inicio": 95,
+      "verso_inicio": 1,
+      "capitulo_fim": 95,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino Universal de Louvor à Grandeza e Justiça do Rei Universal",
+      "capitulo_inicio": 96,
+      "verso_inicio": 1,
+      "capitulo_fim": 96,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Regozijo pela Instalação do Reinado Justo de Deus na Terra",
+      "capitulo_inicio": 97,
+      "verso_inicio": 1,
+      "capitulo_fim": 97,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Novo Cântico de Exultação pelas Maravilhas e Salvação de Deus",
+      "capitulo_inicio": 98,
+      "verso_inicio": 1,
+      "capitulo_fim": 98,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Celebração da Santidade do Senhor que Habita entre Querubins",
+      "capitulo_inicio": 99,
+      "verso_inicio": 1,
+      "capitulo_fim": 99,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Entrada Festiva no Templo: Hino de Ação de Graças Universal",
+      "capitulo_inicio": 100,
+      "verso_inicio": 1,
+      "capitulo_fim": 100,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Compromisso Moral do Líder Íntegro na Casa e na Cidade",
+      "capitulo_inicio": 101,
+      "verso_inicio": 1,
+      "capitulo_fim": 101,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento de um Afadigado e Oração pela Restauração de Sião",
+      "capitulo_inicio": 102,
+      "verso_inicio": 1,
+      "capitulo_fim": 102,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Louvor Extático à Infinita Misericórdia e Perdão de Deus",
+      "capitulo_inicio": 103,
+      "verso_inicio": 1,
+      "capitulo_fim": 103,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino Grandioso de Louvor a Deus como Criador e Protetor da Natureza",
+      "capitulo_inicio": 104,
+      "verso_inicio": 1,
+      "capitulo_fim": 104,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Celebração Histórica da Aliança com os Patriarcas e o Êxodo",
+      "capitulo_inicio": 105,
+      "verso_inicio": 1,
+      "capitulo_fim": 105,
+      "verso_fim": 45
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Confissão Histórica das Rebandas e Infidelidades de Israel no Deserto",
+      "capitulo_inicio": 106,
+      "verso_inicio": 1,
+      "capitulo_fim": 106,
+      "verso_fim": 48
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Ação de Graças pelo Livramento dos Redimidos de Todas as Direções",
+      "capitulo_inicio": 107,
+      "verso_inicio": 1,
+      "capitulo_fim": 107,
+      "verso_fim": 43
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Louvor Matinal e Súplica por Vitória Definitiva sobre os Inimigos",
+      "capitulo_inicio": 108,
+      "verso_inicio": 1,
+      "capitulo_fim": 108,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Amargo contra Acusadores Injustos e Apelo à Justiça Divina",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 109,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Salmo Messiânico: O Sacerdócio Eterno segundo a Ordem de Melquisedeque",
+      "capitulo_inicio": 110,
+      "verso_inicio": 1,
+      "capitulo_fim": 110,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Ação de Graças pelas Grandes Obras e Aliança do Senhor",
+      "capitulo_inicio": 111,
+      "verso_inicio": 1,
+      "capitulo_fim": 111,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Bem-Aventurança, Justiça e Generosidade do Homem que Teme a Deus",
+      "capitulo_inicio": 112,
+      "verso_inicio": 1,
+      "capitulo_fim": 112,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Louvor ao Deus que Eleva os Pobres e Necesitados",
+      "capitulo_inicio": 113,
+      "verso_inicio": 1,
+      "capitulo_fim": 113,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Hallel: O Milagroso Poder de Deus manifestado no Êxodo",
+      "capitulo_inicio": 114,
+      "verso_inicio": 1,
+      "capitulo_fim": 114,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Exaltação ao Único Deus Verdadeiro em Contraste com os Ídolos Mortos",
+      "capitulo_inicio": 115,
+      "verso_inicio": 1,
+      "capitulo_fim": 115,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Ação de Graças Individual pelo Livramento da Morte",
+      "capitulo_inicio": 116,
+      "verso_inicio": 1,
+      "capitulo_fim": 116,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Salmo Mais Curto: Convite Universal de Louvor à Misericórdia",
+      "capitulo_inicio": 117,
+      "verso_inicio": 1,
+      "capitulo_fim": 117,
+      "verso_fim": 2
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Liturgia de Ação de Graças: A Pedra Rejeitada que se Tornou Esquina",
+      "capitulo_inicio": 118,
+      "verso_inicio": 1,
+      "capitulo_fim": 118,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Grande Acróstico da Palavra: A Beleza e Perfeição da Lei de Deus",
+      "capitulo_inicio": 119,
+      "verso_inicio": 1,
+      "capitulo_fim": 119,
+      "verso_fim": 176
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: Súplica por Socorro contra a Mentira",
+      "capitulo_inicio": 120,
+      "verso_inicio": 1,
+      "capitulo_fim": 120,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: O Senhor é o Guarda de Israel",
+      "capitulo_inicio": 121,
+      "verso_inicio": 1,
+      "capitulo_fim": 121,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: Alegria de Chegar aos Portões de Jerusalém",
+      "capitulo_inicio": 122,
+      "verso_inicio": 1,
+      "capitulo_fim": 122,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: Olhos Fitos na Misericórdia do Senhor",
+      "capitulo_inicio": 123,
+      "verso_inicio": 1,
+      "capitulo_fim": 123,
+      "verso_fim": 4
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: O Socorro Vem do Nome do Senhor",
+      "capitulo_inicio": 124,
+      "verso_inicio": 1,
+      "capitulo_fim": 124,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: A Inabalável Segurança de Jerusalém",
+      "capitulo_inicio": 125,
+      "verso_inicio": 1,
+      "capitulo_fim": 125,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: A Esperança de Quem Planta com Lágrimas",
+      "capitulo_inicio": 126,
+      "verso_inicio": 1,
+      "capitulo_fim": 126,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: A Dependência Absoluta da Bênção de Deus no Lar",
+      "capitulo_inicio": 127,
+      "verso_inicio": 1,
+      "capitulo_fim": 127,
+      "verso_fim": 5
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: A Bem-Aventurança do Homem que Teme a Deus",
+      "capitulo_inicio": 128,
+      "verso_inicio": 1,
+      "capitulo_fim": 128,
+      "verso_fim": 6
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: Lamento e Vitória sobre os Opressores de Sião",
+      "capitulo_inicio": 129,
+      "verso_inicio": 1,
+      "capitulo_fim": 129,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: Esperança Profunda e Silenciosa no perdão",
+      "capitulo_inicio": 130,
+      "verso_inicio": 1,
+      "capitulo_fim": 130,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: A Doce Humildade e Descanso na Alma",
+      "capitulo_inicio": 131,
+      "verso_inicio": 1,
+      "capitulo_fim": 131,
+      "verso_fim": 3
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cânticos dos Degraus: Súplica pela Morada Definitiva de Deus em Sião",
+      "capitulo_inicio": 132,
+      "verso_inicio": 1,
+      "capitulo_fim": 132,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Preciosa União e Fraternidade dos Irmãos",
+      "capitulo_inicio": 133,
+      "verso_inicio": 1,
+      "capitulo_fim": 133,
+      "verso_fim": 3
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Convite Noturno aos Sacerdotes para Louvarem no Santuário",
+      "capitulo_inicio": 134,
+      "verso_inicio": 1,
+      "capitulo_fim": 134,
+      "verso_fim": 3
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Exaltação ao Deus Criador e Senhor da História",
+      "capitulo_inicio": 135,
+      "verso_inicio": 1,
+      "capitulo_fim": 135,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 19,
+      "titulo": "O Grande Hallel: A Misericórdia Eterna do Senhor Manifestada em Tudo",
+      "capitulo_inicio": 136,
+      "verso_inicio": 1,
+      "capitulo_fim": 136,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento Profundo dos Exilados às Margens dos Rios da Babilônia",
+      "capitulo_inicio": 137,
+      "verso_inicio": 1,
+      "capitulo_fim": 137,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Ação de Graças de Davi pela Fidelidade e Resposta de Deus",
+      "capitulo_inicio": 138,
+      "verso_inicio": 1,
+      "capitulo_fim": 138,
+      "verso_fim": 8
+    },
+    {
+      "livro_id": 19,
+      "titulo": "A Onipresença e Onisciência Inescapável de Deus na Formação da Vida",
+      "capitulo_inicio": 139,
+      "verso_inicio": 1,
+      "capitulo_fim": 139,
+      "verso_fim": 24
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica por Proteção contra os Homens Violentos e Traiçoeiros",
+      "capitulo_inicio": 140,
+      "verso_inicio": 1,
+      "capitulo_fim": 140,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Oração Vespertina pedindo Guarda para os Lábios e Retidão",
+      "capitulo_inicio": 141,
+      "verso_inicio": 1,
+      "capitulo_fim": 141,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Lamento na Caverna: O Senhor é o Único Refúgio na Angústia",
+      "capitulo_inicio": 142,
+      "verso_inicio": 1,
+      "capitulo_fim": 142,
+      "verso_fim": 7
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Súplica Penitencial e Sede pela Orientação do Espírito de Deus",
+      "capitulo_inicio": 143,
+      "verso_inicio": 1,
+      "capitulo_fim": 143,
+      "verso_fim": 12
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Louvor Real pela Vitória e pela Prosperidade do Povo de Deus",
+      "capitulo_inicio": 144,
+      "verso_inicio": 1,
+      "capitulo_fim": 144,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Exaltação à Grandiosidade e Bondade Imparável de Deus",
+      "capitulo_inicio": 145,
+      "verso_inicio": 1,
+      "capitulo_fim": 145,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Louvor Exclusivo ao Deus que Sustenta os Oprimidos e Necessitados",
+      "capitulo_inicio": 146,
+      "verso_inicio": 1,
+      "capitulo_fim": 146,
+      "verso_fim": 10
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Hino de Louvor ao Criador das Estrelas e Curador dos Corações Feridos",
+      "capitulo_inicio": 147,
+      "verso_inicio": 1,
+      "capitulo_fim": 147,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Chamado Cósmico para que Toda a Criação Louve o Nome do Senhor",
+      "capitulo_inicio": 148,
+      "verso_inicio": 1,
+      "capitulo_fim": 148,
+      "verso_fim": 14
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Cântico Novo de Alegria dos Santos na Vitória e Honra Divina",
+      "capitulo_inicio": 149,
+      "verso_inicio": 1,
+      "capitulo_fim": 149,
+      "verso_fim": 9
+    },
+    {
+      "livro_id": 19,
+      "titulo": "Doxologia Final: Que Tudo o Que Tem Fôlego Louve ao Senhor",
+      "capitulo_inicio": 150,
+      "verso_inicio": 1,
+      "capitulo_fim": 150,
+      "verso_fim": 6
+    }
+  ]
+}

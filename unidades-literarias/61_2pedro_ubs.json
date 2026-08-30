@@ -1,0 +1,29 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 61,
+      "titulo": "Saudação, as Promessas Preciosas e a Exortação ao Crescimento nas Virtudes Cristãs",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 21
+    },
+    {
+      "livro_id": 61,
+      "titulo": "O Alerta Severo contra os Falsos Mestres e sua Condenação Certa",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 61,
+      "titulo": "A Certeza da Vinda do Dia do Senhor, a Longanimidade Divina e o Chamado à Vida Santa",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 18
+    }
+  ]
+}

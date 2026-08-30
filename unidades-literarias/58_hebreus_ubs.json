@@ -1,0 +1,45 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 58,
+      "titulo": "A Revelação Suprema de Deus por Meio do Filho, Superior aos Anjos",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 58,
+      "titulo": "Jesus Superior a Moisés e o Alerta contra a Descrença e a Rebeilão",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 58,
+      "titulo": "Jesus, o Sumo Sacerdote Superior Segundo a Ordem de Melquisedeque",
+      "capitulo_inicio": 4,
+      "verso_inicio": 14,
+      "capitulo_fim": 7,
+      "verso_fim": 28
+    },
+    {
+      "livro_id": 58,
+      "titulo": "A Nova Aliança, o Santuário Celestial e o Sacrifício Definitivo de Cristo",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 58,
+      "titulo": "O Chamado à Perseverança na Fé, a Galeria dos Heróis da Fé e Exortações Práticas",
+      "capitulo_inicio": 10,
+      "verso_inicio": 19,
+      "capitulo_fim": 13,
+      "verso_fim": 25
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 56,
+      "titulo": "Saudação, a Missão de Tito em Creta e os Requisitos para a Nomeação de Presbíteros",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 56,
+      "titulo": "Instruções para Diferentes Grupos da Igreja e a Manifestação da Graça Salvadora de Deus",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 15
+    },
+    {
+      "livro_id": 56,
+      "titulo": "O Comportamento Cívico dos Crentes, a Regeneração pelo Espírito e Recomendações Finais",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 15
+    }
+  ]
+}

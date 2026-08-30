@@ -1,0 +1,277 @@
+{
+  "codigo_padrao": "WBC_COMMENTARY",
+  "unidades": [
+    {
+      "livro_id": 4,
+      "titulo": "O Primeiro Censo dos Homens Aptos para a Guerra",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 54
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Disposição e Ordem das Tribos ao Redor da Tenda",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 4,
+      "titulo": "O Censo e as Funções dos Levitas (Gérson, Coate e Merari)",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 49
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Purificação do Acampamento, a Restituição e a Lei do Ciúme",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 31
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Lei do Voto de Nazireu e a Bênção Sacerdotal",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 4,
+      "titulo": "As Ofertas dos Príncipes na Dedicação do Tabernáculo",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 89
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Consagração das Lâmpadas e a Separação dos Levitas",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Celebração da Páscoa e a Nuvem sobre o Tabernáculo",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 9,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 4,
+      "titulo": "As Trombetas de Prata e a Partida do Sinai em Direção a Parã",
+      "capitulo_inicio": 10,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 36
+    },
+    {
+      "livro_id": 4,
+      "titulo": "As Reclamacões em Taberá e a Queixa sobre o Maná (Codornizes)",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 11,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Revolta de Miriã e Arão contra Moisés",
+      "capitulo_inicio": 12,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 4,
+      "titulo": "O Envio dos Doze Espias a Canaã e o Relatório Desanimador",
+      "capitulo_inicio": 13,
+      "verso_inicio": 1,
+      "capitulo_fim": 13,
+      "verso_fim": 33
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Rebelião do Povo, a Intercessão de Moisés e a Sentença de 40 Anos",
+      "capitulo_inicio": 14,
+      "verso_inicio": 1,
+      "capitulo_fim": 14,
+      "verso_fim": 45
+    },
+    {
+      "livro_id": 4,
+      "titulo": "Leis sobre Ofertas e a Punição do Violador do Sábado",
+      "capitulo_inicio": 15,
+      "verso_inicio": 1,
+      "capitulo_fim": 15,
+      "verso_fim": 41
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Rebelião de Coré, Datã e Abirão",
+      "capitulo_inicio": 16,
+      "verso_inicio": 1,
+      "capitulo_fim": 16,
+      "verso_fim": 50
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Vara de Arão que Brota como Confirmação do Sacerdócio",
+      "capitulo_inicio": 17,
+      "verso_inicio": 1,
+      "capitulo_fim": 17,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 4,
+      "titulo": "Os Deveres dos Sacerdotes e Levitas e a Provisão das Dízimas",
+      "capitulo_inicio": 18,
+      "verso_inicio": 1,
+      "capitulo_fim": 18,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 4,
+      "titulo": "O Rito da Novilha Vermelha e a Água da Purificação",
+      "capitulo_inicio": 19,
+      "verso_inicio": 1,
+      "capitulo_fim": 19,
+      "verso_fim": 22
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Morte de Miriã, a Água de Meribá e o Erro de Moisés",
+      "capitulo_inicio": 20,
+      "verso_inicio": 1,
+      "capitulo_fim": 20,
+      "verso_fim": 13
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Morte de Arão no Monte Hor e a Passagem Negada por Edom",
+      "capitulo_inicio": 20,
+      "verso_inicio": 14,
+      "capitulo_fim": 20,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Serpente de Bronze e a Marcha até as Planícies de Moabe",
+      "capitulo_inicio": 21,
+      "verso_inicio": 1,
+      "capitulo_fim": 21,
+      "verso_fim": 35
+    },
+    {
+      "livro_id": 4,
+      "titulo": "Balaque Convoca Balaão para Amaldiçoar Israel",
+      "capitulo_inicio": 22,
+      "verso_inicio": 1,
+      "capitulo_fim": 22,
+      "verso_fim": 41
+    },
+    {
+      "livro_id": 4,
+      "titulo": "Os Oráculos de Bênção de Balaão sobre Israel",
+      "capitulo_inicio": 23,
+      "verso_inicio": 1,
+      "capitulo_fim": 24,
+      "verso_fim": 25
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Apostasia em Peor e o Zeloso Ato de Fineias",
+      "capitulo_inicio": 25,
+      "verso_inicio": 1,
+      "capitulo_fim": 25,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 4,
+      "titulo": "O Segundo Censo nas Planícies de Moabe",
+      "capitulo_inicio": 26,
+      "verso_inicio": 1,
+      "capitulo_fim": 26,
+      "verso_fim": 65
+    },
+    {
+      "livro_id": 4,
+      "titulo": "As Filhas de Zelofeade e a Sucessão de Josué",
+      "capitulo_inicio": 27,
+      "verso_inicio": 1,
+      "capitulo_fim": 27,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 4,
+      "titulo": "Ofertas Regulares Diárias, Semanais, Mensais e das Festas",
+      "capitulo_inicio": 28,
+      "verso_inicio": 1,
+      "capitulo_fim": 29,
+      "verso_fim": 40
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Lei sobre os Votos de Homens e Mulheres",
+      "capitulo_inicio": 30,
+      "verso_inicio": 1,
+      "capitulo_fim": 30,
+      "verso_fim": 16
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Vingança contra Midiã",
+      "capitulo_inicio": 31,
+      "verso_inicio": 1,
+      "capitulo_fim": 31,
+      "verso_fim": 54
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Divisão das Terras Transjordanianas para Ruben, Gade e Manassés",
+      "capitulo_inicio": 32,
+      "verso_inicio": 1,
+      "capitulo_fim": 32,
+      "verso_fim": 42
+    },
+    {
+      "livro_id": 4,
+      "titulo": "Resumo das Jornadas de Israel desde o Egito",
+      "capitulo_inicio": 33,
+      "verso_inicio": 1,
+      "capitulo_fim": 33,
+      "verso_fim": 56
+    },
+    {
+      "livro_id": 4,
+      "titulo": "Limites de Canaã e Nomeação dos Líderes Repartidores da Terra",
+      "capitulo_inicio": 34,
+      "verso_inicio": 1,
+      "capitulo_fim": 34,
+      "verso_fim": 29
+    },
+    {
+      "livro_id": 4,
+      "titulo": "As Cidades dos Levitas e as Cidades de Refúgio",
+      "capitulo_inicio": 35,
+      "verso_inicio": 1,
+      "capitulo_fim": 35,
+      "verso_fim": 34
+    },
+    {
+      "livro_id": 4,
+      "titulo": "A Herança das Filhas de Zelofeade na mesma Tribo",
+      "capitulo_inicio": 36,
+      "verso_inicio": 1,
+      "capitulo_fim": 36,
+      "verso_fim": 13
+    }
+  ]
+}

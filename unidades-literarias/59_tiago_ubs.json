@@ -1,0 +1,45 @@
+{
+  "codigo_padrao": "UBS",
+  "unidades": [
+    {
+      "livro_id": 59,
+      "titulo": "Saudação, a Provação da Fé, a Sabedoria Divina e o Perigo da Riqueza e da Tentação",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 27
+    },
+    {
+      "livro_id": 59,
+      "titulo": "A Proibição do Favoritismo e a Inseparabilidade entre a Fé e as Obras",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 59,
+      "titulo": "O Poder da Língua, a Sabedoria Terrena versus a Sabedoria do Alto e os Perigos da Confusão",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 59,
+      "titulo": "Advertências contra as Brigas, a Arrogância Humana, a Soberba e o Julgamento Preconceituoso do Próximo",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 17
+    },
+    {
+      "livro_id": 59,
+      "titulo": "Alerta aos Ricos Opressores, o Chamado à Paciência nas Aflições, o Juramento e a Oração Eficaz",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 20
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "codigo_padrao": "DEUTERONOMISTIC",
+  "unidades": [
+    {
+      "livro_id": 16,
+      "titulo": "A Oração de Neemias em Susa pela Situação de Jerusalém",
+      "capitulo_inicio": 1,
+      "verso_inicio": 1,
+      "capitulo_fim": 1,
+      "verso_fim": 11
+    },
+    {
+      "livro_id": 16,
+      "titulo": "A Viagem de Neemias a Jerusalém e a Inspeção Secreta dos Muros",
+      "capitulo_inicio": 2,
+      "verso_inicio": 1,
+      "capitulo_fim": 2,
+      "verso_fim": 20
+    },
+    {
+      "livro_id": 16,
+      "titulo": "A Divisão do Trabalho para a Reconstrução dos Muros de Jerusalém",
+      "capitulo_inicio": 3,
+      "verso_inicio": 1,
+      "capitulo_fim": 3,
+      "verso_fim": 32
+    },
+    {
+      "livro_id": 16,
+      "titulo": "A Oposição de Sambalate e Tobias, e a Organização da Defesa Armada",
+      "capitulo_inicio": 4,
+      "verso_inicio": 1,
+      "capitulo_fim": 4,
+      "verso_fim": 23
+    },
+    {
+      "livro_id": 16,
+      "titulo": "Neemias Corrige a Exploração dos Pobres e a Usura Interna",
+      "capitulo_inicio": 5,
+      "verso_inicio": 1,
+      "capitulo_fim": 5,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 16,
+      "titulo": "As Maquinações contra Neemias e a Conclusão dos Muros",
+      "capitulo_inicio": 6,
+      "verso_inicio": 1,
+      "capitulo_fim": 6,
+      "verso_fim": 19
+    },
+    {
+      "livro_id": 16,
+      "titulo": "A Lista dos Retornados que Vieram com Zorobabel (Registro Genealógico)",
+      "capitulo_inicio": 7,
+      "verso_inicio": 1,
+      "capitulo_fim": 7,
+      "verso_fim": 73
+    },
+    {
+      "livro_id": 16,
+      "titulo": "A Leitura Pública da Lei por Esdras e a Celebração da Festa dos Tabernáculos",
+      "capitulo_inicio": 8,
+      "verso_inicio": 1,
+      "capitulo_fim": 8,
+      "verso_fim": 18
+    },
+    {
+      "livro_id": 16,
+      "titulo": "O Grande Dia de Confissão Pública e o Pacto Renovado do Povo",
+      "capitulo_inicio": 9,
+      "verso_inicio": 1,
+      "capitulo_fim": 10,
+      "verso_fim": 39
+    },
+    {
+      "livro_id": 16,
+      "titulo": "A Repartição dos Habitantes de Jerusalém e a Lista dos Líderes",
+      "capitulo_inicio": 11,
+      "verso_inicio": 1,
+      "capitulo_fim": 12,
+      "verso_fim": 26
+    },
+    {
+      "livro_id": 16,
+      "titulo": "A Dedicação dos Muros de Jerusalém e as Reformas Finais de Neemias",
+      "capitulo_inicio": 12,
+      "verso_inicio": 27,
+      "capitulo_fim": 13,
+      "verso_fim": 31
+    }
+  ]
+}
