@@ -284,3 +284,17 @@ WHERE vt.status_decisao IN ('Descarte', 'Filtro Brevidade')
   AND vt.entropia > 1 -- Alta incerteza (conflito entre eixos)
 ORDER BY vt.similaridade_final DESC
 LIMIT 20;
+
+--
+SELECT l.abreviacao||' '||v.numero_capitulo||':'||v.numero_verso AS Ref,
+v.texto, vs.score_pos AS Score, vt.gap_confianca AS Gap
+FROM genero_literario gl
+JOIN livro l ON l.genero_id = gl.id
+JOIN verso v ON v.livro_id = l.id
+JOIN verso_topico vt ON vt.verso_id = v.id
+JOIN topico t ON t.id = vt.topico_id
+JOIN verso_sentimento vs ON vs.verso_id = v.id
+WHERE gl.nome = 'Poético/Sapiencial'
+AND t.antidoto_referencia = 'Transitoriedade vs. Solidez'
+AND vs.label = 'POS'
+LIMIT 40;	
